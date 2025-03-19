@@ -5,6 +5,8 @@ import ErrorPage from "./js/views/pages/ErrorPage.js";
 
 import Utils from "./js/services/Utils.js";
 
+// TODO : do
+
 const routes = {
     "/"            : About,
     "/about"       : About,

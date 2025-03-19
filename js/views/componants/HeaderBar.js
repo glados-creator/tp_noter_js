@@ -1,4 +1,5 @@
 export default class Headerbar {
+    // TODO : do proper headbar
     static async render() {
         return `
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
