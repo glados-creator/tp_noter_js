@@ -1,3 +1,4 @@
+// TODO : do proper footer
 export default Footer = `
 <footer>
     <ul>
