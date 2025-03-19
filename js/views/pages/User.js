@@ -1,6 +1,6 @@
 import Page_comp from "../componants/Page";
 
-export default class User extends Page_comp{
+export default class User_page extends Page_comp{
     async render() {
         return `
             <h1>User</h1>
