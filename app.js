@@ -1,17 +1,14 @@
-import About from "./js/views/pages/About.js";
-import Article from "./js/views/pages/Article.js";
-import ArticleAll from "./js/views/pages/ArticleAll.js";
-import ErrorPage from "./js/views/pages/ErrorPage.js";
-
 import Utils from "./js/services/Utils.js";
+import Home_page from "./js/views/pages/Home.js";
+import Error_Page from "./js/views/pages/ErrorPage.js";
 
 // TODO : do
 
 const routes = {
-    "/"            : About,
-    "/about"       : About,
-    "/articles"    : ArticleAll,
-    "/article/:id" : Article,
+    "/"           : Home_page,
+    "/User"       : User_page,
+    "/preset"     : Preset_page,
+    "/comparaison": Comparaison_page,
 }
 
 const router = async () => {
@@ -20,7 +17,7 @@ const router = async () => {
     console.log("router request :",request);
     let   parsedurl = `/${request.resource || ""}${request.id ? "" : "/0"}${request.verb ? `/${request.verb}` : ""}`;
     console.log("router parsedURL :",parsedurl);
-    let   page      = routes[parsedurl] ? (new routes[parsedurl]()) : (new ErrorPage());
+    let   page      = routes[parsedurl] ? (new routes[parsedurl]()) : (new Error_Page());
     console.log("PAGE : ",page);
     console.log("TYPEOF PAGE : ",typeof page);
     content.innerHTML = await page.render();
