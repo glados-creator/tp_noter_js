@@ -1,12 +1,14 @@
-// TODO : do proper footer
-export default Footer = `
-<footer>
-    <ul>
-        <li> <a href="https://example.com">Home</a> </li>
-        <li> <a href="https://example.com">Preset</a> </li>
-        <li> <a href="https://example.com">Compte</a> </li>
-    </ul>
-    
-    <p>Footer</p>
-</footer>
-`;
+export default class Footer {
+    static async render() {
+        return `
+        <footer>
+        <ul>
+            <li> <a href="/">Home</a> </li>
+            <li> <a href="/#/preset">Preset</a> </li>
+            <li> <a href="/#/comparaison">Comparaison</a> </li>
+            <li> <a href="/#/user">Compte</a> </li>
+        </ul>
+        </footer>
+        `;
+    }
+}

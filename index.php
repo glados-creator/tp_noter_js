@@ -1,3 +1,10 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+
+header('Access-Control-Allow-Methods: GET, POST');
+
+header("Access-Control-Allow-Headers: X-Requested-With");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +14,7 @@
   <title>json_server_demo</title>
 
   <script type="module" src="./app.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>

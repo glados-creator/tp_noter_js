@@ -1,11 +1,12 @@
-import Page_comp from "../componants/Page";
+import Page_comp from "../componants/Page_comp.js";
 
-export default class Error_Page extends Page_comp {
-    async render(){
-        return `
-        <section>
+export default class ErrorPage extends Page_comp {
+    async render() {
+        return Page_comp.renderPage(() => `
+      <section class="main-content">
         <h1>ERROR Route</h1>
-        </section>
-        `;
+        <p>Sorry, something went wrong!</p>
+      </section>
+    `);
     }
 }

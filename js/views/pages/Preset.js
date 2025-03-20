@@ -1,4 +1,4 @@
-import Page_comp from "../componants/Page";
+import Page_comp from "../componants/Page_comp.js";
 
 export default class Preset_page extends Page_comp {
     async render() {
