@@ -5,5 +5,11 @@ export default class Khajiit extends Personnage_cg {
 
     constructor() {
         super();
+
+        One-Handed: 5
+        Light Armor: 10
+        Sneak: 5
+        Lockpicking: 5
+        Alchemy: 5
     }
 }

@@ -5,5 +5,11 @@ export default class Imperial extends Personnage_cg {
 
     constructor() {
         super();
+    Heavy Armor: 5
+    Block: 5
+    One-Handed: 5
+    Speech: 0
+    Restoration: 10
+    Enchanting: 5
     }
 }

@@ -1,0 +1,4739 @@
+{
+    "user": [
+        {
+            "username": "admin",
+            "password": "d033e22ae348aeb5660fc2140aec35850c4da997",
+            "presets": []
+        },
+        {
+            "username": "visiteur",
+            "password": "922391a72f5d8792a0b66b6cb3674d5eae454bda",
+            "presets": []
+        }
+    ],
+    "top_10": [],
+    "default_preset": [],
+    "armor": {
+        "helmet": [],
+        "chestpiece": [],
+        "pants": [],
+        "boots": [],
+        "gloves": [],
+        "necklace": [],
+        "ring": []
+    },
+    "weapon": [
+        {
+            "id": "a1630657-0881-4188-ba75-fc2248c63413",
+            "Name": "Ancestral Sword of Clan Ice-Blade",
+            "url": "https://images.uesp.net/thumb/c/cf/SR-icon-weapon-Ancestral_Sword_of_Clan_Ice-Blade.png/48px-SR-icon-weapon-Ancestral_Sword_of_Clan_Ice-Blade.png",
+            "Damage": 12,
+            "weight": 1000,
+            "value": 0,
+            "category_id": 1
+        },
+        {
+            "id": "28a92f84-76b4-4ca2-8b01-21aef08aba13",
+            "Name": "Wooden Sword",
+            "url": "https://images.uesp.net/thumb/b/bd/SR-icon-weapon-Wooden_Sword.png/48px-SR-icon-weapon-Wooden_Sword.png",
+            "Damage": 3,
+            "weight": 25,
+            "value": 2,
+            "category_id": 1
+        },
+        {
+            "id": "70a4e824-e8a1-4179-ba13-5c01f800810e",
+            "Name": "Fishing Rod",
+            "url": "https://images.uesp.net/thumb/d/d2/SR-icon-weapon-Fishing_Rod.png/48px-SR-icon-weapon-Fishing_Rod.png",
+            "Damage": 3,
+            "weight": 10,
+            "value": 3,
+            "category_id": 1
+        },
+        {
+            "id": "dba5bad3-fd69-4db0-b340-7df39c1e1d75",
+            "Name": "Alik'ri Fishing Rod",
+            "url": "https://images.uesp.net/thumb/6/68/SR-icon-weapon-Alikri_Fishing_Rod.png/48px-SR-icon-weapon-Alikri_Fishing_Rod.png",
+            "Damage": 2,
+            "weight": 75,
+            "value": 4,
+            "category_id": 1
+        },
+        {
+            "id": "26d5d1fd-0ed3-4bf6-bd0f-eca8c0e9873e",
+            "Name": "Dwarven Fishing Rod",
+            "url": "https://images.uesp.net/thumb/b/b3/SR-icon-weapon-Dwarven_Fishing_Rod.png/48px-SR-icon-weapon-Dwarven_Fishing_Rod.png",
+            "Damage": 6,
+            "weight": 110,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "8d4fd6f6-7532-4101-be13-dd1b78966ecc",
+            "Name": "Iron Sword",
+            "url": "https://images.uesp.net/thumb/a/a6/SR-icon-weapon-Iron_Sword.png/48px-SR-icon-weapon-Iron_Sword.png",
+            "Damage": 9,
+            "weight": 25,
+            "value": 7,
+            "category_id": 1
+        },
+        {
+            "id": "d4698594-a619-43cb-a643-24311c319a90",
+            "Name": "Amren's Family Sword",
+            "url": "https://images.uesp.net/thumb/a/a6/SR-icon-weapon-Iron_Sword.png/48px-SR-icon-weapon-Iron_Sword.png",
+            "Damage": 9,
+            "weight": 25,
+            "value": 7,
+            "category_id": 1
+        },
+        {
+            "id": "0b470709-e136-4aea-9e06-18f87b571733",
+            "Name": "Steel Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 45,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "345ea389-5e37-4bf0-83c1-d88260b88e04",
+            "Name": "Steel Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 23,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "d647c66c-28b1-49a2-9638-9743eef35fe5",
+            "Name": "Queen Freydis's Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 45,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "0dc0ed3d-d542-4928-980a-8b3d632fa0f6",
+            "Name": "Imperial Sword",
+            "url": "https://images.uesp.net/thumb/a/a0/SR-icon-weapon-ImperialSword.png/48px-SR-icon-weapon-ImperialSword.png",
+            "Damage": 10,
+            "weight": 23,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "68d90739-3c7e-460d-9f1c-f6bb23eb2fa3",
+            "Name": "Silver Sword",
+            "url": "https://images.uesp.net/thumb/1/19/SR-icon-weapon-SilverSword.png/48px-SR-icon-weapon-SilverSword.png",
+            "Damage": 7,
+            "weight": 100,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "33a4f574-2f28-462f-8ec8-3fabe7e6a455",
+            "Name": "Ceremonial Sword",
+            "url": "https://images.uesp.net/thumb/d/d4/SR-icon-weapon-AncientNordSword.png/48px-SR-icon-weapon-AncientNordSword.png",
+            "Damage": 12,
+            "weight": 5,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "45703584-10c4-430e-96dc-79f0b8cf0b17",
+            "Name": "Hjalti's Sword",
+            "url": "https://images.uesp.net/thumb/d/d4/SR-icon-weapon-AncientNordSword.png/48px-SR-icon-weapon-AncientNordSword.png",
+            "Damage": 12,
+            "weight": 13,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "a227443e-d3f6-4eb5-a2da-1b676530a5e5",
+            "Name": "Red Eagle's Fury",
+            "url": "https://images.uesp.net/thumb/d/d4/SR-icon-weapon-AncientNordSword.png/48px-SR-icon-weapon-AncientNordSword.png",
+            "Damage": 12,
+            "weight": 97,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "2eaab2a1-dcd7-4660-8e9e-83a88b235053",
+            "Name": "Ancient Nord Sword",
+            "url": "https://images.uesp.net/thumb/d/d4/SR-icon-weapon-AncientNordSword.png/48px-SR-icon-weapon-AncientNordSword.png",
+            "Damage": 12,
+            "weight": 13,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "ce8844eb-ca47-4daa-b93e-1ef96a4fb26a",
+            "Name": "Harkon's Sword",
+            "url": "https://images.uesp.net/thumb/0/02/SR-icon-weapon-Harkon%27s_Sword.png/48px-SR-icon-weapon-Harkon%27s_Sword.png",
+            "Damage": 9,
+            "weight": 1472,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "3b9266e9-dbdb-4bf9-b07c-9bda8afd1955",
+            "Name": "Ghostblade",
+            "url": "https://images.uesp.net/thumb/a/a9/SR-icon-weapon-Ghostblade.png/48px-SR-icon-weapon-Ghostblade.png",
+            "Damage": 1,
+            "weight": 300,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "2ff79115-9339-4d64-9051-6201e95327c6",
+            "Name": "Orcish Sword",
+            "url": "https://images.uesp.net/thumb/b/b6/SR-icon-weapon-OrcishSword.png/48px-SR-icon-weapon-OrcishSword.png",
+            "Damage": 11,
+            "weight": 75,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "f9303275-bf92-444e-a21e-8cdeddeb5444",
+            "Name": "Bound Sword",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "f8954750-c1d5-4294-983c-38192c4ee0fa",
+            "Name": "Dwarven Sword",
+            "url": "https://images.uesp.net/thumb/9/92/SR-icon-weapon-DwarvenSword.png/48px-SR-icon-weapon-DwarvenSword.png",
+            "Damage": 12,
+            "weight": 125,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "acae0b83-db90-4cf9-b3d5-1821bb7e7a25",
+            "Name": "Forsworn Sword",
+            "url": "https://images.uesp.net/thumb/a/a4/SR-icon-weapon-ForswornSword.png/48px-SR-icon-weapon-ForswornSword.png",
+            "Damage": 13,
+            "weight": 70,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "6a8adfc3-8ddf-4c47-87d0-b512726b8458",
+            "Name": "Falmer Sword",
+            "url": "https://images.uesp.net/thumb/3/34/SR-icon-weapon-FalmerSword.png/48px-SR-icon-weapon-FalmerSword.png",
+            "Damage": 18,
+            "weight": 67,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "100488b2-ce9d-40e6-b5ea-8a8c9fc68e81",
+            "Name": "Nord Hero Sword",
+            "url": "https://images.uesp.net/thumb/8/8b/SR-icon-weapon-NordHeroSword.png/48px-SR-icon-weapon-NordHeroSword.png",
+            "Damage": 9,
+            "weight": 135,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "4b6009c7-2c9c-4b3f-8c3e-9d297962ee87",
+            "Name": "Honed Ancient Nord Sword",
+            "url": "https://images.uesp.net/thumb/8/8b/SR-icon-weapon-NordHeroSword.png/48px-SR-icon-weapon-NordHeroSword.png",
+            "Damage": 15,
+            "weight": 23,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "2c40967f-3718-4600-bd5d-b75af0fe7144",
+            "Name": "Eduj",
+            "url": "https://images.uesp.net/thumb/9/96/SR-icon-weapon-Eduj.png/48px-SR-icon-weapon-Eduj.png",
+            "Damage": 9,
+            "weight": 300,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "8ff43b1f-5d9a-4879-b72d-488fb2d4dd4d",
+            "Name": "Red Eagle's Bane",
+            "url": "https://images.uesp.net/thumb/c/c3/SR-icon-weapon-RedEagle%27sBane.png/48px-SR-icon-weapon-RedEagle%27sBane.png",
+            "Damage": 15,
+            "weight": 345,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "82c72a82-ff00-4e37-b9e4-a165e8163e7f",
+            "Name": "Skyforge Steel Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 70,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "4412cbcb-e674-4006-86a6-3109cb77b0bd",
+            "Name": "Elven Sword",
+            "url": "https://images.uesp.net/thumb/7/78/SR-icon-weapon-ElvenSword.png/48px-SR-icon-weapon-ElvenSword.png",
+            "Damage": 13,
+            "weight": 235,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "2b0fa9a2-1c79-4a80-ba81-03a6e2602ecb",
+            "Name": "Golden Sword",
+            "url": "https://images.uesp.net/thumb/2/28/SR-icon-weapon-Golden_Sword.png/48px-SR-icon-weapon-Golden_Sword.png",
+            "Damage": 11,
+            "weight": 250,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "1a201227-0f5f-45fe-a6cd-b717d57d7af9",
+            "Name": "Nordic Sword",
+            "url": "https://images.uesp.net/thumb/e/e5/SR-icon-weapon-Nordic_Sword.png/48px-SR-icon-weapon-Nordic_Sword.png",
+            "Damage": 12,
+            "weight": 290,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "1022d4a9-55bc-4bb8-b5db-27ac4500a306",
+            "Name": "Blades Sword",
+            "url": "https://images.uesp.net/thumb/0/08/SR-icon-weapon-BladesSword.png/48px-SR-icon-weapon-BladesSword.png",
+            "Damage": 10,
+            "weight": 300,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "44beb305-5cb4-43ca-81e4-48270ac63e23",
+            "Name": "Bolar's Oathblade",
+            "url": "https://images.uesp.net/thumb/0/08/SR-icon-weapon-BladesSword.png/48px-SR-icon-weapon-BladesSword.png",
+            "Damage": 10,
+            "weight": 1014,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "73516ac8-0d5e-4fc9-80b4-ef3ba2f8b553",
+            "Name": "Akaviri Sword",
+            "url": "https://images.uesp.net/thumb/a/a3/SR-icon-weapon-Akaviri_Sword.png/48px-SR-icon-weapon-Akaviri_Sword.png",
+            "Damage": 10,
+            "weight": 300,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "49076264-e233-465d-8d40-56ae13af6e30",
+            "Name": "Scimitar",
+            "url": "https://images.uesp.net/thumb/8/87/SR-icon-weapon-Scimitar.png/48px-SR-icon-weapon-Scimitar.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "ef3715f8-8202-456c-9415-36212cc7ff9e",
+            "Name": "Windshear",
+            "url": "https://images.uesp.net/thumb/8/87/SR-icon-weapon-Scimitar.png/48px-SR-icon-weapon-Scimitar.png",
+            "Damage": 10,
+            "weight": 40,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "d2cbbaf0-bead-4c4c-8336-0a30103e140b",
+            "Name": "Vilkas's Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 70,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "5510c1a8-1f7d-4f52-a16e-b1268cd3f836",
+            "Name": "Drainheart Sword",
+            "url": "https://images.uesp.net/thumb/7/7e/SR-icon-weapon-DrainheartSword.png/48px-SR-icon-weapon-DrainheartSword.png",
+            "Damage": 3,
+            "weight": 73,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "e7f039d3-eaa7-43c3-ade8-d2e067087162",
+            "Name": "Dark Sword",
+            "url": "https://images.uesp.net/thumb/e/e0/SR-icon-weapon-Dark_Sword.png/48px-SR-icon-weapon-Dark_Sword.png",
+            "Damage": 11,
+            "weight": 250,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "bbac829e-0a4e-4742-9072-b79c433e376c",
+            "Name": "Glass Sword",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-Glass_Sword.png/48px-SR-icon-weapon-Glass_Sword.png",
+            "Damage": 14,
+            "weight": 410,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "e1a0776f-5e0c-49fc-b335-0bf116bb1e9b",
+            "Name": "Grimsever",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-Glass_Sword.png/48px-SR-icon-weapon-Glass_Sword.png",
+            "Damage": 14,
+            "weight": 727,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "92bb887e-dad1-447d-8183-b91a78dcfa02",
+            "Name": "Blackwater Blade",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-Blackwater_Blade.png/48px-SR-icon-weapon-Blackwater_Blade.png",
+            "Damage": 14,
+            "weight": 1949,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "72b47726-87f1-400d-a9b1-1df18edbdcdc",
+            "Name": "Master Sword",
+            "url": "https://images.uesp.net/thumb/6/69/SR-icon-weapon-Master_Sword.png/48px-SR-icon-weapon-Master_Sword.png",
+            "Damage": 12,
+            "weight": 235,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "4ec7afb4-2d8b-4008-949e-005cb0163517",
+            "Name": "Dawnbreaker",
+            "url": "https://images.uesp.net/thumb/9/9a/SR-icon-weapon-Dawnbreaker.png/48px-SR-icon-weapon-Dawnbreaker.png",
+            "Damage": 10,
+            "weight": 740,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "5cf6a310-e462-4669-9143-8570710c777f",
+            "Name": "Honed Falmer Sword",
+            "url": "https://images.uesp.net/thumb/3/34/SR-icon-weapon-FalmerSword.png/48px-SR-icon-weapon-FalmerSword.png",
+            "Damage": 18,
+            "weight": 205,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "18451df6-dc25-47e3-9b23-5bc159a6a080",
+            "Name": "Ebony Sword",
+            "url": "https://images.uesp.net/thumb/2/22/SR-icon-weapon-EbonySword.png/48px-SR-icon-weapon-EbonySword.png",
+            "Damage": 15,
+            "weight": 720,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "d01793be-da3e-4039-9f0b-9f39a5bc4ad4",
+            "Name": "Stalhrim Sword",
+            "url": "https://images.uesp.net/thumb/d/d0/SR-icon-weapon-Stalhrim_Sword.png/48px-SR-icon-weapon-Stalhrim_Sword.png",
+            "Damage": 14,
+            "weight": 985,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "581837b9-9622-4a46-bc42-943ebfc28149",
+            "Name": "Bloodscythe",
+            "url": "https://images.uesp.net/thumb/8/87/SR-icon-weapon-Scimitar.png/48px-SR-icon-weapon-Scimitar.png",
+            "Damage": 10,
+            "weight": 1859,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "f15c9398-4d67-4ac3-b85a-e0a73ccbf02d",
+            "Name": "Soulrender",
+            "url": "https://images.uesp.net/thumb/8/87/SR-icon-weapon-Scimitar.png/48px-SR-icon-weapon-Scimitar.png",
+            "Damage": 10,
+            "weight": 1892,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "f8693f4e-fdf4-4f03-8333-1b1fcc0e53a8",
+            "Name": "Daedric Sword",
+            "url": "https://images.uesp.net/thumb/6/6c/SR-icon-weapon-DaedricSword.png/48px-SR-icon-weapon-DaedricSword.png",
+            "Damage": 16,
+            "weight": 1250,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "2a474ecc-3051-4c01-8257-cde58abaf0de",
+            "Name": "Dragon's Oath",
+            "url": "https://images.uesp.net/thumb/8/82/SR-icon-weapon-Dragon%27s_Oath.png/48px-SR-icon-weapon-Dragon%27s_Oath.png",
+            "Damage": 10,
+            "weight": 3103,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "d6005c74-709f-44c0-8c08-1a233724d02f",
+            "Name": "Bloodthirst",
+            "url": "https://images.uesp.net/thumb/d/d1/SR-icon-weapon-Bloodthirst.png/48px-SR-icon-weapon-Bloodthirst.png",
+            "Damage": 16,
+            "weight": 1619,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "0396c181-a462-4322-92b5-256c0091e984",
+            "Name": "Dawnfang",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Dawnfang.png/48px-SR-icon-weapon-Dawnfang.png",
+            "Damage": 16,
+            "weight": 2449,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "21c95591-b0cf-4381-99f1-938bcc2c0e3c",
+            "Name": "Dragonbane",
+            "url": "https://images.uesp.net/thumb/0/08/SR-icon-weapon-BladesSword.png/48px-SR-icon-weapon-BladesSword.png",
+            "Damage": 10,
+            "weight": 2596,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "0c864542-8820-4ee5-b8b0-43c8ac7f77a1",
+            "Name": "Nightingale Blade",
+            "url": "https://images.uesp.net/thumb/b/b2/SR-icon-weapon-Nightingale_Blade.png/48px-SR-icon-weapon-Nightingale_Blade.png",
+            "Damage": 15,
+            "weight": 2050,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "5123a7e2-461a-4d81-80bc-04bcae7e6406",
+            "Name": "Sword of the Crusader",
+            "url": "https://images.uesp.net/thumb/c/cd/SR-icon-weapon-Sword_of_the_Crusader.png/48px-SR-icon-weapon-Sword_of_the_Crusader.png",
+            "Damage": 13,
+            "weight": 2001,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "d84b6e95-b7e0-4373-a231-f46c7fa32194",
+            "Name": "Bound Sword",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "6146149d-830e-4e37-add3-bb629d505ec0",
+            "Name": "Storm-Bear Sword",
+            "url": "https://images.uesp.net/thumb/4/4c/SR-icon-weapon-Storm-Bear_Sword.png/48px-SR-icon-weapon-Storm-Bear_Sword.png",
+            "Damage": 10,
+            "weight": 3230,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "a2fb3b9d-1d3f-4124-a6ed-120ef59b12de",
+            "Name": "Cyrus' Sabre",
+            "url": "https://images.uesp.net/thumb/d/d2/SR-icon-weapon-Cyrus%27_Sabre.png/48px-SR-icon-weapon-Cyrus%27_Sabre.png",
+            "Damage": 6,
+            "weight": 1500,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "2e804286-a24a-4c61-b814-b167f576175d",
+            "Name": "Grand Champion's Sword",
+            "url": "https://images.uesp.net/thumb/c/c2/SR-icon-weapon-Grand_Champion%27s_Sword.png/48px-SR-icon-weapon-Grand_Champion%27s_Sword.png",
+            "Damage": 12,
+            "weight": 2500,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "b5483c2b-87f8-4165-8117-491755bb9f63",
+            "Name": "Ebony Scimitar",
+            "url": "https://images.uesp.net/thumb/a/a5/SR-icon-weapon-Ebony_Scimitar.png/48px-SR-icon-weapon-Ebony_Scimitar.png",
+            "Damage": 14,
+            "weight": 800,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "df3c4e87-0755-43c4-8596-69f13404a471",
+            "Name": "Dragonbone Sword",
+            "url": "https://images.uesp.net/thumb/0/05/SR-icon-weapon-Dragonbone_Sword.png/48px-SR-icon-weapon-Dragonbone_Sword.png",
+            "Damage": 19,
+            "weight": 1500,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "3303be0e-7371-436d-9750-9b32207e07fa",
+            "Name": "Amber Sword",
+            "url": "https://images.uesp.net/thumb/a/a4/SR-icon-weapon-Amber_Sword.png/48px-SR-icon-weapon-Amber_Sword.png",
+            "Damage": 14,
+            "weight": 1600,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "72aa4e1d-9a8f-420b-b539-bdc642bcc4b4",
+            "Name": "Chillrend",
+            "url": "https://images.uesp.net/thumb/1/1f/SR-icon-weapon-Chillrend.png/48px-SR-icon-weapon-Chillrend.png",
+            "Damage": 16,
+            "weight": 1442,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "6d98849b-a454-495b-b9d1-506ed31eb18d",
+            "Name": "Goldbrand",
+            "url": "https://images.uesp.net/thumb/a/a9/SR-icon-weapon-Goldbrand.png/48px-SR-icon-weapon-Goldbrand.png",
+            "Damage": 17,
+            "weight": 3413,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "e093888f-1bca-478a-8087-fd1e17f2661f",
+            "Name": "Madness Sword",
+            "url": "https://images.uesp.net/thumb/5/51/SR-icon-weapon-Madness_Sword.png/48px-SR-icon-weapon-Madness_Sword.png",
+            "Damage": 20,
+            "weight": 250,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "aac49df1-e267-40eb-a635-2eaef74aa9c4",
+            "Name": "Miraak's Sword",
+            "url": "https://images.uesp.net/thumb/c/cc/SR-icon-weapon-Miraak%27s_Sword.png/48px-SR-icon-weapon-Miraak%27s_Sword.png",
+            "Damage": 3,
+            "weight": 1267,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "d55f7c72-3b52-4adc-b104-edd7bf1a580c",
+            "Name": "Trueflame",
+            "url": "https://images.uesp.net/thumb/0/04/SR-icon-weapon-Trueflame.png/48px-SR-icon-weapon-Trueflame.png",
+            "Damage": 12,
+            "weight": 1360,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "1279aec8-c32a-4c3d-92c0-3c83cc0837c3",
+            "Name": "Hopesfire",
+            "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+            "Damage": 12,
+            "weight": 2235,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "0d7e63b9-1af8-4a9c-8b70-4c8101e28af5",
+            "Name": "Torment",
+            "url": "https://images.uesp.net/thumb/6/62/SR-icon-weapon-Torment.png/48px-SR-icon-weapon-Torment.png",
+            "Damage": 16,
+            "weight": 3163,
+            "value": 18,
+            "category_id": 1
+        },
+        {
+            "id": "89a8ce00-9148-429c-99d2-77e889d11c36",
+            "Name": "Ancient Nordic Pickaxe",
+            "url": "https://images.uesp.net/thumb/9/98/SR-icon-weapon-Ancient_Nordic_Pickaxe.png/48px-SR-icon-weapon-Ancient_Nordic_Pickaxe.png",
+            "Damage": 10,
+            "weight": 500,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "dd7d8c84-829a-4cdd-a155-48935e71d58b",
+            "Name": "Hoarfrost",
+            "url": "https://images.uesp.net/thumb/9/98/SR-icon-weapon-Ancient_Nordic_Pickaxe.png/48px-SR-icon-weapon-Ancient_Nordic_Pickaxe.png",
+            "Damage": 10,
+            "weight": 946,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "c6634d47-792a-440e-9555-f46647b60d4e",
+            "Name": "Pickaxe",
+            "url": "https://images.uesp.net/thumb/3/32/SR-icon-weapon-Pickaxe.png/48px-SR-icon-weapon-Pickaxe.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "f0659a8f-ab40-4f49-8630-70c7b132bd13",
+            "Name": "Notched Pickaxe",
+            "url": "https://images.uesp.net/thumb/b/b0/SR-icon-weapon-NotchedPickaxe.png/48px-SR-icon-weapon-NotchedPickaxe.png",
+            "Damage": 10,
+            "weight": 303,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "1b488698-b550-4a59-bea3-31049e0b8aea",
+            "Name": "Poacher's Axe",
+            "url": "https://images.uesp.net/thumb/3/39/SR-icon-weapon-Woodcutter%27sAxe.png/48px-SR-icon-weapon-Woodcutter%27sAxe.png",
+            "Damage": 10,
+            "weight": 31,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "73c303a7-ecf9-4126-870c-3df63c144eab",
+            "Name": "Woodcutter's Axe",
+            "url": "https://images.uesp.net/thumb/3/39/SR-icon-weapon-Woodcutter%27sAxe.png/48px-SR-icon-weapon-Woodcutter%27sAxe.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "ca1f2bf2-a146-4fc9-86ca-5e881dd564ed",
+            "Name": "Iron War Axe",
+            "url": "https://images.uesp.net/thumb/b/b8/SR-icon-weapon-Iron_War_Axe.png/48px-SR-icon-weapon-Iron_War_Axe.png",
+            "Damage": 11,
+            "weight": 30,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "d090e705-0450-4bc6-850b-cdf5e6fef999",
+            "Name": "Steel War Axe",
+            "url": "https://images.uesp.net/thumb/f/fe/SR-icon-weapon-SteelWarAxe.png/48px-SR-icon-weapon-SteelWarAxe.png",
+            "Damage": 12,
+            "weight": 55,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "6f931049-1e3a-487d-8d4f-eee424cca984",
+            "Name": "Ceremonial Axe",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-AncientNordWarAxe.png/48px-SR-icon-weapon-AncientNordWarAxe.png",
+            "Damage": 14,
+            "weight": 5,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "86e8aa5f-8cbc-444e-978d-07f29f8f8b14",
+            "Name": "Ancient Nord War Axe",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-AncientNordWarAxe.png/48px-SR-icon-weapon-AncientNordWarAxe.png",
+            "Damage": 14,
+            "weight": 15,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "f7b50c6f-8aba-4dd3-b204-9e1dc2d03cff",
+            "Name": "Orcish War Axe",
+            "url": "https://images.uesp.net/thumb/4/45/SR-icon-weapon-OrcishWarAxe.png/48px-SR-icon-weapon-OrcishWarAxe.png",
+            "Damage": 13,
+            "weight": 90,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "39afe933-2e15-41f9-b567-a4f2617f5389",
+            "Name": "Dwarven War Axe",
+            "url": "https://images.uesp.net/thumb/7/7f/SR-icon-weapon-DwarvenWarAxe.png/48px-SR-icon-weapon-DwarvenWarAxe.png",
+            "Damage": 14,
+            "weight": 165,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "98b37c4f-7e55-4cdc-aa90-73d7d2c8b395",
+            "Name": "Dawnguard War Axe",
+            "url": "https://images.uesp.net/thumb/9/9c/SR-icon-weapon-Dawnguard_War_Axe.png/48px-SR-icon-weapon-Dawnguard_War_Axe.png",
+            "Damage": 13,
+            "weight": 55,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "a6ea0887-f376-44fd-8e30-9652198049a7",
+            "Name": "Dawnguard Rune Axe",
+            "url": "https://images.uesp.net/thumb/7/7d/SR-icon-weapon-Dawnguard_Rune_Axe.png/48px-SR-icon-weapon-Dawnguard_Rune_Axe.png",
+            "Damage": 13,
+            "weight": 175,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "9b0b70a5-bcf9-4747-85fd-83128a72c4c0",
+            "Name": "Falmer War Axe",
+            "url": "https://images.uesp.net/thumb/8/8a/SR-icon-weapon-FalmerWarAxe.png/48px-SR-icon-weapon-FalmerWarAxe.png",
+            "Damage": 21,
+            "weight": 82,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "36a0ef20-e136-4f25-81ec-07359b4ca218",
+            "Name": "Namira's Itch",
+            "url": "https://images.uesp.net/thumb/8/8a/SR-icon-weapon-FalmerWarAxe.png/48px-SR-icon-weapon-FalmerWarAxe.png",
+            "Damage": 21,
+            "weight": 789,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "f827bd76-4926-4240-9a03-7cc2f44a7a5a",
+            "Name": "Nord Hero War Axe",
+            "url": "https://images.uesp.net/thumb/a/ae/SR-icon-weapon-NordHeroWarAxe.png/48px-SR-icon-weapon-NordHeroWarAxe.png",
+            "Damage": 11,
+            "weight": 165,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "d0c093cc-4f04-467f-8531-53d36dcb6bb7",
+            "Name": "Okin",
+            "url": "https://images.uesp.net/thumb/6/68/SR-icon-weapon-Okin.png/48px-SR-icon-weapon-Okin.png",
+            "Damage": 11,
+            "weight": 320,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "8f21f356-efd5-42d8-99ae-cd22ce6fe0b0",
+            "Name": "Skyforge Steel War Axe",
+            "url": "https://images.uesp.net/thumb/f/fe/SR-icon-weapon-SteelWarAxe.png/48px-SR-icon-weapon-SteelWarAxe.png",
+            "Damage": 12,
+            "weight": 80,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "be19918c-ba04-4721-9ad9-673589c31ee5",
+            "Name": "Elven War Axe",
+            "url": "https://images.uesp.net/thumb/c/cb/SR-icon-weapon-ElvenWarAxe.png/48px-SR-icon-weapon-ElvenWarAxe.png",
+            "Damage": 15,
+            "weight": 280,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "237e24b2-45d0-4bba-9f5e-4187eb69f246",
+            "Name": "Golden War Axe",
+            "url": "https://images.uesp.net/thumb/5/5e/SR-icon-weapon-Golden_War_Axe.png/48px-SR-icon-weapon-Golden_War_Axe.png",
+            "Damage": 13,
+            "weight": 320,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "c9cc6af0-71b5-49ae-a65f-ca244ac6eeae",
+            "Name": "Nordic War Axe",
+            "url": "https://images.uesp.net/thumb/e/e3/SR-icon-weapon-Nordic_War_Axe.png/48px-SR-icon-weapon-Nordic_War_Axe.png",
+            "Damage": 14,
+            "weight": 350,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "5b92ba44-6f68-4959-9c09-e2730a1befc7",
+            "Name": "Honed Draugr War Axe",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-AncientNordWarAxe.png/48px-SR-icon-weapon-AncientNordWarAxe.png",
+            "Damage": 16,
+            "weight": 27,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "1b4a8e3f-1692-450a-9382-6b65799aa7eb",
+            "Name": "Tyrant's Bane",
+            "url": "https://images.uesp.net/thumb/7/71/SR-icon-weapon-ForswornAxe.png/48px-SR-icon-weapon-ForswornAxe.png",
+            "Damage": 15,
+            "weight": 1233,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "d5b6affc-8658-46af-8f9c-a5edfae1f30e",
+            "Name": "Irkngthand War Axe",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-Irkngthand_War_Axe.png/48px-SR-icon-weapon-Irkngthand_War_Axe.png",
+            "Damage": 16,
+            "weight": 265,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "fd89c7fd-f588-4ef2-ad5c-c713e053c023",
+            "Name": "Irkngthand War Axe of Fire",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-Irkngthand_War_Axe.png/48px-SR-icon-weapon-Irkngthand_War_Axe.png",
+            "Damage": 16,
+            "weight": 699,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "444f1b2e-0719-4378-974d-a109ab8c743b",
+            "Name": "Irkngthand War Axe of Freezing",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-Irkngthand_War_Axe.png/48px-SR-icon-weapon-Irkngthand_War_Axe.png",
+            "Damage": 16,
+            "weight": 742,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "1583cd13-c760-49bc-a9e3-241653a64c4d",
+            "Name": "Dark War Axe",
+            "url": "https://images.uesp.net/thumb/e/eb/SR-icon-weapon-Dark_War_Axe.png/48px-SR-icon-weapon-Dark_War_Axe.png",
+            "Damage": 13,
+            "weight": 320,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "eee9886d-7666-4258-94f2-695ab135f25e",
+            "Name": "Honed Falmer War Axe",
+            "url": "https://images.uesp.net/thumb/8/8a/SR-icon-weapon-FalmerWarAxe.png/48px-SR-icon-weapon-FalmerWarAxe.png",
+            "Damage": 21,
+            "weight": 245,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "4bb0e59c-d02a-48f6-92d4-daef54642002",
+            "Name": "Glass War Axe",
+            "url": "https://images.uesp.net/thumb/a/af/SR-icon-weapon-Glass_War_Axe.png/48px-SR-icon-weapon-Glass_War_Axe.png",
+            "Damage": 16,
+            "weight": 490,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "bce5fc69-a61b-413a-a216-a34075c0571a",
+            "Name": "Ebony War Axe",
+            "url": "https://images.uesp.net/thumb/1/1f/SR-icon-weapon-EbonyWarAxe.png/48px-SR-icon-weapon-EbonyWarAxe.png",
+            "Damage": 17,
+            "weight": 865,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "df7bf1b0-c59d-4dcf-885f-0769ac1785be",
+            "Name": "Cleaver of St. Felms",
+            "url": "https://images.uesp.net/thumb/c/ce/SR-icon-weapon-Cleaver_of_St._Felms.png/48px-SR-icon-weapon-Cleaver_of_St._Felms.png",
+            "Damage": 17,
+            "weight": 2508,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "b9e5198d-8d21-44ed-98ce-baca62654cdb",
+            "Name": "Stalhrim War Axe",
+            "url": "https://images.uesp.net/thumb/4/47/SR-icon-weapon-Stalhrim_War_Axe.png/48px-SR-icon-weapon-Stalhrim_War_Axe.png",
+            "Damage": 16,
+            "weight": 1180,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "e362852a-78e9-452a-b463-a48eda84e9cd",
+            "Name": "Daedric War Axe",
+            "url": "https://images.uesp.net/thumb/2/25/SR-icon-weapon-DaedricWarAxe.png/48px-SR-icon-weapon-DaedricWarAxe.png",
+            "Damage": 18,
+            "weight": 1500,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "74ce9420-fa37-4842-9a57-a742f1d9c551",
+            "Name": "Dragonbone War Axe",
+            "url": "https://images.uesp.net/thumb/a/aa/SR-icon-weapon-Dragonbone_War_Axe.png/48px-SR-icon-weapon-Dragonbone_War_Axe.png",
+            "Damage": 21,
+            "weight": 1700,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "4546e47f-9d8b-4f11-aa17-2d30eb18be69",
+            "Name": "Amber War Axe",
+            "url": "https://images.uesp.net/thumb/f/f6/SR-icon-weapon-Amber_War_Axe.png/48px-SR-icon-weapon-Amber_War_Axe.png",
+            "Damage": 16,
+            "weight": 1800,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "7b169468-6c4c-45df-919b-1d76accfeb81",
+            "Name": "Madness War Axe",
+            "url": "https://images.uesp.net/thumb/c/cd/SR-icon-weapon-Madness_War_Axe.png/48px-SR-icon-weapon-Madness_War_Axe.png",
+            "Damage": 22,
+            "weight": 1900,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "500451ae-5cfd-4ea8-bdf0-8efa15075649",
+            "Name": "Rusty Mace",
+            "url": "https://images.uesp.net/thumb/6/6b/SR-icon-weapon-Rusty_Mace.png/48px-SR-icon-weapon-Rusty_Mace.png",
+            "Damage": 13,
+            "weight": 5,
+            "value": 7,
+            "category_id": 1
+        },
+        {
+            "id": "38c787c3-ab66-465c-a544-8e74b747296b",
+            "Name": "Iron Mace",
+            "url": "https://images.uesp.net/thumb/8/8a/SR-icon-weapon-Iron_Mace.png/48px-SR-icon-weapon-Iron_Mace.png",
+            "Damage": 13,
+            "weight": 35,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "9bf78842-0b22-4a39-b59e-77ab0861bd33",
+            "Name": "Steel Mace",
+            "url": "https://images.uesp.net/thumb/8/84/SR-icon-weapon-SteelMace.png/48px-SR-icon-weapon-SteelMace.png",
+            "Damage": 14,
+            "weight": 65,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "16b4f7e5-b6c2-4b54-9815-b9c857442f27",
+            "Name": "Horksbane",
+            "url": "https://images.uesp.net/thumb/8/84/SR-icon-weapon-SteelMace.png/48px-SR-icon-weapon-SteelMace.png",
+            "Damage": 14,
+            "weight": 250,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "33c8ad60-20f3-42b2-97b2-7654c21ddc42",
+            "Name": "Ancient Nord Mace",
+            "url": "https://images.uesp.net/thumb/3/31/SR-icon-weapon-Ancient_Nord_Mace.png/48px-SR-icon-weapon-Ancient_Nord_Mace.png",
+            "Damage": 16,
+            "weight": 17,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "d1029703-942a-4a31-afb9-ad74f44e65a7",
+            "Name": "Orcish Mace",
+            "url": "https://images.uesp.net/thumb/0/00/SR-icon-weapon-OrcishMace.png/48px-SR-icon-weapon-OrcishMace.png",
+            "Damage": 15,
+            "weight": 105,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "2a6b4e98-f218-4e13-8610-5a8e589bdccf",
+            "Name": "Dwarven Mace",
+            "url": "https://images.uesp.net/thumb/7/73/SR-icon-weapon-DwarvenMace.png/48px-SR-icon-weapon-DwarvenMace.png",
+            "Damage": 16,
+            "weight": 190,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "7e6f3958-1fb2-481c-834a-f37d85438a00",
+            "Name": "Nord Hero Mace",
+            "url": "https://images.uesp.net/thumb/3/31/SR-icon-weapon-Ancient_Nord_Mace.png/48px-SR-icon-weapon-Ancient_Nord_Mace.png",
+            "Damage": 13,
+            "weight": 195,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "111712ab-35f7-4b1f-894f-92dbd9a65312",
+            "Name": "Honed Ancient Nord Mace",
+            "url": "https://images.uesp.net/thumb/3/31/SR-icon-weapon-Ancient_Nord_Mace.png/48px-SR-icon-weapon-Ancient_Nord_Mace.png",
+            "Damage": 18,
+            "weight": 31,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "43edfdc2-3906-4842-ad4a-f3a38edd4299",
+            "Name": "Elven Mace",
+            "url": "https://images.uesp.net/thumb/2/2e/SR-icon-weapon-ElvenMace.png/48px-SR-icon-weapon-ElvenMace.png",
+            "Damage": 17,
+            "weight": 330,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "e9b9c50a-c2b7-41b3-b375-9279bc8992c5",
+            "Name": "Golden Mace",
+            "url": "https://images.uesp.net/thumb/b/b7/SR-icon-weapon-Golden_Mace.png/48px-SR-icon-weapon-Golden_Mace.png",
+            "Damage": 15,
+            "weight": 370,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "17f6a0c4-ca5c-4aad-b44c-e6b1dd6eae79",
+            "Name": "Nordic Mace",
+            "url": "https://images.uesp.net/thumb/2/28/SR-icon-weapon-Nordic_Mace.png/48px-SR-icon-weapon-Nordic_Mace.png",
+            "Damage": 16,
+            "weight": 410,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "cd727be9-f7b9-4f73-b56d-bd4e55dab79a",
+            "Name": "Dark Mace",
+            "url": "https://images.uesp.net/thumb/5/51/SR-icon-weapon-Dark_Mace.png/48px-SR-icon-weapon-Dark_Mace.png",
+            "Damage": 15,
+            "weight": 370,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "c39504ac-2c54-490d-b2dd-fbf78af03d74",
+            "Name": "Glass Mace",
+            "url": "https://images.uesp.net/thumb/3/39/SR-icon-weapon-Glass_Mace.png/48px-SR-icon-weapon-Glass_Mace.png",
+            "Damage": 18,
+            "weight": 575,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "36762537-a9a3-4456-9abb-5206efbc51d2",
+            "Name": "Ebony Mace",
+            "url": "https://images.uesp.net/thumb/b/b8/SR-icon-weapon-EbonyMace.png/48px-SR-icon-weapon-EbonyMace.png",
+            "Damage": 19,
+            "weight": 1000,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "a467b581-2e09-4026-ba54-0869eb6d7af9",
+            "Name": "Sunder",
+            "url": "https://images.uesp.net/thumb/7/78/SR-icon-weapon-Sunder.png/48px-SR-icon-weapon-Sunder.png",
+            "Damage": 18,
+            "weight": 1720,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "bf1476a8-e325-4792-a653-3fbce3b34264",
+            "Name": "Stalhrim Mace",
+            "url": "https://images.uesp.net/thumb/b/b6/SR-icon-weapon-Stalhrim_Mace.png/48px-SR-icon-weapon-Stalhrim_Mace.png",
+            "Damage": 18,
+            "weight": 1375,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "583e28c1-d6ae-45cd-9e2c-95be21380526",
+            "Name": "Daedric Mace",
+            "url": "https://images.uesp.net/thumb/b/bb/SR-icon-weapon-DaedricMace.png/48px-SR-icon-weapon-DaedricMace.png",
+            "Damage": 20,
+            "weight": 1750,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "67aa579a-55fb-43d7-809e-29b6680c80b9",
+            "Name": "Mace of Molag Bal",
+            "url": "https://images.uesp.net/thumb/e/e6/SR-icon-weapon-MaceOfMolagBal.png/48px-SR-icon-weapon-MaceOfMolagBal.png",
+            "Damage": 18,
+            "weight": 1257,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "e094afcd-9737-482b-a3d8-6b9c7ee9d49d",
+            "Name": "Mace of the Crusader",
+            "url": "https://images.uesp.net/thumb/2/20/SR-icon-weapon-Mace_of_the_Crusader.png/48px-SR-icon-weapon-Mace_of_the_Crusader.png",
+            "Damage": 18,
+            "weight": 2501,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "6329ec61-ab4a-481f-99d7-891f25e57f08",
+            "Name": "Light of Day",
+            "url": "https://images.uesp.net/thumb/3/36/SR-icon-weapon-Light_of_Day.png/48px-SR-icon-weapon-Light_of_Day.png",
+            "Damage": 20,
+            "weight": 1614,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "ff9ff816-ee5f-46ea-8783-a0a0d2f409ea",
+            "Name": "Ebony Mace",
+            "url": "https://images.uesp.net/thumb/e/ea/SR-icon-weapon-Ebony_Mace_02.png/48px-SR-icon-weapon-Ebony_Mace_02.png",
+            "Damage": 19,
+            "weight": 1000,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "eb2d1ef2-9c71-466b-be65-e741fdc201d7",
+            "Name": "Dragonbone Mace",
+            "url": "https://images.uesp.net/thumb/1/13/SR-icon-weapon-Dragonbone_Mace.png/48px-SR-icon-weapon-Dragonbone_Mace.png",
+            "Damage": 22,
+            "weight": 2000,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "86d360c8-ad1c-40c3-98a2-e9eef22844ba",
+            "Name": "Amber Mace",
+            "url": "https://images.uesp.net/thumb/0/0c/SR-icon-weapon-Amber_Mace.png/48px-SR-icon-weapon-Amber_Mace.png",
+            "Damage": 18,
+            "weight": 2100,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "b6ae9636-d9c7-49cb-a1d8-c6592a62e025",
+            "Name": "Madness Mace",
+            "url": "https://images.uesp.net/thumb/4/49/SR-icon-weapon-Madness_Mace.png/48px-SR-icon-weapon-Madness_Mace.png",
+            "Damage": 23,
+            "weight": 2200,
+            "value": 18,
+            "category_id": 1
+        },
+        {
+            "id": "029d7327-9e37-45f8-9d08-9ebfb1a80694",
+            "Name": "Scourge",
+            "url": "https://images.uesp.net/thumb/4/4a/SR-icon-weapon-Scourge.png/48px-SR-icon-weapon-Scourge.png",
+            "Damage": 22,
+            "weight": 6569,
+            "value": 18,
+            "category_id": 1
+        },
+        {
+            "id": "371193f9-9af4-4830-ad45-cafc7a8aff60",
+            "Name": "Fork of Horripilation",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Fork_of_Horripilation.png/48px-SR-icon-weapon-Fork_of_Horripilation.png",
+            "Damage": 6,
+            "weight": 500,
+            "value": 1,
+            "category_id": 1
+        },
+        {
+            "id": "bc9f652f-7493-451d-bbb4-d605ff088910",
+            "Name": "Iron Dagger",
+            "url": "https://images.uesp.net/thumb/7/7e/SR-icon-weapon-Iron_Dagger.png/48px-SR-icon-weapon-Iron_Dagger.png",
+            "Damage": 2,
+            "weight": 10,
+            "value": 4,
+            "category_id": 1
+        },
+        {
+            "id": "be89030a-fc6d-4f3e-824b-0de07a47c8ab",
+            "Name": "Alessandra's Dagger",
+            "url": "https://images.uesp.net/thumb/7/7e/SR-icon-weapon-Iron_Dagger.png/48px-SR-icon-weapon-Iron_Dagger.png",
+            "Damage": 1,
+            "weight": 10,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "8f130799-cabc-46de-a4bb-18b37a4323fa",
+            "Name": "Shiv",
+            "url": "https://images.uesp.net/thumb/1/15/SR-icon-weapon-Shiv.png/48px-SR-icon-weapon-Shiv.png",
+            "Damage": 2,
+            "weight": 5,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "581b4efa-4968-4698-9a09-bd3aef942e68",
+            "Name": "Orcish Dagger",
+            "url": "https://images.uesp.net/thumb/b/ba/SR-icon-weapon-OrcishDagger.png/48px-SR-icon-weapon-OrcishDagger.png",
+            "Damage": 3,
+            "weight": 30,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "1fc3bbe8-ea11-492e-a216-b6ea65b92874",
+            "Name": "Dragon Priest Dagger",
+            "url": "https://images.uesp.net/thumb/6/66/SR-icon-weapon-Kahvozien%27sFang.png/48px-SR-icon-weapon-Kahvozien%27sFang.png",
+            "Damage": 5,
+            "weight": 9,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "ac3b588c-c01c-4fc6-a6dc-9911f638f673",
+            "Name": "Kahvozein's Fang",
+            "url": "https://images.uesp.net/thumb/6/66/SR-icon-weapon-Kahvozien%27sFang.png/48px-SR-icon-weapon-Kahvozien%27sFang.png",
+            "Damage": 5,
+            "weight": 9,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "00b5ea4f-4ba0-40ea-bfff-d3b12cc3e389",
+            "Name": "Bound Dagger",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "2d4ef9ef-cf8f-459d-8bd3-ad4722e2b082",
+            "Name": "Nettlebane",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-Nettlebane.png/48px-SR-icon-weapon-Nettlebane.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "ba541533-66bc-44a2-b7bc-ece6132c2772",
+            "Name": "Nord Hero Dagger",
+            "url": "https://images.uesp.net/thumb/6/61/SR-icon-weapon-Ancient_Nord_Dagger.png/48px-SR-icon-weapon-Ancient_Nord_Dagger.png",
+            "Damage": 2,
+            "weight": 55,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "2fdca4a7-e522-4b13-8b38-a26d0ca36178",
+            "Name": "Elven Dagger",
+            "url": "https://images.uesp.net/thumb/4/4c/SR-icon-weapon-ElvenDagger.png/48px-SR-icon-weapon-ElvenDagger.png",
+            "Damage": 4,
+            "weight": 95,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "e399c7b8-2565-434c-8d97-1e38eb848c71",
+            "Name": "Borvir's Dagger",
+            "url": "https://images.uesp.net/thumb/4/4c/SR-icon-weapon-ElvenDagger.png/48px-SR-icon-weapon-ElvenDagger.png",
+            "Damage": 4,
+            "weight": 18,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "f5007331-d0cb-4aa3-ae46-94bc8d9c7efd",
+            "Name": "Golden Dagger",
+            "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Golden_Dagger.png/48px-SR-icon-weapon-Golden_Dagger.png",
+            "Damage": 3,
+            "weight": 105,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "a4610dac-93a5-457c-88d8-f1b18648716b",
+            "Name": "Keening",
+            "url": "https://images.uesp.net/thumb/f/f8/SR-icon-weapon-Keening.png/48px-SR-icon-weapon-Keening.png",
+            "Damage": 4,
+            "weight": 13,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "d1313830-25aa-4960-a221-bb80ec886472",
+            "Name": "Dark Dagger",
+            "url": "https://images.uesp.net/thumb/3/35/SR-icon-weapon-Dark_Dagger.png/48px-SR-icon-weapon-Dark_Dagger.png",
+            "Damage": 3,
+            "weight": 105,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "1f8f70c4-ba72-43d3-9300-a09f9f109ba9",
+            "Name": "Ebony Dagger",
+            "url": "https://images.uesp.net/thumb/e/e5/SR-icon-weapon-EbonyDagger.png/48px-SR-icon-weapon-EbonyDagger.png",
+            "Damage": 5,
+            "weight": 290,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "9923d970-9f7b-40a6-a636-e348d380cb46",
+            "Name": "Blade of Sacrifice",
+            "url": "https://images.uesp.net/thumb/c/c1/SR-icon-weapon-BladeOfSacrifice.png/48px-SR-icon-weapon-BladeOfSacrifice.png",
+            "Damage": 4,
+            "weight": 144,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "1f0b6bbd-166a-4c4a-81a9-9923b9fb2f54",
+            "Name": "Bound Dagger",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "68bfb4a6-25ed-4ebb-8977-b345e15bae73",
+            "Name": "Daedric Dagger",
+            "url": "https://images.uesp.net/thumb/7/79/SR-icon-weapon-DaedricDagger.png/48px-SR-icon-weapon-DaedricDagger.png",
+            "Damage": 6,
+            "weight": 500,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "313dc739-219f-46fd-be29-f8a0f5049f10",
+            "Name": "Mehrunes' Razor",
+            "url": "https://images.uesp.net/thumb/a/ab/SR-icon-weapon-Mehrunes%27Razor.png/48px-SR-icon-weapon-Mehrunes%27Razor.png",
+            "Damage": 3,
+            "weight": 860,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "5ff395d2-ca35-4f65-bbc9-f48381063d6d",
+            "Name": "Blade of Woe",
+            "url": "https://images.uesp.net/thumb/c/cf/SR-icon-weapon-BladeOfWoe.png/48px-SR-icon-weapon-BladeOfWoe.png",
+            "Damage": 7,
+            "weight": 880,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "d8567780-cf23-4cb0-97e8-fddf6ab33367",
+            "Name": "Madness Dagger",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Madness_Dagger.png/48px-SR-icon-weapon-Madness_Dagger.png",
+            "Damage": 7,
+            "weight": 800,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "e2da6dab-88a7-4308-bd50-1c577798366b",
+            "Name": "Fang of Haynekhtnamet",
+            "url": "https://images.uesp.net/thumb/4/41/SR-icon-weapon-Fang_of_Haynekhtnamet.png/48px-SR-icon-weapon-Fang_of_Haynekhtnamet.png",
+            "Damage": 7,
+            "weight": 800,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "1f0e7fc3-9367-4961-9241-d732615fba00",
+            "Name": "Ancestral Sword of Clan Ice-Blade",
+            "url": "https://images.uesp.net/thumb/c/cf/SR-icon-weapon-Ancestral_Sword_of_Clan_Ice-Blade.png/48px-SR-icon-weapon-Ancestral_Sword_of_Clan_Ice-Blade.png",
+            "Damage": 12,
+            "weight": 1000,
+            "value": 0,
+            "category_id": 1
+        },
+        {
+            "id": "9f1a1a60-4557-41ed-b542-4824648bd23b",
+            "Name": "Wooden Sword",
+            "url": "https://images.uesp.net/thumb/b/bd/SR-icon-weapon-Wooden_Sword.png/48px-SR-icon-weapon-Wooden_Sword.png",
+            "Damage": 3,
+            "weight": 25,
+            "value": 2,
+            "category_id": 1
+        },
+        {
+            "id": "45876bb2-e1ed-4367-a19c-b76d0a998bab",
+            "Name": "Fishing Rod",
+            "url": "https://images.uesp.net/thumb/d/d2/SR-icon-weapon-Fishing_Rod.png/48px-SR-icon-weapon-Fishing_Rod.png",
+            "Damage": 3,
+            "weight": 10,
+            "value": 3,
+            "category_id": 1
+        },
+        {
+            "id": "6476f191-d832-4745-97b2-930a5b6c7435",
+            "Name": "Alik'ri Fishing Rod",
+            "url": "https://images.uesp.net/thumb/6/68/SR-icon-weapon-Alikri_Fishing_Rod.png/48px-SR-icon-weapon-Alikri_Fishing_Rod.png",
+            "Damage": 2,
+            "weight": 75,
+            "value": 4,
+            "category_id": 1
+        },
+        {
+            "id": "0ca68e9c-44f2-4a65-9534-a2095f8a539c",
+            "Name": "Dwarven Fishing Rod",
+            "url": "https://images.uesp.net/thumb/b/b3/SR-icon-weapon-Dwarven_Fishing_Rod.png/48px-SR-icon-weapon-Dwarven_Fishing_Rod.png",
+            "Damage": 6,
+            "weight": 110,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "8367298b-268f-4bff-8d31-9646e62a8615",
+            "Name": "Iron Sword",
+            "url": "https://images.uesp.net/thumb/a/a6/SR-icon-weapon-Iron_Sword.png/48px-SR-icon-weapon-Iron_Sword.png",
+            "Damage": 9,
+            "weight": 25,
+            "value": 7,
+            "category_id": 1
+        },
+        {
+            "id": "bccfaffb-b0a7-4c6c-a656-bcf14fbdd52f",
+            "Name": "Amren's Family Sword",
+            "url": "https://images.uesp.net/thumb/a/a6/SR-icon-weapon-Iron_Sword.png/48px-SR-icon-weapon-Iron_Sword.png",
+            "Damage": 9,
+            "weight": 25,
+            "value": 7,
+            "category_id": 1
+        },
+        {
+            "id": "ee59251f-b949-4a4b-9a07-7e53a76e382a",
+            "Name": "Steel Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 45,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "18942d58-a179-4186-ae06-8ea26b00b942",
+            "Name": "Steel Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 23,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "2890a826-4d38-4768-9df7-a115f49c046c",
+            "Name": "Queen Freydis's Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 45,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "97c111cc-44a2-4591-aebd-1c25126c1058",
+            "Name": "Imperial Sword",
+            "url": "https://images.uesp.net/thumb/a/a0/SR-icon-weapon-ImperialSword.png/48px-SR-icon-weapon-ImperialSword.png",
+            "Damage": 10,
+            "weight": 23,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "dc5160ff-9400-48bb-8526-c100b201ce5e",
+            "Name": "Silver Sword",
+            "url": "https://images.uesp.net/thumb/1/19/SR-icon-weapon-SilverSword.png/48px-SR-icon-weapon-SilverSword.png",
+            "Damage": 7,
+            "weight": 100,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "f8667f8b-9183-4dbc-ad62-eff49937c58a",
+            "Name": "Ceremonial Sword",
+            "url": "https://images.uesp.net/thumb/d/d4/SR-icon-weapon-AncientNordSword.png/48px-SR-icon-weapon-AncientNordSword.png",
+            "Damage": 12,
+            "weight": 5,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "857c9b86-9944-4c60-b3f5-ce1ad71bc29e",
+            "Name": "Hjalti's Sword",
+            "url": "https://images.uesp.net/thumb/d/d4/SR-icon-weapon-AncientNordSword.png/48px-SR-icon-weapon-AncientNordSword.png",
+            "Damage": 12,
+            "weight": 13,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "d53c0d87-a3f3-41e4-9c27-21fff84a6ae8",
+            "Name": "Red Eagle's Fury",
+            "url": "https://images.uesp.net/thumb/d/d4/SR-icon-weapon-AncientNordSword.png/48px-SR-icon-weapon-AncientNordSword.png",
+            "Damage": 12,
+            "weight": 97,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "48615d7e-8bf1-4bed-8609-acbbe62fa366",
+            "Name": "Ancient Nord Sword",
+            "url": "https://images.uesp.net/thumb/d/d4/SR-icon-weapon-AncientNordSword.png/48px-SR-icon-weapon-AncientNordSword.png",
+            "Damage": 12,
+            "weight": 13,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "44ff7bef-2a4d-4ef0-8e55-645c47da5e97",
+            "Name": "Harkon's Sword",
+            "url": "https://images.uesp.net/thumb/0/02/SR-icon-weapon-Harkon%27s_Sword.png/48px-SR-icon-weapon-Harkon%27s_Sword.png",
+            "Damage": 9,
+            "weight": 1472,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "49b8959b-cd95-4f1d-8b0d-d79879e59101",
+            "Name": "Ghostblade",
+            "url": "https://images.uesp.net/thumb/a/a9/SR-icon-weapon-Ghostblade.png/48px-SR-icon-weapon-Ghostblade.png",
+            "Damage": 1,
+            "weight": 300,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "6592bcd9-ef6b-41da-a6da-f288d3099c37",
+            "Name": "Orcish Sword",
+            "url": "https://images.uesp.net/thumb/b/b6/SR-icon-weapon-OrcishSword.png/48px-SR-icon-weapon-OrcishSword.png",
+            "Damage": 11,
+            "weight": 75,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "db1042fc-b9eb-4e8c-8b97-a9b42a4b33a9",
+            "Name": "Bound Sword",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "2dbd5c67-cdba-4193-8f91-49616aa881e9",
+            "Name": "Dwarven Sword",
+            "url": "https://images.uesp.net/thumb/9/92/SR-icon-weapon-DwarvenSword.png/48px-SR-icon-weapon-DwarvenSword.png",
+            "Damage": 12,
+            "weight": 125,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "c1f96f65-5ce3-4942-b7d3-a5ee05fc5380",
+            "Name": "Forsworn Sword",
+            "url": "https://images.uesp.net/thumb/a/a4/SR-icon-weapon-ForswornSword.png/48px-SR-icon-weapon-ForswornSword.png",
+            "Damage": 13,
+            "weight": 70,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "f443b783-2a2a-4d10-aed0-4c662bee0109",
+            "Name": "Falmer Sword",
+            "url": "https://images.uesp.net/thumb/3/34/SR-icon-weapon-FalmerSword.png/48px-SR-icon-weapon-FalmerSword.png",
+            "Damage": 18,
+            "weight": 67,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "7c36d70f-b71d-4fe0-bfb0-67c67b97383b",
+            "Name": "Nord Hero Sword",
+            "url": "https://images.uesp.net/thumb/8/8b/SR-icon-weapon-NordHeroSword.png/48px-SR-icon-weapon-NordHeroSword.png",
+            "Damage": 9,
+            "weight": 135,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "b312e153-059d-4e95-83fb-80052adbadb5",
+            "Name": "Honed Ancient Nord Sword",
+            "url": "https://images.uesp.net/thumb/8/8b/SR-icon-weapon-NordHeroSword.png/48px-SR-icon-weapon-NordHeroSword.png",
+            "Damage": 15,
+            "weight": 23,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "bffd269b-3112-4c34-bb72-c182a63ab814",
+            "Name": "Eduj",
+            "url": "https://images.uesp.net/thumb/9/96/SR-icon-weapon-Eduj.png/48px-SR-icon-weapon-Eduj.png",
+            "Damage": 9,
+            "weight": 300,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "aa88405d-be83-4247-9125-d37f36576bec",
+            "Name": "Red Eagle's Bane",
+            "url": "https://images.uesp.net/thumb/c/c3/SR-icon-weapon-RedEagle%27sBane.png/48px-SR-icon-weapon-RedEagle%27sBane.png",
+            "Damage": 15,
+            "weight": 345,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "3efbbeeb-d1f5-4f6a-b359-8cf8af5af640",
+            "Name": "Skyforge Steel Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 70,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "568ed922-e247-425d-84f6-37611deec7a7",
+            "Name": "Elven Sword",
+            "url": "https://images.uesp.net/thumb/7/78/SR-icon-weapon-ElvenSword.png/48px-SR-icon-weapon-ElvenSword.png",
+            "Damage": 13,
+            "weight": 235,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "ec1920b7-91fb-4fa3-a0e6-cb1ea708af9e",
+            "Name": "Golden Sword",
+            "url": "https://images.uesp.net/thumb/2/28/SR-icon-weapon-Golden_Sword.png/48px-SR-icon-weapon-Golden_Sword.png",
+            "Damage": 11,
+            "weight": 250,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "06750598-53e1-40f8-afb5-a87e6c34047d",
+            "Name": "Nordic Sword",
+            "url": "https://images.uesp.net/thumb/e/e5/SR-icon-weapon-Nordic_Sword.png/48px-SR-icon-weapon-Nordic_Sword.png",
+            "Damage": 12,
+            "weight": 290,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "01b51df8-e570-4c18-b96d-3583a3f41ca7",
+            "Name": "Blades Sword",
+            "url": "https://images.uesp.net/thumb/0/08/SR-icon-weapon-BladesSword.png/48px-SR-icon-weapon-BladesSword.png",
+            "Damage": 10,
+            "weight": 300,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "d96c6465-a811-4c4c-b6ac-13b47ef1680c",
+            "Name": "Bolar's Oathblade",
+            "url": "https://images.uesp.net/thumb/0/08/SR-icon-weapon-BladesSword.png/48px-SR-icon-weapon-BladesSword.png",
+            "Damage": 10,
+            "weight": 1014,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "4bdde91c-c99f-466e-ab2c-b48ca5855fca",
+            "Name": "Akaviri Sword",
+            "url": "https://images.uesp.net/thumb/a/a3/SR-icon-weapon-Akaviri_Sword.png/48px-SR-icon-weapon-Akaviri_Sword.png",
+            "Damage": 10,
+            "weight": 300,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "2e0efca3-4b20-4d5e-8c80-1a863da9d5a1",
+            "Name": "Scimitar",
+            "url": "https://images.uesp.net/thumb/8/87/SR-icon-weapon-Scimitar.png/48px-SR-icon-weapon-Scimitar.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "c8932e3d-0393-4788-a0fe-17aadc56b33e",
+            "Name": "Windshear",
+            "url": "https://images.uesp.net/thumb/8/87/SR-icon-weapon-Scimitar.png/48px-SR-icon-weapon-Scimitar.png",
+            "Damage": 10,
+            "weight": 40,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "d39fa362-15ea-4355-a51a-d8ac3897c0bd",
+            "Name": "Vilkas's Sword",
+            "url": "https://images.uesp.net/thumb/f/fc/SR-icon-weapon-SteelSword.png/48px-SR-icon-weapon-SteelSword.png",
+            "Damage": 10,
+            "weight": 70,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "3a978b2b-c0f2-477d-86a3-36c91c324448",
+            "Name": "Drainheart Sword",
+            "url": "https://images.uesp.net/thumb/7/7e/SR-icon-weapon-DrainheartSword.png/48px-SR-icon-weapon-DrainheartSword.png",
+            "Damage": 3,
+            "weight": 73,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "91e16a09-f8ce-4fbc-904e-d51cfd36e3ef",
+            "Name": "Dark Sword",
+            "url": "https://images.uesp.net/thumb/e/e0/SR-icon-weapon-Dark_Sword.png/48px-SR-icon-weapon-Dark_Sword.png",
+            "Damage": 11,
+            "weight": 250,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "a1a4fdbe-e5b3-4d52-9f97-c8866d80fb57",
+            "Name": "Glass Sword",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-Glass_Sword.png/48px-SR-icon-weapon-Glass_Sword.png",
+            "Damage": 14,
+            "weight": 410,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "9349a178-def9-46df-9278-2afa1f6a94be",
+            "Name": "Grimsever",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-Glass_Sword.png/48px-SR-icon-weapon-Glass_Sword.png",
+            "Damage": 14,
+            "weight": 727,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "b370b292-9dbb-44ab-8f26-65970af688f8",
+            "Name": "Blackwater Blade",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-Blackwater_Blade.png/48px-SR-icon-weapon-Blackwater_Blade.png",
+            "Damage": 14,
+            "weight": 1949,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "3e9deccd-e157-4a42-993a-a5e1ee1599d5",
+            "Name": "Master Sword",
+            "url": "https://images.uesp.net/thumb/6/69/SR-icon-weapon-Master_Sword.png/48px-SR-icon-weapon-Master_Sword.png",
+            "Damage": 12,
+            "weight": 235,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "d9fbc7bb-03f0-4d22-96eb-014837e4d51d",
+            "Name": "Dawnbreaker",
+            "url": "https://images.uesp.net/thumb/9/9a/SR-icon-weapon-Dawnbreaker.png/48px-SR-icon-weapon-Dawnbreaker.png",
+            "Damage": 10,
+            "weight": 740,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "af5c6e7e-28b7-4245-8ed8-d5d762e3f7de",
+            "Name": "Honed Falmer Sword",
+            "url": "https://images.uesp.net/thumb/3/34/SR-icon-weapon-FalmerSword.png/48px-SR-icon-weapon-FalmerSword.png",
+            "Damage": 18,
+            "weight": 205,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "cae982cb-2a84-416e-b2b9-423001f0b14b",
+            "Name": "Ebony Sword",
+            "url": "https://images.uesp.net/thumb/2/22/SR-icon-weapon-EbonySword.png/48px-SR-icon-weapon-EbonySword.png",
+            "Damage": 15,
+            "weight": 720,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "4f62e979-2468-46c2-af0d-8684cfdf49da",
+            "Name": "Stalhrim Sword",
+            "url": "https://images.uesp.net/thumb/d/d0/SR-icon-weapon-Stalhrim_Sword.png/48px-SR-icon-weapon-Stalhrim_Sword.png",
+            "Damage": 14,
+            "weight": 985,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "2839f859-3430-4a76-accd-f6d4cd287c13",
+            "Name": "Bloodscythe",
+            "url": "https://images.uesp.net/thumb/8/87/SR-icon-weapon-Scimitar.png/48px-SR-icon-weapon-Scimitar.png",
+            "Damage": 10,
+            "weight": 1859,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "15baee24-d3e0-4820-acd7-ebe3c5eb3e6e",
+            "Name": "Soulrender",
+            "url": "https://images.uesp.net/thumb/8/87/SR-icon-weapon-Scimitar.png/48px-SR-icon-weapon-Scimitar.png",
+            "Damage": 10,
+            "weight": 1892,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "52a114aa-f50f-48f5-8842-9ccae38994f1",
+            "Name": "Daedric Sword",
+            "url": "https://images.uesp.net/thumb/6/6c/SR-icon-weapon-DaedricSword.png/48px-SR-icon-weapon-DaedricSword.png",
+            "Damage": 16,
+            "weight": 1250,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "00a04203-876e-4d3c-b6c8-9da6b3195f1d",
+            "Name": "Dragon's Oath",
+            "url": "https://images.uesp.net/thumb/8/82/SR-icon-weapon-Dragon%27s_Oath.png/48px-SR-icon-weapon-Dragon%27s_Oath.png",
+            "Damage": 10,
+            "weight": 3103,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "4c76ccaa-5303-4708-9e3c-758299e62e06",
+            "Name": "Bloodthirst",
+            "url": "https://images.uesp.net/thumb/d/d1/SR-icon-weapon-Bloodthirst.png/48px-SR-icon-weapon-Bloodthirst.png",
+            "Damage": 16,
+            "weight": 1619,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "4d794a86-6299-4988-93fe-53f4e30de704",
+            "Name": "Dawnfang",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Dawnfang.png/48px-SR-icon-weapon-Dawnfang.png",
+            "Damage": 16,
+            "weight": 2449,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "d6c03661-a51f-4e2f-88b0-691979cc6c27",
+            "Name": "Dragonbane",
+            "url": "https://images.uesp.net/thumb/0/08/SR-icon-weapon-BladesSword.png/48px-SR-icon-weapon-BladesSword.png",
+            "Damage": 10,
+            "weight": 2596,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "7051fb4d-ddfd-4cd8-8457-ca0346a38547",
+            "Name": "Nightingale Blade",
+            "url": "https://images.uesp.net/thumb/b/b2/SR-icon-weapon-Nightingale_Blade.png/48px-SR-icon-weapon-Nightingale_Blade.png",
+            "Damage": 15,
+            "weight": 2050,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "e4656c2a-ca6b-4f8e-bf73-098d4b2b0043",
+            "Name": "Sword of the Crusader",
+            "url": "https://images.uesp.net/thumb/c/cd/SR-icon-weapon-Sword_of_the_Crusader.png/48px-SR-icon-weapon-Sword_of_the_Crusader.png",
+            "Damage": 13,
+            "weight": 2001,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "53767a48-f093-4bd0-b94e-8efe6ef238b5",
+            "Name": "Bound Sword",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "328a09ab-597c-4228-ac28-796e431108cc",
+            "Name": "Storm-Bear Sword",
+            "url": "https://images.uesp.net/thumb/4/4c/SR-icon-weapon-Storm-Bear_Sword.png/48px-SR-icon-weapon-Storm-Bear_Sword.png",
+            "Damage": 10,
+            "weight": 3230,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "0e5c3918-c5d1-4bfc-aab3-6aa36136065b",
+            "Name": "Cyrus' Sabre",
+            "url": "https://images.uesp.net/thumb/d/d2/SR-icon-weapon-Cyrus%27_Sabre.png/48px-SR-icon-weapon-Cyrus%27_Sabre.png",
+            "Damage": 6,
+            "weight": 1500,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "8ba90f9c-216e-4510-93d1-1ba6c0fcf8d0",
+            "Name": "Grand Champion's Sword",
+            "url": "https://images.uesp.net/thumb/c/c2/SR-icon-weapon-Grand_Champion%27s_Sword.png/48px-SR-icon-weapon-Grand_Champion%27s_Sword.png",
+            "Damage": 12,
+            "weight": 2500,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "bb9c4490-7a6b-47b0-84d4-dbaed9c825f0",
+            "Name": "Ebony Scimitar",
+            "url": "https://images.uesp.net/thumb/a/a5/SR-icon-weapon-Ebony_Scimitar.png/48px-SR-icon-weapon-Ebony_Scimitar.png",
+            "Damage": 14,
+            "weight": 800,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "64adbbb1-4e0d-4905-8a2c-b30122c08ba5",
+            "Name": "Dragonbone Sword",
+            "url": "https://images.uesp.net/thumb/0/05/SR-icon-weapon-Dragonbone_Sword.png/48px-SR-icon-weapon-Dragonbone_Sword.png",
+            "Damage": 19,
+            "weight": 1500,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "13b59c14-d22b-4fc3-a705-9195624e8f08",
+            "Name": "Amber Sword",
+            "url": "https://images.uesp.net/thumb/a/a4/SR-icon-weapon-Amber_Sword.png/48px-SR-icon-weapon-Amber_Sword.png",
+            "Damage": 14,
+            "weight": 1600,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "02ddbeff-2d60-4aee-83f2-0fcc94a4f4a8",
+            "Name": "Chillrend",
+            "url": "https://images.uesp.net/thumb/1/1f/SR-icon-weapon-Chillrend.png/48px-SR-icon-weapon-Chillrend.png",
+            "Damage": 16,
+            "weight": 1442,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "8ac2ed87-a8b1-4681-8ef6-261b85553827",
+            "Name": "Goldbrand",
+            "url": "https://images.uesp.net/thumb/a/a9/SR-icon-weapon-Goldbrand.png/48px-SR-icon-weapon-Goldbrand.png",
+            "Damage": 17,
+            "weight": 3413,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "811dc833-feda-4c5b-ac59-21f83c359f05",
+            "Name": "Madness Sword",
+            "url": "https://images.uesp.net/thumb/5/51/SR-icon-weapon-Madness_Sword.png/48px-SR-icon-weapon-Madness_Sword.png",
+            "Damage": 20,
+            "weight": 250,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "39c6a9bd-0641-4e5c-b265-bfa00330153b",
+            "Name": "Miraak's Sword",
+            "url": "https://images.uesp.net/thumb/c/cc/SR-icon-weapon-Miraak%27s_Sword.png/48px-SR-icon-weapon-Miraak%27s_Sword.png",
+            "Damage": 3,
+            "weight": 1267,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "86ecfcba-2956-4160-976a-b6c33bf59e1c",
+            "Name": "Trueflame",
+            "url": "https://images.uesp.net/thumb/0/04/SR-icon-weapon-Trueflame.png/48px-SR-icon-weapon-Trueflame.png",
+            "Damage": 12,
+            "weight": 1360,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "9c909ce0-93c3-470f-a01b-e77957271cfc",
+            "Name": "Hopesfire",
+            "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+            "Damage": 12,
+            "weight": 2235,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "8261179a-e2b7-448a-b836-ce635adea2a4",
+            "Name": "Torment",
+            "url": "https://images.uesp.net/thumb/6/62/SR-icon-weapon-Torment.png/48px-SR-icon-weapon-Torment.png",
+            "Damage": 16,
+            "weight": 3163,
+            "value": 18,
+            "category_id": 1
+        },
+        {
+            "id": "9f371ecd-39dd-4877-8645-095084da5485",
+            "Name": "Ancient Nordic Pickaxe",
+            "url": "https://images.uesp.net/thumb/9/98/SR-icon-weapon-Ancient_Nordic_Pickaxe.png/48px-SR-icon-weapon-Ancient_Nordic_Pickaxe.png",
+            "Damage": 10,
+            "weight": 500,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "0e0fbb28-890f-4712-9659-75e7df31e7a3",
+            "Name": "Hoarfrost",
+            "url": "https://images.uesp.net/thumb/9/98/SR-icon-weapon-Ancient_Nordic_Pickaxe.png/48px-SR-icon-weapon-Ancient_Nordic_Pickaxe.png",
+            "Damage": 10,
+            "weight": 946,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "b88341ec-4c74-4b1b-924b-32718f5cf3b0",
+            "Name": "Pickaxe",
+            "url": "https://images.uesp.net/thumb/3/32/SR-icon-weapon-Pickaxe.png/48px-SR-icon-weapon-Pickaxe.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "aa602d19-d7c4-4396-8146-7aca57a6bff2",
+            "Name": "Notched Pickaxe",
+            "url": "https://images.uesp.net/thumb/b/b0/SR-icon-weapon-NotchedPickaxe.png/48px-SR-icon-weapon-NotchedPickaxe.png",
+            "Damage": 10,
+            "weight": 303,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "7f3fc033-cb7b-442b-9b0c-e05de7c018d8",
+            "Name": "Poacher's Axe",
+            "url": "https://images.uesp.net/thumb/3/39/SR-icon-weapon-Woodcutter%27sAxe.png/48px-SR-icon-weapon-Woodcutter%27sAxe.png",
+            "Damage": 10,
+            "weight": 31,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "de14e327-4e17-454d-80c7-14fef29585ab",
+            "Name": "Woodcutter's Axe",
+            "url": "https://images.uesp.net/thumb/3/39/SR-icon-weapon-Woodcutter%27sAxe.png/48px-SR-icon-weapon-Woodcutter%27sAxe.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "36380656-b461-4554-a432-01108e03701e",
+            "Name": "Iron War Axe",
+            "url": "https://images.uesp.net/thumb/b/b8/SR-icon-weapon-Iron_War_Axe.png/48px-SR-icon-weapon-Iron_War_Axe.png",
+            "Damage": 11,
+            "weight": 30,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "c91e61e5-9b16-445f-8928-9c2cb52c4be2",
+            "Name": "Steel War Axe",
+            "url": "https://images.uesp.net/thumb/f/fe/SR-icon-weapon-SteelWarAxe.png/48px-SR-icon-weapon-SteelWarAxe.png",
+            "Damage": 12,
+            "weight": 55,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "65d6ccb7-e942-43c8-9aa2-66962048e2a8",
+            "Name": "Ceremonial Axe",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-AncientNordWarAxe.png/48px-SR-icon-weapon-AncientNordWarAxe.png",
+            "Damage": 14,
+            "weight": 5,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "06c77baf-6bc7-43c8-8b88-0d777e495a52",
+            "Name": "Ancient Nord War Axe",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-AncientNordWarAxe.png/48px-SR-icon-weapon-AncientNordWarAxe.png",
+            "Damage": 14,
+            "weight": 15,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "b5076ba2-b952-4695-88ff-5921246db1a8",
+            "Name": "Orcish War Axe",
+            "url": "https://images.uesp.net/thumb/4/45/SR-icon-weapon-OrcishWarAxe.png/48px-SR-icon-weapon-OrcishWarAxe.png",
+            "Damage": 13,
+            "weight": 90,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "bacb4994-69f3-46a1-a89c-f4c387ac6b8b",
+            "Name": "Dwarven War Axe",
+            "url": "https://images.uesp.net/thumb/7/7f/SR-icon-weapon-DwarvenWarAxe.png/48px-SR-icon-weapon-DwarvenWarAxe.png",
+            "Damage": 14,
+            "weight": 165,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "6a8978e1-a52d-41cf-b72e-e11de903977d",
+            "Name": "Dawnguard War Axe",
+            "url": "https://images.uesp.net/thumb/9/9c/SR-icon-weapon-Dawnguard_War_Axe.png/48px-SR-icon-weapon-Dawnguard_War_Axe.png",
+            "Damage": 13,
+            "weight": 55,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "e2a5bf79-5b59-46fb-816b-ba30a7cc1d59",
+            "Name": "Dawnguard Rune Axe",
+            "url": "https://images.uesp.net/thumb/7/7d/SR-icon-weapon-Dawnguard_Rune_Axe.png/48px-SR-icon-weapon-Dawnguard_Rune_Axe.png",
+            "Damage": 13,
+            "weight": 175,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "0b04c822-b591-41a4-b6e7-28ab414f85d5",
+            "Name": "Falmer War Axe",
+            "url": "https://images.uesp.net/thumb/8/8a/SR-icon-weapon-FalmerWarAxe.png/48px-SR-icon-weapon-FalmerWarAxe.png",
+            "Damage": 21,
+            "weight": 82,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "bccb611f-54b3-47d9-8eba-600b86c1cbe8",
+            "Name": "Namira's Itch",
+            "url": "https://images.uesp.net/thumb/8/8a/SR-icon-weapon-FalmerWarAxe.png/48px-SR-icon-weapon-FalmerWarAxe.png",
+            "Damage": 21,
+            "weight": 789,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "84ce78fc-6c2d-4c5c-a324-93d51621d4fd",
+            "Name": "Nord Hero War Axe",
+            "url": "https://images.uesp.net/thumb/a/ae/SR-icon-weapon-NordHeroWarAxe.png/48px-SR-icon-weapon-NordHeroWarAxe.png",
+            "Damage": 11,
+            "weight": 165,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "a6667bf0-8fe2-482c-87f9-e436f19ba897",
+            "Name": "Okin",
+            "url": "https://images.uesp.net/thumb/6/68/SR-icon-weapon-Okin.png/48px-SR-icon-weapon-Okin.png",
+            "Damage": 11,
+            "weight": 320,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "d65a4737-2229-4d00-a272-810bc9bd27d5",
+            "Name": "Skyforge Steel War Axe",
+            "url": "https://images.uesp.net/thumb/f/fe/SR-icon-weapon-SteelWarAxe.png/48px-SR-icon-weapon-SteelWarAxe.png",
+            "Damage": 12,
+            "weight": 80,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "71982c4c-f825-4a72-8abe-ff564f6c558d",
+            "Name": "Elven War Axe",
+            "url": "https://images.uesp.net/thumb/c/cb/SR-icon-weapon-ElvenWarAxe.png/48px-SR-icon-weapon-ElvenWarAxe.png",
+            "Damage": 15,
+            "weight": 280,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "b2b3f436-874a-4d70-8cde-1426bc26622d",
+            "Name": "Golden War Axe",
+            "url": "https://images.uesp.net/thumb/5/5e/SR-icon-weapon-Golden_War_Axe.png/48px-SR-icon-weapon-Golden_War_Axe.png",
+            "Damage": 13,
+            "weight": 320,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "5760310a-a40a-47c6-8478-26cc2068b345",
+            "Name": "Nordic War Axe",
+            "url": "https://images.uesp.net/thumb/e/e3/SR-icon-weapon-Nordic_War_Axe.png/48px-SR-icon-weapon-Nordic_War_Axe.png",
+            "Damage": 14,
+            "weight": 350,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "c00d00ce-9879-4029-a24a-2c30a7c91cf5",
+            "Name": "Honed Draugr War Axe",
+            "url": "https://images.uesp.net/thumb/3/33/SR-icon-weapon-AncientNordWarAxe.png/48px-SR-icon-weapon-AncientNordWarAxe.png",
+            "Damage": 16,
+            "weight": 27,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "7bd29cae-3881-4d2d-86ee-0b5797d48a87",
+            "Name": "Tyrant's Bane",
+            "url": "https://images.uesp.net/thumb/7/71/SR-icon-weapon-ForswornAxe.png/48px-SR-icon-weapon-ForswornAxe.png",
+            "Damage": 15,
+            "weight": 1233,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "ee86760a-2b26-4aad-b880-3663681ca7d7",
+            "Name": "Irkngthand War Axe",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-Irkngthand_War_Axe.png/48px-SR-icon-weapon-Irkngthand_War_Axe.png",
+            "Damage": 16,
+            "weight": 265,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "953bd139-dc7d-4fc3-99d8-bdd31cd9e903",
+            "Name": "Irkngthand War Axe of Fire",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-Irkngthand_War_Axe.png/48px-SR-icon-weapon-Irkngthand_War_Axe.png",
+            "Damage": 16,
+            "weight": 699,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "7128ef32-b6d5-4ff8-af14-e0cf3ac27fa7",
+            "Name": "Irkngthand War Axe of Freezing",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-Irkngthand_War_Axe.png/48px-SR-icon-weapon-Irkngthand_War_Axe.png",
+            "Damage": 16,
+            "weight": 742,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "3ea2a134-ebeb-4e58-87d7-6e1ce36f8143",
+            "Name": "Dark War Axe",
+            "url": "https://images.uesp.net/thumb/e/eb/SR-icon-weapon-Dark_War_Axe.png/48px-SR-icon-weapon-Dark_War_Axe.png",
+            "Damage": 13,
+            "weight": 320,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "71c48c72-bf16-444d-86d5-96b7718bfaba",
+            "Name": "Honed Falmer War Axe",
+            "url": "https://images.uesp.net/thumb/8/8a/SR-icon-weapon-FalmerWarAxe.png/48px-SR-icon-weapon-FalmerWarAxe.png",
+            "Damage": 21,
+            "weight": 245,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "317ca897-4196-4054-95f6-644195e33dfb",
+            "Name": "Glass War Axe",
+            "url": "https://images.uesp.net/thumb/a/af/SR-icon-weapon-Glass_War_Axe.png/48px-SR-icon-weapon-Glass_War_Axe.png",
+            "Damage": 16,
+            "weight": 490,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "5a1386f5-9bb5-4023-aaa3-41861c0a4712",
+            "Name": "Ebony War Axe",
+            "url": "https://images.uesp.net/thumb/1/1f/SR-icon-weapon-EbonyWarAxe.png/48px-SR-icon-weapon-EbonyWarAxe.png",
+            "Damage": 17,
+            "weight": 865,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "3572bd63-524c-42ff-b71c-9ed84a897a5e",
+            "Name": "Cleaver of St. Felms",
+            "url": "https://images.uesp.net/thumb/c/ce/SR-icon-weapon-Cleaver_of_St._Felms.png/48px-SR-icon-weapon-Cleaver_of_St._Felms.png",
+            "Damage": 17,
+            "weight": 2508,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "5c468454-7519-4164-87ab-885dfdfdfddb",
+            "Name": "Stalhrim War Axe",
+            "url": "https://images.uesp.net/thumb/4/47/SR-icon-weapon-Stalhrim_War_Axe.png/48px-SR-icon-weapon-Stalhrim_War_Axe.png",
+            "Damage": 16,
+            "weight": 1180,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "f4b83e7e-63d1-4d6e-bb4e-1739a3dcf9fe",
+            "Name": "Daedric War Axe",
+            "url": "https://images.uesp.net/thumb/2/25/SR-icon-weapon-DaedricWarAxe.png/48px-SR-icon-weapon-DaedricWarAxe.png",
+            "Damage": 18,
+            "weight": 1500,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "a9bae179-99e5-4b74-887c-a881fff11a5f",
+            "Name": "Dragonbone War Axe",
+            "url": "https://images.uesp.net/thumb/a/aa/SR-icon-weapon-Dragonbone_War_Axe.png/48px-SR-icon-weapon-Dragonbone_War_Axe.png",
+            "Damage": 21,
+            "weight": 1700,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "16e5987b-2d93-4131-9dc1-776e452a7508",
+            "Name": "Amber War Axe",
+            "url": "https://images.uesp.net/thumb/f/f6/SR-icon-weapon-Amber_War_Axe.png/48px-SR-icon-weapon-Amber_War_Axe.png",
+            "Damage": 16,
+            "weight": 1800,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "581006e3-4dec-4019-bbd7-eb9d55e45775",
+            "Name": "Madness War Axe",
+            "url": "https://images.uesp.net/thumb/c/cd/SR-icon-weapon-Madness_War_Axe.png/48px-SR-icon-weapon-Madness_War_Axe.png",
+            "Damage": 22,
+            "weight": 1900,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "8e5c6fed-3b7c-4d21-8925-d34c208f0791",
+            "Name": "Rusty Mace",
+            "url": "https://images.uesp.net/thumb/6/6b/SR-icon-weapon-Rusty_Mace.png/48px-SR-icon-weapon-Rusty_Mace.png",
+            "Damage": 13,
+            "weight": 5,
+            "value": 7,
+            "category_id": 1
+        },
+        {
+            "id": "d4848537-cd2d-43dd-bbd1-db1c49faf9fe",
+            "Name": "Iron Mace",
+            "url": "https://images.uesp.net/thumb/8/8a/SR-icon-weapon-Iron_Mace.png/48px-SR-icon-weapon-Iron_Mace.png",
+            "Damage": 13,
+            "weight": 35,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "d4dd5663-15a9-4092-a330-5104e3bc560d",
+            "Name": "Steel Mace",
+            "url": "https://images.uesp.net/thumb/8/84/SR-icon-weapon-SteelMace.png/48px-SR-icon-weapon-SteelMace.png",
+            "Damage": 14,
+            "weight": 65,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "58842c96-cf65-4e74-9cc9-aadd930617c6",
+            "Name": "Horksbane",
+            "url": "https://images.uesp.net/thumb/8/84/SR-icon-weapon-SteelMace.png/48px-SR-icon-weapon-SteelMace.png",
+            "Damage": 14,
+            "weight": 250,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "7f3303e5-e4e3-4ea4-bda7-952a0313baeb",
+            "Name": "Ancient Nord Mace",
+            "url": "https://images.uesp.net/thumb/3/31/SR-icon-weapon-Ancient_Nord_Mace.png/48px-SR-icon-weapon-Ancient_Nord_Mace.png",
+            "Damage": 16,
+            "weight": 17,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "1ebaa9a8-caed-4e26-99c4-3ee5951bcd3f",
+            "Name": "Orcish Mace",
+            "url": "https://images.uesp.net/thumb/0/00/SR-icon-weapon-OrcishMace.png/48px-SR-icon-weapon-OrcishMace.png",
+            "Damage": 15,
+            "weight": 105,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "31acfa7c-623e-40c2-bf6e-cf69850a68b8",
+            "Name": "Dwarven Mace",
+            "url": "https://images.uesp.net/thumb/7/73/SR-icon-weapon-DwarvenMace.png/48px-SR-icon-weapon-DwarvenMace.png",
+            "Damage": 16,
+            "weight": 190,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "05d3c32c-f99f-4006-92b2-29ddf8a9d5d2",
+            "Name": "Nord Hero Mace",
+            "url": "https://images.uesp.net/thumb/3/31/SR-icon-weapon-Ancient_Nord_Mace.png/48px-SR-icon-weapon-Ancient_Nord_Mace.png",
+            "Damage": 13,
+            "weight": 195,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "437f0231-e9d8-4478-8603-61e1b1e3839b",
+            "Name": "Honed Ancient Nord Mace",
+            "url": "https://images.uesp.net/thumb/3/31/SR-icon-weapon-Ancient_Nord_Mace.png/48px-SR-icon-weapon-Ancient_Nord_Mace.png",
+            "Damage": 18,
+            "weight": 31,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "b21d95b3-f87b-4e87-8d23-3d425ecdc9cc",
+            "Name": "Elven Mace",
+            "url": "https://images.uesp.net/thumb/2/2e/SR-icon-weapon-ElvenMace.png/48px-SR-icon-weapon-ElvenMace.png",
+            "Damage": 17,
+            "weight": 330,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "fb00e0a3-3b9c-4e8f-861e-b6cc1131a2ca",
+            "Name": "Golden Mace",
+            "url": "https://images.uesp.net/thumb/b/b7/SR-icon-weapon-Golden_Mace.png/48px-SR-icon-weapon-Golden_Mace.png",
+            "Damage": 15,
+            "weight": 370,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "d2423921-a2a9-4fd4-84f7-9eb1257e1a1b",
+            "Name": "Nordic Mace",
+            "url": "https://images.uesp.net/thumb/2/28/SR-icon-weapon-Nordic_Mace.png/48px-SR-icon-weapon-Nordic_Mace.png",
+            "Damage": 16,
+            "weight": 410,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "6c0da9c4-1ae4-4357-a723-dd34de100a89",
+            "Name": "Dark Mace",
+            "url": "https://images.uesp.net/thumb/5/51/SR-icon-weapon-Dark_Mace.png/48px-SR-icon-weapon-Dark_Mace.png",
+            "Damage": 15,
+            "weight": 370,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "b1d62c1f-28a9-455f-bd05-fbb6e4433626",
+            "Name": "Glass Mace",
+            "url": "https://images.uesp.net/thumb/3/39/SR-icon-weapon-Glass_Mace.png/48px-SR-icon-weapon-Glass_Mace.png",
+            "Damage": 18,
+            "weight": 575,
+            "value": 14,
+            "category_id": 1
+        },
+        {
+            "id": "1af4c650-475a-47a8-b04a-b6418fd83b0f",
+            "Name": "Ebony Mace",
+            "url": "https://images.uesp.net/thumb/b/b8/SR-icon-weapon-EbonyMace.png/48px-SR-icon-weapon-EbonyMace.png",
+            "Damage": 19,
+            "weight": 1000,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "33c65e7b-350a-46c5-8c77-73b8ff1975a9",
+            "Name": "Sunder",
+            "url": "https://images.uesp.net/thumb/7/78/SR-icon-weapon-Sunder.png/48px-SR-icon-weapon-Sunder.png",
+            "Damage": 18,
+            "weight": 1720,
+            "value": 15,
+            "category_id": 1
+        },
+        {
+            "id": "cbf45b53-5df3-4a76-b642-45d905867883",
+            "Name": "Stalhrim Mace",
+            "url": "https://images.uesp.net/thumb/b/b6/SR-icon-weapon-Stalhrim_Mace.png/48px-SR-icon-weapon-Stalhrim_Mace.png",
+            "Damage": 18,
+            "weight": 1375,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "ed79fb4a-74b0-405d-9411-e93a43b6258f",
+            "Name": "Daedric Mace",
+            "url": "https://images.uesp.net/thumb/b/bb/SR-icon-weapon-DaedricMace.png/48px-SR-icon-weapon-DaedricMace.png",
+            "Damage": 20,
+            "weight": 1750,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "a27e2100-f60e-450a-a4da-994658d8067b",
+            "Name": "Mace of Molag Bal",
+            "url": "https://images.uesp.net/thumb/e/e6/SR-icon-weapon-MaceOfMolagBal.png/48px-SR-icon-weapon-MaceOfMolagBal.png",
+            "Damage": 18,
+            "weight": 1257,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "e9bb7a3f-79b8-4b47-8a90-c1f56379b207",
+            "Name": "Mace of the Crusader",
+            "url": "https://images.uesp.net/thumb/2/20/SR-icon-weapon-Mace_of_the_Crusader.png/48px-SR-icon-weapon-Mace_of_the_Crusader.png",
+            "Damage": 18,
+            "weight": 2501,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "fa96e7a4-2aef-4e25-aed1-512cffa2d785",
+            "Name": "Light of Day",
+            "url": "https://images.uesp.net/thumb/3/36/SR-icon-weapon-Light_of_Day.png/48px-SR-icon-weapon-Light_of_Day.png",
+            "Damage": 20,
+            "weight": 1614,
+            "value": 16,
+            "category_id": 1
+        },
+        {
+            "id": "68bff77f-af5b-4fe5-bef8-c691115fd421",
+            "Name": "Ebony Mace",
+            "url": "https://images.uesp.net/thumb/e/ea/SR-icon-weapon-Ebony_Mace_02.png/48px-SR-icon-weapon-Ebony_Mace_02.png",
+            "Damage": 19,
+            "weight": 1000,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "7531e592-60b3-4828-b0d5-a4b23431a98f",
+            "Name": "Dragonbone Mace",
+            "url": "https://images.uesp.net/thumb/1/13/SR-icon-weapon-Dragonbone_Mace.png/48px-SR-icon-weapon-Dragonbone_Mace.png",
+            "Damage": 22,
+            "weight": 2000,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "7f2a6181-a47b-48ff-9ac8-d12d82b8720a",
+            "Name": "Amber Mace",
+            "url": "https://images.uesp.net/thumb/0/0c/SR-icon-weapon-Amber_Mace.png/48px-SR-icon-weapon-Amber_Mace.png",
+            "Damage": 18,
+            "weight": 2100,
+            "value": 17,
+            "category_id": 1
+        },
+        {
+            "id": "db5457c9-a781-42f3-8c9a-50f099c56bf4",
+            "Name": "Madness Mace",
+            "url": "https://images.uesp.net/thumb/4/49/SR-icon-weapon-Madness_Mace.png/48px-SR-icon-weapon-Madness_Mace.png",
+            "Damage": 23,
+            "weight": 2200,
+            "value": 18,
+            "category_id": 1
+        },
+        {
+            "id": "63578fe7-43b6-401f-8bed-e6f1699f274c",
+            "Name": "Scourge",
+            "url": "https://images.uesp.net/thumb/4/4a/SR-icon-weapon-Scourge.png/48px-SR-icon-weapon-Scourge.png",
+            "Damage": 22,
+            "weight": 6569,
+            "value": 18,
+            "category_id": 1
+        },
+        {
+            "id": "2bc08425-69a0-495e-a31a-c340884b0b38",
+            "Name": "Fork of Horripilation",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Fork_of_Horripilation.png/48px-SR-icon-weapon-Fork_of_Horripilation.png",
+            "Damage": 6,
+            "weight": 500,
+            "value": 1,
+            "category_id": 1
+        },
+        {
+            "id": "22c50f9a-89b9-4658-ae9f-950a2026d591",
+            "Name": "Iron Dagger",
+            "url": "https://images.uesp.net/thumb/7/7e/SR-icon-weapon-Iron_Dagger.png/48px-SR-icon-weapon-Iron_Dagger.png",
+            "Damage": 2,
+            "weight": 10,
+            "value": 4,
+            "category_id": 1
+        },
+        {
+            "id": "dde17745-dd20-480e-b296-2b3c73a64645",
+            "Name": "Alessandra's Dagger",
+            "url": "https://images.uesp.net/thumb/7/7e/SR-icon-weapon-Iron_Dagger.png/48px-SR-icon-weapon-Iron_Dagger.png",
+            "Damage": 1,
+            "weight": 10,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "b7bbd68b-3855-4455-9f55-1c58f7c8033c",
+            "Name": "Shiv",
+            "url": "https://images.uesp.net/thumb/1/15/SR-icon-weapon-Shiv.png/48px-SR-icon-weapon-Shiv.png",
+            "Damage": 2,
+            "weight": 5,
+            "value": 5,
+            "category_id": 1
+        },
+        {
+            "id": "50f8aea3-0a2b-4515-8dac-f56e4e738197",
+            "Name": "Orcish Dagger",
+            "url": "https://images.uesp.net/thumb/b/ba/SR-icon-weapon-OrcishDagger.png/48px-SR-icon-weapon-OrcishDagger.png",
+            "Damage": 3,
+            "weight": 30,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "8f84e814-2ecb-445f-86a2-bed4b038df54",
+            "Name": "Dragon Priest Dagger",
+            "url": "https://images.uesp.net/thumb/6/66/SR-icon-weapon-Kahvozien%27sFang.png/48px-SR-icon-weapon-Kahvozien%27sFang.png",
+            "Damage": 5,
+            "weight": 9,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "baae09a1-bacb-447d-81bd-5bc59eda0d26",
+            "Name": "Kahvozein's Fang",
+            "url": "https://images.uesp.net/thumb/6/66/SR-icon-weapon-Kahvozien%27sFang.png/48px-SR-icon-weapon-Kahvozien%27sFang.png",
+            "Damage": 5,
+            "weight": 9,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "41b7e0b2-04c5-4f08-984f-38a77f93669e",
+            "Name": "Bound Dagger",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "42d5c5ee-9ef3-44d3-9c5d-6b45a39a42c2",
+            "Name": "Nettlebane",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-Nettlebane.png/48px-SR-icon-weapon-Nettlebane.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 6,
+            "category_id": 1
+        },
+        {
+            "id": "3e802d53-72e9-49c2-ab01-8d96726c762f",
+            "Name": "Nord Hero Dagger",
+            "url": "https://images.uesp.net/thumb/6/61/SR-icon-weapon-Ancient_Nord_Dagger.png/48px-SR-icon-weapon-Ancient_Nord_Dagger.png",
+            "Damage": 2,
+            "weight": 55,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "881a7f21-fd11-4fd3-82cd-08869eac0b5c",
+            "Name": "Elven Dagger",
+            "url": "https://images.uesp.net/thumb/4/4c/SR-icon-weapon-ElvenDagger.png/48px-SR-icon-weapon-ElvenDagger.png",
+            "Damage": 4,
+            "weight": 95,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "b606082d-fd83-4f6f-b003-4ef4ddbe9522",
+            "Name": "Borvir's Dagger",
+            "url": "https://images.uesp.net/thumb/4/4c/SR-icon-weapon-ElvenDagger.png/48px-SR-icon-weapon-ElvenDagger.png",
+            "Damage": 4,
+            "weight": 18,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "d92e5952-5872-4439-88df-b8d9804d9a92",
+            "Name": "Golden Dagger",
+            "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Golden_Dagger.png/48px-SR-icon-weapon-Golden_Dagger.png",
+            "Damage": 3,
+            "weight": 105,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "ea551bf0-f5bf-4dce-8411-62631297a4ec",
+            "Name": "Keening",
+            "url": "https://images.uesp.net/thumb/f/f8/SR-icon-weapon-Keening.png/48px-SR-icon-weapon-Keening.png",
+            "Damage": 4,
+            "weight": 13,
+            "value": 8,
+            "category_id": 1
+        },
+        {
+            "id": "436c42a0-8f6f-44bb-a2f7-7730ee8c7e94",
+            "Name": "Dark Dagger",
+            "url": "https://images.uesp.net/thumb/3/35/SR-icon-weapon-Dark_Dagger.png/48px-SR-icon-weapon-Dark_Dagger.png",
+            "Damage": 3,
+            "weight": 105,
+            "value": 9,
+            "category_id": 1
+        },
+        {
+            "id": "dcf79b47-ced3-479f-8a37-81acaf2dcfcb",
+            "Name": "Ebony Dagger",
+            "url": "https://images.uesp.net/thumb/e/e5/SR-icon-weapon-EbonyDagger.png/48px-SR-icon-weapon-EbonyDagger.png",
+            "Damage": 5,
+            "weight": 290,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "5c6a13f5-6c74-4127-b4fd-e1c3e15280d9",
+            "Name": "Blade of Sacrifice",
+            "url": "https://images.uesp.net/thumb/c/c1/SR-icon-weapon-BladeOfSacrifice.png/48px-SR-icon-weapon-BladeOfSacrifice.png",
+            "Damage": 4,
+            "weight": 144,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "b3b2cafe-a495-4d32-9262-16c5974c5ebf",
+            "Name": "Bound Dagger",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 10,
+            "category_id": 1
+        },
+        {
+            "id": "36888937-91a6-4142-b893-9f96607e6b72",
+            "Name": "Daedric Dagger",
+            "url": "https://images.uesp.net/thumb/7/79/SR-icon-weapon-DaedricDagger.png/48px-SR-icon-weapon-DaedricDagger.png",
+            "Damage": 6,
+            "weight": 500,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "3efb0f46-9005-400a-b90a-5c651d534bdf",
+            "Name": "Mehrunes' Razor",
+            "url": "https://images.uesp.net/thumb/a/ab/SR-icon-weapon-Mehrunes%27Razor.png/48px-SR-icon-weapon-Mehrunes%27Razor.png",
+            "Damage": 3,
+            "weight": 860,
+            "value": 11,
+            "category_id": 1
+        },
+        {
+            "id": "7ccfac24-7839-470f-985b-03ac72de004c",
+            "Name": "Blade of Woe",
+            "url": "https://images.uesp.net/thumb/c/cf/SR-icon-weapon-BladeOfWoe.png/48px-SR-icon-weapon-BladeOfWoe.png",
+            "Damage": 7,
+            "weight": 880,
+            "value": 12,
+            "category_id": 1
+        },
+        {
+            "id": "c9df44bd-3209-4e1d-ba90-0f3488f6a699",
+            "Name": "Madness Dagger",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Madness_Dagger.png/48px-SR-icon-weapon-Madness_Dagger.png",
+            "Damage": 7,
+            "weight": 800,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "965bb095-aa03-4ccd-ac6f-ccd363b63088",
+            "Name": "Fang of Haynekhtnamet",
+            "url": "https://images.uesp.net/thumb/4/41/SR-icon-weapon-Fang_of_Haynekhtnamet.png/48px-SR-icon-weapon-Fang_of_Haynekhtnamet.png",
+            "Damage": 7,
+            "weight": 800,
+            "value": 13,
+            "category_id": 1
+        },
+        {
+            "id": "76247126-8ccb-4f2d-826e-3390346fb88e",
+            "Name": "Ebony Blade",
+            "url": "https://images.uesp.net/thumb/b/bb/SR-icon-weapon-EbonyBlade.png/48px-SR-icon-weapon-EbonyBlade.png",
+            "Damage": 10,
+            "weight": 2000,
+            "value": 11,
+            "category_id": 2
+        },
+        {
+            "id": "aa3b0373-970f-4b98-acfe-0d2afe87729c",
+            "Name": "Iron Greatsword",
+            "url": "https://images.uesp.net/thumb/0/0a/SR-icon-weapon-Iron_Greatsword.png/48px-SR-icon-weapon-Iron_Greatsword.png",
+            "Damage": 16,
+            "weight": 50,
+            "value": 15,
+            "category_id": 2
+        },
+        {
+            "id": "b97fcca3-1d2b-46a2-851a-a2afe783b6cc",
+            "Name": "Steel Greatsword",
+            "url": "https://images.uesp.net/thumb/5/55/SR-icon-weapon-SteelGreatsword.png/48px-SR-icon-weapon-SteelGreatsword.png",
+            "Damage": 17,
+            "weight": 90,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "fd96d2ca-50b8-4db3-9b10-6bc4a078bf28",
+            "Name": "Stormfang",
+            "url": "https://images.uesp.net/thumb/5/55/SR-icon-weapon-SteelGreatsword.png/48px-SR-icon-weapon-SteelGreatsword.png",
+            "Damage": 17,
+            "weight": 1175,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "103d1be2-77a1-4835-827b-04718df89c1d",
+            "Name": "Balgruuf's Greatsword",
+            "url": "https://images.uesp.net/thumb/5/55/SR-icon-weapon-SteelGreatsword.png/48px-SR-icon-weapon-SteelGreatsword.png",
+            "Damage": 17,
+            "weight": 200,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "0bab744e-aac1-4aed-90ec-644e93f750c7",
+            "Name": "Ice Blade of the Monarch",
+            "url": "https://images.uesp.net/thumb/5/52/SR-icon-weapon-Ice_Blade_of_the_Monarch.png/48px-SR-icon-weapon-Ice_Blade_of_the_Monarch.png",
+            "Damage": 17,
+            "weight": 1360,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "a7aa163b-07d2-4583-a309-113b942ec6b9",
+            "Name": "Silver Greatsword",
+            "url": "https://images.uesp.net/thumb/d/d6/SR-icon-weapon-SilverGreatsword.png/48px-SR-icon-weapon-SilverGreatsword.png",
+            "Damage": 12,
+            "weight": 160,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "be779c5b-69a1-4015-bd56-fc11fc2831b5",
+            "Name": "Ancient Nord Greatsword",
+            "url": "https://images.uesp.net/thumb/e/e2/SR-icon-weapon-AncientNordGreatsword.png/48px-SR-icon-weapon-AncientNordGreatsword.png",
+            "Damage": 18,
+            "weight": 35,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "e69af97b-89bf-4912-8806-ad130caeb7be",
+            "Name": "Orcish Greatsword",
+            "url": "https://images.uesp.net/thumb/1/13/SR-icon-weapon-OrcishGreatsword.png/48px-SR-icon-weapon-OrcishGreatsword.png",
+            "Damage": 18,
+            "weight": 75,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "447c907c-d6a4-44bd-bd4e-64bd2c80cca9",
+            "Name": "Dwarven Greatsword",
+            "url": "https://images.uesp.net/thumb/f/f9/SR-icon-weapon-DwarvenGreatsword.png/48px-SR-icon-weapon-DwarvenGreatsword.png",
+            "Damage": 19,
+            "weight": 270,
+            "value": 19,
+            "category_id": 2
+        },
+        {
+            "id": "176ea028-de8e-4cef-a2ce-47de0c3bf20c",
+            "Name": "Nord Hero Greatsword",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-NordHeroGreatsword.png/48px-SR-icon-weapon-NordHeroGreatsword.png",
+            "Damage": 16,
+            "weight": 250,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "12a91e6e-a26f-4a32-abd4-c440cb270138",
+            "Name": "Skyforge Steel Greatsword",
+            "url": "https://images.uesp.net/thumb/5/55/SR-icon-weapon-SteelGreatsword.png/48px-SR-icon-weapon-SteelGreatsword.png",
+            "Damage": 17,
+            "weight": 140,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "8d033ee7-c3e5-410b-afbf-afa5c060b2d6",
+            "Name": "Elven Greatsword",
+            "url": "https://images.uesp.net/thumb/5/5e/SR-icon-weapon-ElvenGreatsword.png/48px-SR-icon-weapon-ElvenGreatsword.png",
+            "Damage": 20,
+            "weight": 470,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "4d9df4e2-3999-4d5c-a1c8-2d949d44e733",
+            "Name": "Nordic Greatsword",
+            "url": "https://images.uesp.net/thumb/6/6e/SR-icon-weapon-Nordic_Greatsword.png/48px-SR-icon-weapon-Nordic_Greatsword.png",
+            "Damage": 19,
+            "weight": 585,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "cb94cdd8-ead6-4dc9-a41f-2699dfbd3c59",
+            "Name": "Dark Greatsword",
+            "url": "https://images.uesp.net/thumb/1/1f/SR-icon-weapon-Dark_Greatsword.png/48px-SR-icon-weapon-Dark_Greatsword.png",
+            "Damage": 18,
+            "weight": 510,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "ec47a4cb-c649-4b37-9b23-143c1b278301",
+            "Name": "Honed Ancient Nord Greatsword",
+            "url": "https://images.uesp.net/thumb/e/e2/SR-icon-weapon-AncientNordGreatsword.png/48px-SR-icon-weapon-AncientNordGreatsword.png",
+            "Damage": 21,
+            "weight": 63,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "a8620cfb-ce38-4f65-a9ba-5775622e8073",
+            "Name": "Golden Greatsword",
+            "url": "https://images.uesp.net/thumb/5/5b/SR-icon-weapon-Golden_Greatsword.png/48px-SR-icon-weapon-Golden_Greatsword.png",
+            "Damage": 18,
+            "weight": 510,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "2c97f952-2a84-477b-ad21-9b281e657173",
+            "Name": "Glass Greatsword",
+            "url": "https://images.uesp.net/thumb/3/3b/SR-icon-weapon-Glass_Greatsword.png/48px-SR-icon-weapon-Glass_Greatsword.png",
+            "Damage": 22,
+            "weight": 820,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "dd58517b-a3a9-4933-9982-3243259668ad",
+            "Name": "Bloodskal Blade",
+            "url": "https://images.uesp.net/thumb/1/1f/SR-icon-weapon-Bloodskal_Blade.png/48px-SR-icon-weapon-Bloodskal_Blade.png",
+            "Damage": 16,
+            "weight": 500,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "36966646-5879-40dd-990f-81ef0eaeb611",
+            "Name": "Ebony Greatsword",
+            "url": "https://images.uesp.net/thumb/f/f5/SR-icon-weapon-EbonyGreatsword.png/48px-SR-icon-weapon-EbonyGreatsword.png",
+            "Damage": 22,
+            "weight": 1440,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "9fd52e3a-dd70-4407-bcd4-651d8eb9ee6e",
+            "Name": "Magebane",
+            "url": "https://images.uesp.net/thumb/7/70/SR-icon-weapon-Magebane.png/48px-SR-icon-weapon-Magebane.png",
+            "Damage": 20,
+            "weight": 1938,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "e7bbffe6-a0df-4d21-a4e4-e8927a95da94",
+            "Name": "Stalhrim Greatsword",
+            "url": "https://images.uesp.net/thumb/0/02/SR-icon-weapon-Stalhrim_Greatsword.png/48px-SR-icon-weapon-Stalhrim_Greatsword.png",
+            "Damage": 21,
+            "weight": 1970,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "53c883b9-fccf-46da-8aa6-88d83320ee0a",
+            "Name": "Daedric Greatsword",
+            "url": "https://images.uesp.net/thumb/b/b0/SR-icon-weapon-DaedricGreatsword.png/48px-SR-icon-weapon-DaedricGreatsword.png",
+            "Damage": 23,
+            "weight": 2500,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "8ebe8dbd-8faf-4d6d-9d1b-be57cdd102da",
+            "Name": "Umbra",
+            "url": "https://images.uesp.net/thumb/1/1b/SR-icon-weapon-Umbra.png/48px-SR-icon-weapon-Umbra.png",
+            "Damage": 23,
+            "weight": 4647,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "d3a3a5f5-ddfd-4218-a4bd-ebd20e2a9f84",
+            "Name": "Dragonbone Greatsword",
+            "url": "https://images.uesp.net/thumb/c/c4/SR-icon-weapon-Dragonbone_Greatsword.png/48px-SR-icon-weapon-Dragonbone_Greatsword.png",
+            "Damage": 27,
+            "weight": 2725,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "8cc6f209-760f-42e2-b761-0688de5a3f76",
+            "Name": "Amber Greatsword",
+            "url": "https://images.uesp.net/thumb/c/c5/SR-icon-weapon-Amber_Greatsword.png/48px-SR-icon-weapon-Amber_Greatsword.png",
+            "Damage": 22,
+            "weight": 2925,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "d365fb0a-09bd-4311-b9b6-a68cf890bfe7",
+            "Name": "Chrysamere",
+            "url": "https://images.uesp.net/thumb/1/12/SR-icon-weapon-Chrysamere.png/48px-SR-icon-weapon-Chrysamere.png",
+            "Damage": 20,
+            "weight": 3288,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "ac036c59-d1aa-4f62-a497-a2e43a263769",
+            "Name": "Sword of Jyggalag",
+            "url": "https://images.uesp.net/thumb/a/ac/SR-icon-weapon-Sword_of_Jyggalag.png/48px-SR-icon-weapon-Sword_of_Jyggalag.png",
+            "Damage": 25,
+            "weight": 3200,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "ed71a7b8-1af0-4e83-b1d6-6e938ffbb63d",
+            "Name": "Shadowrend",
+            "url": "https://images.uesp.net/thumb/3/38/SR-icon-weapon-Shadowrend_%28Claymore%29.png/48px-SR-icon-weapon-Shadowrend_%28Claymore%29.png",
+            "Damage": 23,
+            "weight": 2500,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "676f8d76-f8c1-41ff-84ec-a151b86ad7b7",
+            "Name": "Madness Greatsword",
+            "url": "https://images.uesp.net/thumb/b/b6/SR-icon-weapon-Madness_Greatsword.png/48px-SR-icon-weapon-Madness_Greatsword.png",
+            "Damage": 28,
+            "weight": 3100,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "1c09f42b-baaf-486d-bcb9-f3c0a5924b9b",
+            "Name": "Iron Battleaxe",
+            "url": "https://images.uesp.net/thumb/b/bf/SR-icon-weapon-Iron_Battleaxe.png/48px-SR-icon-weapon-Iron_Battleaxe.png",
+            "Damage": 20,
+            "weight": 55,
+            "value": 16,
+            "category_id": 2
+        },
+        {
+            "id": "cfe3e675-8add-4a81-af6b-4d50acd97a8f",
+            "Name": "The Woodsman's Friend",
+            "url": "https://images.uesp.net/thumb/d/d6/SR-icon-weapon-TheWoodsman%27sFriend.png/48px-SR-icon-weapon-TheWoodsman%27sFriend.png",
+            "Damage": 20,
+            "weight": 28,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "f54cf8a1-a83d-4963-8f71-07cf2ded9508",
+            "Name": "Bound Battleaxe",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "ed4fc7e2-256a-4903-a31a-1a761aecee4b",
+            "Name": "Headsman's Axe",
+            "url": "https://images.uesp.net/thumb/5/53/SR-icon-weapon-Headsman%27sAxe.png/48px-SR-icon-weapon-Headsman%27sAxe.png",
+            "Damage": 11,
+            "weight": 15,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "85b257f0-47ee-4282-8d1b-3fde906ebbaa",
+            "Name": "Steel Battleaxe",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-SteelBattleaxe.png/48px-SR-icon-weapon-SteelBattleaxe.png",
+            "Damage": 21,
+            "weight": 100,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "efe4d527-71c0-4c67-ab32-c2817a0fe53b",
+            "Name": "Steel Battleaxe of Fiery Souls",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-SteelBattleaxe.png/48px-SR-icon-weapon-SteelBattleaxe.png",
+            "Damage": 21,
+            "weight": 320,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "ca745671-889a-4a33-b862-b9c1e070c7f8",
+            "Name": "Ancient Nord Battle Axe",
+            "url": "https://images.uesp.net/thumb/0/05/SR-icon-weapon-AncientNordBattleAxe.png/48px-SR-icon-weapon-AncientNordBattleAxe.png",
+            "Damage": 22,
+            "weight": 28,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "39b6a3e1-ddb3-4d8b-a88d-b6b8129d0b42",
+            "Name": "Orcish Battleaxe",
+            "url": "https://images.uesp.net/thumb/6/6f/SR-icon-weapon-OrcishBattleaxe.png/48px-SR-icon-weapon-OrcishBattleaxe.png",
+            "Damage": 25,
+            "weight": 165,
+            "value": 19,
+            "category_id": 2
+        },
+        {
+            "id": "af245977-3faf-4e94-be6c-6e1345dcd4ed",
+            "Name": "Dwarven Battleaxe",
+            "url": "https://images.uesp.net/thumb/5/5d/SR-icon-weapon-DwarvenBattleaxe.png/48px-SR-icon-weapon-DwarvenBattleaxe.png",
+            "Damage": 23,
+            "weight": 300,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "415e4f3f-59b9-4328-9719-209664d1faf3",
+            "Name": "Nord Hero Battle Axe",
+            "url": "https://images.uesp.net/thumb/2/22/SR-icon-weapon-NordHeroBattleAxe.png/48px-SR-icon-weapon-NordHeroBattleAxe.png",
+            "Damage": 20,
+            "weight": 300,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "4a3b01d3-216d-405b-a3c5-404ac4122547",
+            "Name": "Skyforge Steel Battleaxe",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-SteelBattleaxe.png/48px-SR-icon-weapon-SteelBattleaxe.png",
+            "Damage": 21,
+            "weight": 150,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "3bda305d-a9af-4834-aeca-71afec956299",
+            "Name": "Elven Battleaxe",
+            "url": "https://images.uesp.net/thumb/2/2b/SR-icon-weapon-ElvenBattleaxe.png/48px-SR-icon-weapon-ElvenBattleaxe.png",
+            "Damage": 24,
+            "weight": 520,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "6e387084-ae13-4d5f-a2ee-f52d8fea8740",
+            "Name": "Nordic Battleaxe",
+            "url": "https://images.uesp.net/thumb/5/51/SR-icon-weapon-Nordic_Battleaxe.png/48px-SR-icon-weapon-Nordic_Battleaxe.png",
+            "Damage": 23,
+            "weight": 650,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "c0a6c79c-4948-4040-ba83-2897f3396752",
+            "Name": "Dark Battleaxe",
+            "url": "https://images.uesp.net/thumb/e/e6/SR-icon-weapon-Dark_Battleaxe.png/48px-SR-icon-weapon-Dark_Battleaxe.png",
+            "Damage": 22,
+            "weight": 575,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "3cdc2a5a-b810-49e8-bb7c-407e499866d3",
+            "Name": "Drainblood Battleaxe",
+            "url": "https://images.uesp.net/thumb/0/07/SR-icon-weapon-DrainbloodBattleaxe.png/48px-SR-icon-weapon-DrainbloodBattleaxe.png",
+            "Damage": 5,
+            "weight": 266,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "67a123e2-6752-473d-bfd7-966ba7e7cc68",
+            "Name": "Honed Ancient Nord Battle Axe",
+            "url": "https://images.uesp.net/thumb/0/05/SR-icon-weapon-AncientNordBattleAxe.png/48px-SR-icon-weapon-AncientNordBattleAxe.png",
+            "Damage": 25,
+            "weight": 50,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "cf952f8e-f896-42b0-acdb-78f8e5ec6db4",
+            "Name": "Golden Battleaxe",
+            "url": "https://images.uesp.net/thumb/2/25/SR-icon-weapon-Golden_Battleaxe.png/48px-SR-icon-weapon-Golden_Battleaxe.png",
+            "Damage": 22,
+            "weight": 575,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "84ae6ad2-2f2b-4563-93c6-1addf66fea30",
+            "Name": "Glass Battleaxe",
+            "url": "https://images.uesp.net/thumb/4/4d/SR-icon-weapon-Glass_Battleaxe.png/48px-SR-icon-weapon-Glass_Battleaxe.png",
+            "Damage": 25,
+            "weight": 900,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "18c3e6e4-0ab0-46cc-af22-87188f7ab63f",
+            "Name": "The Rueful Axe",
+            "url": "https://images.uesp.net/thumb/2/2c/SR-icon-weapon-The_Rueful_Axe.png/48px-SR-icon-weapon-The_Rueful_Axe.png",
+            "Damage": 10,
+            "weight": 1183,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "74959197-a70e-49a0-910d-6e6056f236ec",
+            "Name": "Bound Battleaxe",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "b0e636f2-a45c-4357-96cf-721a54fd071f",
+            "Name": "Ebony Battleaxe",
+            "url": "https://images.uesp.net/thumb/8/8f/SR-icon-weapon-EbonyBattleaxe.png/48px-SR-icon-weapon-EbonyBattleaxe.png",
+            "Damage": 26,
+            "weight": 1585,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "47775726-354d-4df2-bdb9-0fa7f3fa1dc2",
+            "Name": "Stalhrim Battleaxe",
+            "url": "https://images.uesp.net/thumb/7/70/SR-icon-weapon-Stalhrim_Battleaxe.png/48px-SR-icon-weapon-Stalhrim_Battleaxe.png",
+            "Damage": 25,
+            "weight": 2150,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "f7da64b6-3cb2-459b-b983-86caf37beeb7",
+            "Name": "Daedric Battleaxe",
+            "url": "https://images.uesp.net/thumb/c/c7/SR-icon-weapon-DaedricBattleaxe.png/48px-SR-icon-weapon-DaedricBattleaxe.png",
+            "Damage": 27,
+            "weight": 2750,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "c9ce0864-9b38-4595-9535-af83f57c4d43",
+            "Name": "Wuuthrad",
+            "url": "https://images.uesp.net/thumb/5/5a/SR-icon-weapon-Wuuthrad.png/48px-SR-icon-weapon-Wuuthrad.png",
+            "Damage": 25,
+            "weight": 2000,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "63c99cc5-083a-4a7a-9fef-98699816be80",
+            "Name": "Headman's Cleaver",
+            "url": "https://images.uesp.net/thumb/1/10/SR-icon-weapon-Headman%27s_Cleaver.png/48px-SR-icon-weapon-Headman%27s_Cleaver.png",
+            "Damage": 24,
+            "weight": 2900,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "aecd3d7e-3420-4427-879c-c968714a7406",
+            "Name": "Amber Battleaxe",
+            "url": "https://images.uesp.net/thumb/d/de/SR-icon-weapon-Amber_Battleaxe.png/48px-SR-icon-weapon-Amber_Battleaxe.png",
+            "Damage": 24,
+            "weight": 1600,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "2b8edea2-62b2-4c08-9a35-d1f23a39facc",
+            "Name": "Dragonbone Battleaxe",
+            "url": "https://images.uesp.net/thumb/4/46/SR-icon-weapon-Dragonbone_Battleaxe.png/48px-SR-icon-weapon-Dragonbone_Battleaxe.png",
+            "Damage": 30,
+            "weight": 3000,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "0cf13ca6-7e96-4053-8c0e-824cb3b07146",
+            "Name": "Shadowrend",
+            "url": "https://images.uesp.net/thumb/d/db/SR-icon-weapon-Shadowrend_%28Battleaxe%29.png/48px-SR-icon-weapon-Shadowrend_%28Battleaxe%29.png",
+            "Damage": 27,
+            "weight": 2750,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "5e713ed2-c7db-42af-8ef9-787abc685593",
+            "Name": "Madness Battleaxe",
+            "url": "https://images.uesp.net/thumb/6/64/SR-icon-weapon-Madness_Battleaxe.png/48px-SR-icon-weapon-Madness_Battleaxe.png",
+            "Damage": 31,
+            "weight": 3300,
+            "value": 27,
+            "category_id": 2
+        },
+        {
+            "id": "7453449c-4917-4768-b110-65d8ba16a05f",
+            "Name": "Tsun's Judgement",
+            "url": "https://images.uesp.net/thumb/b/ba/SR-icon-weapon-Tsun%27s_Judgement.png/48px-SR-icon-weapon-Tsun%27s_Judgement.png",
+            "Damage": 31,
+            "weight": 3300,
+            "value": 27,
+            "category_id": 2
+        },
+        {
+            "id": "3a888771-9184-43b4-bf3e-20f8146d83c6",
+            "Name": "Ebony Blade",
+            "url": "https://images.uesp.net/thumb/b/bb/SR-icon-weapon-EbonyBlade.png/48px-SR-icon-weapon-EbonyBlade.png",
+            "Damage": 10,
+            "weight": 2000,
+            "value": 11,
+            "category_id": 2
+        },
+        {
+            "id": "691ff517-79c2-45f5-9e12-1bb041f1d49a",
+            "Name": "Iron Greatsword",
+            "url": "https://images.uesp.net/thumb/0/0a/SR-icon-weapon-Iron_Greatsword.png/48px-SR-icon-weapon-Iron_Greatsword.png",
+            "Damage": 16,
+            "weight": 50,
+            "value": 15,
+            "category_id": 2
+        },
+        {
+            "id": "cc881351-32b1-4c57-9591-2e27c533462c",
+            "Name": "Steel Greatsword",
+            "url": "https://images.uesp.net/thumb/5/55/SR-icon-weapon-SteelGreatsword.png/48px-SR-icon-weapon-SteelGreatsword.png",
+            "Damage": 17,
+            "weight": 90,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "e490e40b-77ca-482d-94c4-d893821e4008",
+            "Name": "Stormfang",
+            "url": "https://images.uesp.net/thumb/5/55/SR-icon-weapon-SteelGreatsword.png/48px-SR-icon-weapon-SteelGreatsword.png",
+            "Damage": 17,
+            "weight": 1175,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "b921dd79-590c-4e23-81f1-33e518f1c4ab",
+            "Name": "Balgruuf's Greatsword",
+            "url": "https://images.uesp.net/thumb/5/55/SR-icon-weapon-SteelGreatsword.png/48px-SR-icon-weapon-SteelGreatsword.png",
+            "Damage": 17,
+            "weight": 200,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "0b627a43-fd2b-47ae-87b3-60fef684bf33",
+            "Name": "Ice Blade of the Monarch",
+            "url": "https://images.uesp.net/thumb/5/52/SR-icon-weapon-Ice_Blade_of_the_Monarch.png/48px-SR-icon-weapon-Ice_Blade_of_the_Monarch.png",
+            "Damage": 17,
+            "weight": 1360,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "3ac49858-1558-488e-89ee-d10790cbf198",
+            "Name": "Silver Greatsword",
+            "url": "https://images.uesp.net/thumb/d/d6/SR-icon-weapon-SilverGreatsword.png/48px-SR-icon-weapon-SilverGreatsword.png",
+            "Damage": 12,
+            "weight": 160,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "9773ac7b-8b7c-43a9-b33c-d27db3e6d1ca",
+            "Name": "Ancient Nord Greatsword",
+            "url": "https://images.uesp.net/thumb/e/e2/SR-icon-weapon-AncientNordGreatsword.png/48px-SR-icon-weapon-AncientNordGreatsword.png",
+            "Damage": 18,
+            "weight": 35,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "077d26d6-7de1-468b-b198-3f90c32f78b9",
+            "Name": "Orcish Greatsword",
+            "url": "https://images.uesp.net/thumb/1/13/SR-icon-weapon-OrcishGreatsword.png/48px-SR-icon-weapon-OrcishGreatsword.png",
+            "Damage": 18,
+            "weight": 75,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "ad37e83b-fe1f-4741-9a3b-be09ec6da3cf",
+            "Name": "Dwarven Greatsword",
+            "url": "https://images.uesp.net/thumb/f/f9/SR-icon-weapon-DwarvenGreatsword.png/48px-SR-icon-weapon-DwarvenGreatsword.png",
+            "Damage": 19,
+            "weight": 270,
+            "value": 19,
+            "category_id": 2
+        },
+        {
+            "id": "ee337790-16cc-4fba-aa38-87815ddc0eea",
+            "Name": "Nord Hero Greatsword",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-NordHeroGreatsword.png/48px-SR-icon-weapon-NordHeroGreatsword.png",
+            "Damage": 16,
+            "weight": 250,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "b8529e91-d760-42cd-84c2-b931375496de",
+            "Name": "Skyforge Steel Greatsword",
+            "url": "https://images.uesp.net/thumb/5/55/SR-icon-weapon-SteelGreatsword.png/48px-SR-icon-weapon-SteelGreatsword.png",
+            "Damage": 17,
+            "weight": 140,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "ff72b143-121c-45cd-b5ca-bf51337e74b1",
+            "Name": "Elven Greatsword",
+            "url": "https://images.uesp.net/thumb/5/5e/SR-icon-weapon-ElvenGreatsword.png/48px-SR-icon-weapon-ElvenGreatsword.png",
+            "Damage": 20,
+            "weight": 470,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "6ff0e29f-4a0b-4a22-ba0c-31c34e8cf453",
+            "Name": "Nordic Greatsword",
+            "url": "https://images.uesp.net/thumb/6/6e/SR-icon-weapon-Nordic_Greatsword.png/48px-SR-icon-weapon-Nordic_Greatsword.png",
+            "Damage": 19,
+            "weight": 585,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "9578b48e-9bda-468d-bc1e-777e4f71dce4",
+            "Name": "Dark Greatsword",
+            "url": "https://images.uesp.net/thumb/1/1f/SR-icon-weapon-Dark_Greatsword.png/48px-SR-icon-weapon-Dark_Greatsword.png",
+            "Damage": 18,
+            "weight": 510,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "afebb464-d84f-48ac-8a39-99241d823a27",
+            "Name": "Honed Ancient Nord Greatsword",
+            "url": "https://images.uesp.net/thumb/e/e2/SR-icon-weapon-AncientNordGreatsword.png/48px-SR-icon-weapon-AncientNordGreatsword.png",
+            "Damage": 21,
+            "weight": 63,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "acfef89e-ad62-4494-bda4-d0c55ff313fb",
+            "Name": "Golden Greatsword",
+            "url": "https://images.uesp.net/thumb/5/5b/SR-icon-weapon-Golden_Greatsword.png/48px-SR-icon-weapon-Golden_Greatsword.png",
+            "Damage": 18,
+            "weight": 510,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "dc86f757-9290-41d0-b0b2-62d4c3bef943",
+            "Name": "Glass Greatsword",
+            "url": "https://images.uesp.net/thumb/3/3b/SR-icon-weapon-Glass_Greatsword.png/48px-SR-icon-weapon-Glass_Greatsword.png",
+            "Damage": 22,
+            "weight": 820,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "696cd9b4-0e44-4c67-9716-78a462a4811f",
+            "Name": "Bloodskal Blade",
+            "url": "https://images.uesp.net/thumb/1/1f/SR-icon-weapon-Bloodskal_Blade.png/48px-SR-icon-weapon-Bloodskal_Blade.png",
+            "Damage": 16,
+            "weight": 500,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "e31836da-672b-4583-ae5a-78d589d16605",
+            "Name": "Ebony Greatsword",
+            "url": "https://images.uesp.net/thumb/f/f5/SR-icon-weapon-EbonyGreatsword.png/48px-SR-icon-weapon-EbonyGreatsword.png",
+            "Damage": 22,
+            "weight": 1440,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "309b4cf1-52b9-494c-b269-24431f7dd37e",
+            "Name": "Magebane",
+            "url": "https://images.uesp.net/thumb/7/70/SR-icon-weapon-Magebane.png/48px-SR-icon-weapon-Magebane.png",
+            "Damage": 20,
+            "weight": 1938,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "f9e9d061-c520-4cc9-9540-191f4b478fb0",
+            "Name": "Stalhrim Greatsword",
+            "url": "https://images.uesp.net/thumb/0/02/SR-icon-weapon-Stalhrim_Greatsword.png/48px-SR-icon-weapon-Stalhrim_Greatsword.png",
+            "Damage": 21,
+            "weight": 1970,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "ce5ef8ff-fb76-40c2-ad29-6b92a2982bb8",
+            "Name": "Daedric Greatsword",
+            "url": "https://images.uesp.net/thumb/b/b0/SR-icon-weapon-DaedricGreatsword.png/48px-SR-icon-weapon-DaedricGreatsword.png",
+            "Damage": 23,
+            "weight": 2500,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "2511e216-245d-464b-8b1a-db640e601636",
+            "Name": "Umbra",
+            "url": "https://images.uesp.net/thumb/1/1b/SR-icon-weapon-Umbra.png/48px-SR-icon-weapon-Umbra.png",
+            "Damage": 23,
+            "weight": 4647,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "0738d319-a52f-4892-be5e-084d9395e35d",
+            "Name": "Dragonbone Greatsword",
+            "url": "https://images.uesp.net/thumb/c/c4/SR-icon-weapon-Dragonbone_Greatsword.png/48px-SR-icon-weapon-Dragonbone_Greatsword.png",
+            "Damage": 27,
+            "weight": 2725,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "641d85bc-7fc5-4e2a-9dd0-3342e32a2df4",
+            "Name": "Amber Greatsword",
+            "url": "https://images.uesp.net/thumb/c/c5/SR-icon-weapon-Amber_Greatsword.png/48px-SR-icon-weapon-Amber_Greatsword.png",
+            "Damage": 22,
+            "weight": 2925,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "8124314a-bd51-4279-848e-d530264351bf",
+            "Name": "Chrysamere",
+            "url": "https://images.uesp.net/thumb/1/12/SR-icon-weapon-Chrysamere.png/48px-SR-icon-weapon-Chrysamere.png",
+            "Damage": 20,
+            "weight": 3288,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "06df7343-fbc2-4dfb-91a8-f3f37562faca",
+            "Name": "Sword of Jyggalag",
+            "url": "https://images.uesp.net/thumb/a/ac/SR-icon-weapon-Sword_of_Jyggalag.png/48px-SR-icon-weapon-Sword_of_Jyggalag.png",
+            "Damage": 25,
+            "weight": 3200,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "2230580c-7c0a-46c9-8351-adb5fe73f545",
+            "Name": "Shadowrend",
+            "url": "https://images.uesp.net/thumb/3/38/SR-icon-weapon-Shadowrend_%28Claymore%29.png/48px-SR-icon-weapon-Shadowrend_%28Claymore%29.png",
+            "Damage": 23,
+            "weight": 2500,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "e20107ae-1deb-4405-b2bf-6c9e813a7cb6",
+            "Name": "Madness Greatsword",
+            "url": "https://images.uesp.net/thumb/b/b6/SR-icon-weapon-Madness_Greatsword.png/48px-SR-icon-weapon-Madness_Greatsword.png",
+            "Damage": 28,
+            "weight": 3100,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "47bdc21e-a53e-4167-89e4-81e7477d6540",
+            "Name": "Iron Battleaxe",
+            "url": "https://images.uesp.net/thumb/b/bf/SR-icon-weapon-Iron_Battleaxe.png/48px-SR-icon-weapon-Iron_Battleaxe.png",
+            "Damage": 20,
+            "weight": 55,
+            "value": 16,
+            "category_id": 2
+        },
+        {
+            "id": "4704b1f9-1e00-4839-b975-40b2316ca69f",
+            "Name": "The Woodsman's Friend",
+            "url": "https://images.uesp.net/thumb/d/d6/SR-icon-weapon-TheWoodsman%27sFriend.png/48px-SR-icon-weapon-TheWoodsman%27sFriend.png",
+            "Damage": 20,
+            "weight": 28,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "353a59bd-e5a6-449b-9bfd-ca7bcbbb4a66",
+            "Name": "Bound Battleaxe",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "97bf6c86-f131-42eb-a1da-eb9727615e9c",
+            "Name": "Headsman's Axe",
+            "url": "https://images.uesp.net/thumb/5/53/SR-icon-weapon-Headsman%27sAxe.png/48px-SR-icon-weapon-Headsman%27sAxe.png",
+            "Damage": 11,
+            "weight": 15,
+            "value": 17,
+            "category_id": 2
+        },
+        {
+            "id": "297542f4-4f64-4a96-9dfb-a61b768f05c0",
+            "Name": "Steel Battleaxe",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-SteelBattleaxe.png/48px-SR-icon-weapon-SteelBattleaxe.png",
+            "Damage": 21,
+            "weight": 100,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "f988f6cc-0007-4fd7-9c80-8bc929accd2e",
+            "Name": "Steel Battleaxe of Fiery Souls",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-SteelBattleaxe.png/48px-SR-icon-weapon-SteelBattleaxe.png",
+            "Damage": 21,
+            "weight": 320,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "369a4f37-72ea-4d9a-ae2f-8fd3ea06b552",
+            "Name": "Ancient Nord Battle Axe",
+            "url": "https://images.uesp.net/thumb/0/05/SR-icon-weapon-AncientNordBattleAxe.png/48px-SR-icon-weapon-AncientNordBattleAxe.png",
+            "Damage": 22,
+            "weight": 28,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "fb887f7b-4e48-47a9-9ea3-a5aa1dc530cb",
+            "Name": "Orcish Battleaxe",
+            "url": "https://images.uesp.net/thumb/6/6f/SR-icon-weapon-OrcishBattleaxe.png/48px-SR-icon-weapon-OrcishBattleaxe.png",
+            "Damage": 25,
+            "weight": 165,
+            "value": 19,
+            "category_id": 2
+        },
+        {
+            "id": "5fa7de32-2551-4a37-8a65-101be894eac5",
+            "Name": "Dwarven Battleaxe",
+            "url": "https://images.uesp.net/thumb/5/5d/SR-icon-weapon-DwarvenBattleaxe.png/48px-SR-icon-weapon-DwarvenBattleaxe.png",
+            "Damage": 23,
+            "weight": 300,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "ee921b79-143d-499a-a096-f398c365f48d",
+            "Name": "Nord Hero Battle Axe",
+            "url": "https://images.uesp.net/thumb/2/22/SR-icon-weapon-NordHeroBattleAxe.png/48px-SR-icon-weapon-NordHeroBattleAxe.png",
+            "Damage": 20,
+            "weight": 300,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "386524d3-ca68-4bd7-95c9-eef63672424c",
+            "Name": "Skyforge Steel Battleaxe",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-SteelBattleaxe.png/48px-SR-icon-weapon-SteelBattleaxe.png",
+            "Damage": 21,
+            "weight": 150,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "e86916d4-339b-4d15-b35e-79bc97a608bf",
+            "Name": "Elven Battleaxe",
+            "url": "https://images.uesp.net/thumb/2/2b/SR-icon-weapon-ElvenBattleaxe.png/48px-SR-icon-weapon-ElvenBattleaxe.png",
+            "Damage": 24,
+            "weight": 520,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "ce00bda5-d756-4954-abcf-02ca462292c8",
+            "Name": "Nordic Battleaxe",
+            "url": "https://images.uesp.net/thumb/5/51/SR-icon-weapon-Nordic_Battleaxe.png/48px-SR-icon-weapon-Nordic_Battleaxe.png",
+            "Damage": 23,
+            "weight": 650,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "49a39227-4378-4574-b83a-e59224042d78",
+            "Name": "Dark Battleaxe",
+            "url": "https://images.uesp.net/thumb/e/e6/SR-icon-weapon-Dark_Battleaxe.png/48px-SR-icon-weapon-Dark_Battleaxe.png",
+            "Damage": 22,
+            "weight": 575,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "f75cb92d-fa23-49db-8739-853f06112a58",
+            "Name": "Drainblood Battleaxe",
+            "url": "https://images.uesp.net/thumb/0/07/SR-icon-weapon-DrainbloodBattleaxe.png/48px-SR-icon-weapon-DrainbloodBattleaxe.png",
+            "Damage": 5,
+            "weight": 266,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "c541b8a5-6ff5-49cb-900f-925081175e59",
+            "Name": "Honed Ancient Nord Battle Axe",
+            "url": "https://images.uesp.net/thumb/0/05/SR-icon-weapon-AncientNordBattleAxe.png/48px-SR-icon-weapon-AncientNordBattleAxe.png",
+            "Damage": 25,
+            "weight": 50,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "fff5f27b-3dc7-4e32-8a72-d25d66e87b8d",
+            "Name": "Golden Battleaxe",
+            "url": "https://images.uesp.net/thumb/2/25/SR-icon-weapon-Golden_Battleaxe.png/48px-SR-icon-weapon-Golden_Battleaxe.png",
+            "Damage": 22,
+            "weight": 575,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "063701ce-c96e-45d7-b505-70e3a4e797df",
+            "Name": "Glass Battleaxe",
+            "url": "https://images.uesp.net/thumb/4/4d/SR-icon-weapon-Glass_Battleaxe.png/48px-SR-icon-weapon-Glass_Battleaxe.png",
+            "Damage": 25,
+            "weight": 900,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "8ec1f0c5-f526-4fa7-b84a-6c20f591bbdc",
+            "Name": "The Rueful Axe",
+            "url": "https://images.uesp.net/thumb/2/2c/SR-icon-weapon-The_Rueful_Axe.png/48px-SR-icon-weapon-The_Rueful_Axe.png",
+            "Damage": 10,
+            "weight": 1183,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "187248d4-7597-4076-b494-dc275dc28885",
+            "Name": "Bound Battleaxe",
+            "url": "",
+            "Damage": 0,
+            "weight": 0,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "efd1b2c5-f9d9-47f6-99db-1587ff1ffad3",
+            "Name": "Ebony Battleaxe",
+            "url": "https://images.uesp.net/thumb/8/8f/SR-icon-weapon-EbonyBattleaxe.png/48px-SR-icon-weapon-EbonyBattleaxe.png",
+            "Damage": 26,
+            "weight": 1585,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "b6f37cd7-bfe4-4856-abec-bcfc58b698a0",
+            "Name": "Stalhrim Battleaxe",
+            "url": "https://images.uesp.net/thumb/7/70/SR-icon-weapon-Stalhrim_Battleaxe.png/48px-SR-icon-weapon-Stalhrim_Battleaxe.png",
+            "Damage": 25,
+            "weight": 2150,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "0112a14b-2bf1-4e41-95a4-06c1e21d7759",
+            "Name": "Daedric Battleaxe",
+            "url": "https://images.uesp.net/thumb/c/c7/SR-icon-weapon-DaedricBattleaxe.png/48px-SR-icon-weapon-DaedricBattleaxe.png",
+            "Damage": 27,
+            "weight": 2750,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "f5dd5b81-7683-418c-a718-1c8e58e46289",
+            "Name": "Wuuthrad",
+            "url": "https://images.uesp.net/thumb/5/5a/SR-icon-weapon-Wuuthrad.png/48px-SR-icon-weapon-Wuuthrad.png",
+            "Damage": 25,
+            "weight": 2000,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "d0659a36-b435-4d1d-b9a9-f55057ff7413",
+            "Name": "Headman's Cleaver",
+            "url": "https://images.uesp.net/thumb/1/10/SR-icon-weapon-Headman%27s_Cleaver.png/48px-SR-icon-weapon-Headman%27s_Cleaver.png",
+            "Damage": 24,
+            "weight": 2900,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "a00b30b5-9b20-493c-b955-f7f9a64ac1bc",
+            "Name": "Amber Battleaxe",
+            "url": "https://images.uesp.net/thumb/d/de/SR-icon-weapon-Amber_Battleaxe.png/48px-SR-icon-weapon-Amber_Battleaxe.png",
+            "Damage": 24,
+            "weight": 1600,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "e9c5ba31-9d31-497d-abda-9993341f19a1",
+            "Name": "Dragonbone Battleaxe",
+            "url": "https://images.uesp.net/thumb/4/46/SR-icon-weapon-Dragonbone_Battleaxe.png/48px-SR-icon-weapon-Dragonbone_Battleaxe.png",
+            "Damage": 30,
+            "weight": 3000,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "caff2088-9d1c-479f-9942-3f2f253a528b",
+            "Name": "Shadowrend",
+            "url": "https://images.uesp.net/thumb/d/db/SR-icon-weapon-Shadowrend_%28Battleaxe%29.png/48px-SR-icon-weapon-Shadowrend_%28Battleaxe%29.png",
+            "Damage": 27,
+            "weight": 2750,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "18212442-096d-435e-a05b-dd4e045b7058",
+            "Name": "Madness Battleaxe",
+            "url": "https://images.uesp.net/thumb/6/64/SR-icon-weapon-Madness_Battleaxe.png/48px-SR-icon-weapon-Madness_Battleaxe.png",
+            "Damage": 31,
+            "weight": 3300,
+            "value": 27,
+            "category_id": 2
+        },
+        {
+            "id": "4f99432b-3b99-460a-b0ed-2daab3aa7ab7",
+            "Name": "Tsun's Judgement",
+            "url": "https://images.uesp.net/thumb/b/ba/SR-icon-weapon-Tsun%27s_Judgement.png/48px-SR-icon-weapon-Tsun%27s_Judgement.png",
+            "Damage": 31,
+            "weight": 3300,
+            "value": 27,
+            "category_id": 2
+        },
+        {
+            "id": "35923dad-71bc-41a5-9b6b-28e49ac2101e",
+            "Name": "Iron Warhammer",
+            "url": "https://images.uesp.net/thumb/b/b4/SR-icon-weapon-Iron_Warhammer.png/48px-SR-icon-weapon-Iron_Warhammer.png",
+            "Damage": 24,
+            "weight": 60,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "fd93e4fb-9c6a-45dd-bd26-44a1c9e677ed",
+            "Name": "Aegisbane",
+            "url": "https://images.uesp.net/thumb/c/c9/SR-icon-weapon-Aegisbane.png/48px-SR-icon-weapon-Aegisbane.png",
+            "Damage": 24,
+            "weight": 60,
+            "value": 18,
+            "category_id": 2
+        },
+        {
+            "id": "2b8768b7-d02e-4432-b880-226042d7647c",
+            "Name": "Ancient Nord Warhammer",
+            "url": "https://images.uesp.net/thumb/4/4f/SR-icon-weapon-Ancient_Nord_Warhammer.png/48px-SR-icon-weapon-Ancient_Nord_Warhammer.png",
+            "Damage": 26,
+            "weight": 42,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "9d032007-3024-4bcb-95ac-5cb61e701351",
+            "Name": "Steel Warhammer",
+            "url": "https://images.uesp.net/thumb/c/cf/SR-icon-weapon-SteelWarhammer.png/48px-SR-icon-weapon-SteelWarhammer.png",
+            "Damage": 25,
+            "weight": 110,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "32df2c3c-95be-46c6-b93f-3e16dc497d5d",
+            "Name": "Trollsbane",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Trollsbane.png/48px-SR-icon-weapon-Trollsbane.png",
+            "Damage": 25,
+            "weight": 121,
+            "value": 20,
+            "category_id": 2
+        },
+        {
+            "id": "6141e8df-9cd7-472d-8d94-cd534fe9570a",
+            "Name": "Orcish Warhammer",
+            "url": "https://images.uesp.net/thumb/7/74/SR-icon-weapon-OrcishWarhammer.png/48px-SR-icon-weapon-OrcishWarhammer.png",
+            "Damage": 26,
+            "weight": 180,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "7583ccbd-bb60-46b7-9ffc-6a34ae820ac8",
+            "Name": "The Longhammer",
+            "url": "https://images.uesp.net/thumb/7/74/SR-icon-weapon-OrcishWarhammer.png/48px-SR-icon-weapon-OrcishWarhammer.png",
+            "Damage": 18,
+            "weight": 90,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "7a468631-b4ee-4faf-9690-c36a31397f37",
+            "Name": "Shagrol's Warhammer",
+            "url": "https://images.uesp.net/thumb/7/74/SR-icon-weapon-OrcishWarhammer.png/48px-SR-icon-weapon-OrcishWarhammer.png",
+            "Damage": 26,
+            "weight": 200,
+            "value": 21,
+            "category_id": 2
+        },
+        {
+            "id": "e56e68d8-4d17-4234-9a06-121cb75ed7a7",
+            "Name": "Dawnguard Warhammer",
+            "url": "https://images.uesp.net/thumb/0/09/SR-icon-weapon-Dawnguard_Warhammer.png/48px-SR-icon-weapon-Dawnguard_Warhammer.png",
+            "Damage": 26,
+            "weight": 110,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "7dc85776-248d-4e61-839e-2852da8b49fb",
+            "Name": "Dawnguard Rune Hammer",
+            "url": "https://images.uesp.net/thumb/1/1a/SR-icon-weapon-Dawnguard_Rune_Hammer.png/48px-SR-icon-weapon-Dawnguard_Rune_Hammer.png",
+            "Damage": 26,
+            "weight": 500,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "b7d68f26-86ba-43cb-aac9-6a13e66cfaa9",
+            "Name": "Dwarven Warhammer",
+            "url": "https://images.uesp.net/thumb/b/b2/SR-icon-weapon-DwarvenWarhammer.png/48px-SR-icon-weapon-DwarvenWarhammer.png",
+            "Damage": 27,
+            "weight": 325,
+            "value": 22,
+            "category_id": 2
+        },
+        {
+            "id": "a65bb9af-3973-477e-8444-befc8554a5f2",
+            "Name": "Honed Ancient Nord Warhammer",
+            "url": "https://images.uesp.net/thumb/4/4f/SR-icon-weapon-Ancient_Nord_Warhammer.png/48px-SR-icon-weapon-Ancient_Nord_Warhammer.png",
+            "Damage": 29,
+            "weight": 76,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "1188fde2-36b3-4b83-841d-2ee0aad4775c",
+            "Name": "Nord Hero Warhammer",
+            "url": "https://images.uesp.net/thumb/4/4f/SR-icon-weapon-Ancient_Nord_Warhammer.png/48px-SR-icon-weapon-Ancient_Nord_Warhammer.png",
+            "Damage": 24,
+            "weight": 350,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "266851db-3bb9-441f-a5af-28f2e4f1148e",
+            "Name": "Elven Warhammer",
+            "url": "https://images.uesp.net/thumb/f/f6/SR-icon-weapon-ElvenWarhammer.png/48px-SR-icon-weapon-ElvenWarhammer.png",
+            "Damage": 28,
+            "weight": 565,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "ed8f08bb-7390-40cc-afe9-6f4dd9f03a7d",
+            "Name": "Dark Warhammer",
+            "url": "https://images.uesp.net/thumb/b/b1/SR-icon-weapon-Dark_Warhammer.png/48px-SR-icon-weapon-Dark_Warhammer.png",
+            "Damage": 26,
+            "weight": 620,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "9b33d972-f2e7-4e7a-a54e-5501e4d11fdc",
+            "Name": "Nordic Warhammer",
+            "url": "https://images.uesp.net/thumb/a/ad/SR-icon-weapon-Nordic_Warhammer.png/48px-SR-icon-weapon-Nordic_Warhammer.png",
+            "Damage": 27,
+            "weight": 700,
+            "value": 23,
+            "category_id": 2
+        },
+        {
+            "id": "e85aff86-f10e-414a-b743-ec25f2d28e26",
+            "Name": "Golden Warhammer",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Golden_Warhammer.png/48px-SR-icon-weapon-Golden_Warhammer.png",
+            "Damage": 26,
+            "weight": 620,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "d0a13808-b878-43d9-a7e6-19de38ba639f",
+            "Name": "Glass Warhammer",
+            "url": "https://images.uesp.net/thumb/1/1a/SR-icon-weapon-Glass_Warhammer.png/48px-SR-icon-weapon-Glass_Warhammer.png",
+            "Damage": 29,
+            "weight": 985,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "b93171a6-d3c0-4f99-b44e-0541081ff016",
+            "Name": "Champion's Cudgel",
+            "url": "https://images.uesp.net/thumb/e/eb/SR-icon-weapon-Champion%27s_Cudgel.png/48px-SR-icon-weapon-Champion%27s_Cudgel.png",
+            "Damage": 27,
+            "weight": 1767,
+            "value": 24,
+            "category_id": 2
+        },
+        {
+            "id": "94aa4378-8153-475f-b6ec-44eb53099297",
+            "Name": "Ebony Warhammer",
+            "url": "https://images.uesp.net/thumb/d/d7/SR-icon-weapon-EbonyWarhammer.png/48px-SR-icon-weapon-EbonyWarhammer.png",
+            "Damage": 30,
+            "weight": 1725,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "e7597510-34d0-47f1-99b4-536ac2014ecd",
+            "Name": "Volendrung",
+            "url": "https://images.uesp.net/thumb/1/1e/SR-icon-weapon-Volendrung.png/48px-SR-icon-weapon-Volendrung.png",
+            "Damage": 26,
+            "weight": 1843,
+            "value": 25,
+            "category_id": 2
+        },
+        {
+            "id": "9382d630-c019-4689-a332-bb151c660714",
+            "Name": "Stalhrim Warhammer",
+            "url": "https://images.uesp.net/thumb/f/fd/SR-icon-weapon-Stalhrim_Warhammer.png/48px-SR-icon-weapon-Stalhrim_Warhammer.png",
+            "Damage": 29,
+            "weight": 2850,
+            "value": 26,
+            "category_id": 2
+        },
+        {
+            "id": "5f9307c9-8891-4061-81cc-b7bcf9a8000c",
+            "Name": "Daedric Warhammer",
+            "url": "https://images.uesp.net/thumb/d/de/SR-icon-weapon-DaedricWarhammer.png/48px-SR-icon-weapon-DaedricWarhammer.png",
+            "Damage": 31,
+            "weight": 4000,
+            "value": 27,
+            "category_id": 2
+        },
+        {
+            "id": "c90b0e4b-079d-44fa-bc3e-0473b39c76da",
+            "Name": "Akatosh's Talon",
+            "url": "https://images.uesp.net/thumb/5/5a/SR-icon-weapon-Akatosh%27s_Talon.png/48px-SR-icon-weapon-Akatosh%27s_Talon.png",
+            "Damage": 31,
+            "weight": 4832,
+            "value": 27,
+            "category_id": 2
+        },
+        {
+            "id": "d0726aa2-5fa1-4f27-878f-096f8db929a0",
+            "Name": "Dragonbone Warhammer",
+            "url": "https://images.uesp.net/thumb/a/ac/SR-icon-weapon-Dragonbone_Warhammer.png/48px-SR-icon-weapon-Dragonbone_Warhammer.png",
+            "Damage": 33,
+            "weight": 4275,
+            "value": 28,
+            "category_id": 2
+        },
+        {
+            "id": "f20124c8-6de4-4bd3-b2e8-238d21b2814e",
+            "Name": "Amber Warhammer",
+            "url": "https://images.uesp.net/thumb/7/76/SR-icon-weapon-Amber_Warhammer.png/48px-SR-icon-weapon-Amber_Warhammer.png",
+            "Damage": 29,
+            "weight": 4475,
+            "value": 28,
+            "category_id": 2
+        },
+        {
+            "id": "ece2ae63-a180-40e8-9359-78cbf74508c7",
+            "Name": "Stendarr's Hammer",
+            "url": "https://images.uesp.net/thumb/f/f7/SR-icon-weapon-Stendarr%27s_Hammer.png/48px-SR-icon-weapon-Stendarr%27s_Hammer.png",
+            "Damage": 100,
+            "weight": 4575,
+            "value": 28,
+            "category_id": 2
+        },
+        {
+            "id": "61d71f67-f4e1-48ef-aa02-73f61e0f0528",
+            "Name": "Skull Crusher",
+            "url": "https://images.uesp.net/thumb/8/89/SR-icon-weapon-Skull_Crusher.png/48px-SR-icon-weapon-Skull_Crusher.png",
+            "Damage": 15,
+            "weight": 2365,
+            "value": 28,
+            "category_id": 2
+        },
+        {
+            "id": "5a71350e-0c7e-4cfb-b4b0-7cec27ab02a3",
+            "Name": "Madness Warhammer",
+            "url": "https://images.uesp.net/thumb/5/53/SR-icon-weapon-Madness_Warhammer.png/48px-SR-icon-weapon-Madness_Warhammer.png",
+            "Damage": 34,
+            "weight": 4600,
+            "value": 29,
+            "category_id": 2
+        },
+        {
+            "id": "ab92dc51-d71e-4fdb-a2a4-e0cf86315de4",
+            "Name": "Nerveshatter",
+            "url": "https://images.uesp.net/thumb/6/66/SR-icon-weapon-Nerveshatter.png/48px-SR-icon-weapon-Nerveshatter.png",
+            "Damage": 29,
+            "weight": 3235,
+            "value": 29,
+            "category_id": 2
+        },
+        {
+            "id": "8ec0cb9b-9f62-4fb3-b6f3-1d2c3a25bdbb",
+            "Name": "Long Bow",
+            "url": "https://images.uesp.net/thumb/f/f0/SR-icon-weapon-Long_Bow.png/48px-SR-icon-weapon-Long_Bow.png",
+            "Damage": 5,
+            "weight": 30,
+            "value": 6,
+            "category_id": 3
+        },
+        {
+            "id": "e3482478-c9cb-4967-af59-fa9a6c5dab6f",
+            "Name": "Froki's Bow",
+            "url": "https://images.uesp.net/thumb/f/f0/SR-icon-weapon-Long_Bow.png/48px-SR-icon-weapon-Long_Bow.png",
+            "Damage": 5,
+            "weight": 307,
+            "value": 6,
+            "category_id": 3
+        },
+        {
+            "id": "e0e9e217-5c07-47c5-a8e5-158028fabe78",
+            "Name": "Hunting Bow",
+            "url": "https://images.uesp.net/thumb/f/fe/SR-icon-weapon-Hunting_Bow.png/48px-SR-icon-weapon-Hunting_Bow.png",
+            "Damage": 7,
+            "weight": 50,
+            "value": 7,
+            "category_id": 3
+        },
+        {
+            "id": "2acc7a75-9a4e-4993-90ed-6958774e3cb8",
+            "Name": "Angi's Bow",
+            "url": "https://images.uesp.net/thumb/f/fe/SR-icon-weapon-Hunting_Bow.png/48px-SR-icon-weapon-Hunting_Bow.png",
+            "Damage": 7,
+            "weight": 50,
+            "value": 7,
+            "category_id": 3
+        },
+        {
+            "id": "e62daa8e-d05b-40dd-861a-1e8410090ddb",
+            "Name": "Dravin's Bow",
+            "url": "https://images.uesp.net/thumb/f/fe/SR-icon-weapon-Hunting_Bow.png/48px-SR-icon-weapon-Hunting_Bow.png",
+            "Damage": 7,
+            "weight": 50,
+            "value": 7,
+            "category_id": 3
+        },
+        {
+            "id": "2264544c-b187-473c-8322-55def1f06826",
+            "Name": "Ancient Nord Bow",
+            "url": "https://images.uesp.net/thumb/2/2f/SR-icon-weapon-AncientNordBow.png/48px-SR-icon-weapon-AncientNordBow.png",
+            "Damage": 12,
+            "weight": 45,
+            "value": 8,
+            "category_id": 3
+        },
+        {
+            "id": "ddf25706-153a-4e5f-924f-9833d7fca860",
+            "Name": "Imperial Bow",
+            "url": "https://images.uesp.net/thumb/2/28/SR-icon-weapon-ImperialBow.png/48px-SR-icon-weapon-ImperialBow.png",
+            "Damage": 8,
+            "weight": 90,
+            "value": 9,
+            "category_id": 3
+        },
+        {
+            "id": "9f9cc9d2-4da0-4f6e-839f-f358712f1bfb",
+            "Name": "Orcish Bow",
+            "url": "https://images.uesp.net/thumb/e/ee/SR-icon-weapon-OrcishBow.png/48px-SR-icon-weapon-OrcishBow.png",
+            "Damage": 9,
+            "weight": 150,
+            "value": 10,
+            "category_id": 3
+        },
+        {
+            "id": "c61a8406-47ec-440f-93b6-ba725cf3b19b",
+            "Name": "Bow of the Hunt",
+            "url": "https://images.uesp.net/thumb/f/fe/SR-icon-weapon-Hunting_Bow.png/48px-SR-icon-weapon-Hunting_Bow.png",
+            "Damage": 7,
+            "weight": 434,
+            "value": 10,
+            "category_id": 3
+        },
+        {
+            "id": "0640cb8e-4cde-4fb7-8e35-54adbf181c5c",
+            "Name": "Golden Bow",
+            "url": "https://images.uesp.net/thumb/6/6a/SR-icon-weapon-Golden_Bow.png/48px-SR-icon-weapon-Golden_Bow.png",
+            "Damage": 10,
+            "weight": 495,
+            "value": 11,
+            "category_id": 3
+        },
+        {
+            "id": "36fc3f7f-aed4-40f3-9372-8c4ea4725ea9",
+            "Name": "Nord Hero Bow",
+            "url": "https://images.uesp.net/thumb/2/2f/SR-icon-weapon-AncientNordBow.png/48px-SR-icon-weapon-AncientNordBow.png",
+            "Damage": 7,
+            "weight": 200,
+            "value": 11,
+            "category_id": 3
+        },
+        {
+            "id": "e225b3f0-c806-4be2-b2ce-4866ab44da0b",
+            "Name": "Dwarven Bow",
+            "url": "https://images.uesp.net/thumb/2/2b/SR-icon-weapon-DwarvenBow.png/48px-SR-icon-weapon-DwarvenBow.png",
+            "Damage": 10,
+            "weight": 270,
+            "value": 12,
+            "category_id": 3
+        },
+        {
+            "id": "1ae2f7e6-ba90-4d42-a724-38218a4bacbb",
+            "Name": "Zephyr",
+            "url": "https://images.uesp.net/thumb/2/2b/SR-icon-weapon-DwarvenBow.png/48px-SR-icon-weapon-DwarvenBow.png",
+            "Damage": 10,
+            "weight": 670,
+            "value": 12,
+            "category_id": 3
+        },
+        {
+            "id": "23511718-89ae-454b-89af-26e9cf142186",
+            "Name": "Forsworn Bow",
+            "url": "https://images.uesp.net/thumb/d/d8/SR-icon-weapon-ForswornBow.png/48px-SR-icon-weapon-ForswornBow.png",
+            "Damage": 11,
+            "weight": 145,
+            "value": 12,
+            "category_id": 3
+        },
+        {
+            "id": "c1e85774-2be7-42b5-aa96-a8b27fda45be",
+            "Name": "Ruin's Edge",
+            "url": "https://images.uesp.net/thumb/6/6c/SR-icon-weapon-Ruin%27s_Edge.png/48px-SR-icon-weapon-Ruin%27s_Edge.png",
+            "Damage": 7,
+            "weight": 750,
+            "value": 12,
+            "category_id": 3
+        },
+        {
+            "id": "747c92fb-5a0b-4e3c-a26b-d65a99b70797",
+            "Name": "Falmer Bow",
+            "url": "https://images.uesp.net/thumb/f/f2/SR-icon-weapon-FalmerBow.png/48px-SR-icon-weapon-FalmerBow.png",
+            "Damage": 15,
+            "weight": 135,
+            "value": 12,
+            "category_id": 3
+        },
+        {
+            "id": "d01d00f1-f0e1-4121-b956-221664d37858",
+            "Name": "Elven Bow",
+            "url": "https://images.uesp.net/thumb/2/2b/SR-icon-weapon-ElvenBow.png/48px-SR-icon-weapon-ElvenBow.png",
+            "Damage": 12,
+            "weight": 470,
+            "value": 13,
+            "category_id": 3
+        },
+        {
+            "id": "97cc0df4-d286-4293-9d0c-48173eb539a3",
+            "Name": "Firiniel's End",
+            "url": "https://images.uesp.net/thumb/2/2b/SR-icon-weapon-ElvenBow.png/48px-SR-icon-weapon-ElvenBow.png",
+            "Damage": 12,
+            "weight": 785,
+            "value": 13,
+            "category_id": 3
+        },
+        {
+            "id": "8bb92224-f2ab-4614-9ba1-11bbfbf7a4c8",
+            "Name": "Nordic Bow",
+            "url": "https://images.uesp.net/thumb/3/31/SR-icon-weapon-Nordic_Bow.png/48px-SR-icon-weapon-Nordic_Bow.png",
+            "Damage": 11,
+            "weight": 580,
+            "value": 13,
+            "category_id": 3
+        },
+        {
+            "id": "175269e7-fd31-445a-b276-a272fbf88c0a",
+            "Name": "Dark Bow",
+            "url": "https://images.uesp.net/thumb/c/c9/SR-icon-weapon-Dark_Bow.png/48px-SR-icon-weapon-Dark_Bow.png",
+            "Damage": 10,
+            "weight": 495,
+            "value": 13,
+            "category_id": 3
+        },
+        {
+            "id": "4c5b7cdb-2160-4db6-99af-7743d51a6343",
+            "Name": "Auriel's Bow",
+            "url": "https://images.uesp.net/thumb/1/1c/SR-icon-weapon-Auriel%27s_Bow.png/48px-SR-icon-weapon-Auriel%27s_Bow.png",
+            "Damage": 11,
+            "weight": 1436,
+            "value": 13,
+            "category_id": 3
+        },
+        {
+            "id": "5b1f30a3-28ef-4781-b012-fab37f434132",
+            "Name": "Dwarven Black Bow of Fate",
+            "url": "https://images.uesp.net/thumb/d/da/SR-icon-weapon-Dwarven_Black_Bow_of_Fate.png/48px-SR-icon-weapon-Dwarven_Black_Bow_of_Fate.png",
+            "Damage": 10,
+            "weight": 1446,
+            "value": 13,
+            "category_id": 3
+        },
+        {
+            "id": "d504a4ab-b3ec-460e-a44d-07bc054c634a",
+            "Name": "Drainspell Bow",
+            "url": "https://images.uesp.net/thumb/0/07/SR-icon-weapon-DrainspellBow.png/48px-SR-icon-weapon-DrainspellBow.png",
+            "Damage": 6,
+            "weight": 458,
+            "value": 14,
+            "category_id": 3
+        },
+        {
+            "id": "6a3089b0-9506-4695-b173-5c94584493f3",
+            "Name": "Supple Ancient Nord Bow",
+            "url": "https://images.uesp.net/thumb/2/2f/SR-icon-weapon-AncientNordBow.png/48px-SR-icon-weapon-AncientNordBow.png",
+            "Damage": 18,
+            "weight": 235,
+            "value": 14,
+            "category_id": 3
+        },
+        {
+            "id": "29a9ee84-b828-44cf-b717-1287dc282c0a",
+            "Name": "Falmer Supple Bow",
+            "url": "https://images.uesp.net/thumb/f/f2/SR-icon-weapon-FalmerBow.png/48px-SR-icon-weapon-FalmerBow.png",
+            "Damage": 20,
+            "weight": 410,
+            "value": 15,
+            "category_id": 3
+        },
+        {
+            "id": "dd49e111-f2f8-4402-98cf-4a1e35f7c11d",
+            "Name": "Glass Bow",
+            "url": "https://images.uesp.net/thumb/7/71/SR-icon-weapon-Glass_Bow.png/48px-SR-icon-weapon-Glass_Bow.png",
+            "Damage": 14,
+            "weight": 820,
+            "value": 15,
+            "category_id": 3
+        },
+        {
+            "id": "90f1f845-3ff3-42b3-9009-f2eb5ce6507c",
+            "Name": "Glass Bow of the Stag Prince",
+            "url": "https://images.uesp.net/thumb/7/71/SR-icon-weapon-Glass_Bow.png/48px-SR-icon-weapon-Glass_Bow.png",
+            "Damage": 14,
+            "weight": 375,
+            "value": 16,
+            "category_id": 3
+        },
+        {
+            "id": "5403d9d4-38e2-4e0c-902e-995de59c6d2c",
+            "Name": "Ebony Bow",
+            "url": "https://images.uesp.net/thumb/b/b7/SR-icon-weapon-EbonyBow.png/48px-SR-icon-weapon-EbonyBow.png",
+            "Damage": 16,
+            "weight": 1440,
+            "value": 17,
+            "category_id": 3
+        },
+        {
+            "id": "887d3be3-1855-4ab4-b1ae-b40ebe94ef76",
+            "Name": "Stalhrim Bow",
+            "url": "https://images.uesp.net/thumb/2/21/SR-icon-weapon-Stalhrim_Bow.png/48px-SR-icon-weapon-Stalhrim_Bow.png",
+            "Damage": 15,
+            "weight": 1800,
+            "value": 17,
+            "category_id": 3
+        },
+        {
+            "id": "dcde056d-2d03-47b9-bc83-699d7f942c05",
+            "Name": "Bound Bow",
+            "url": "https://images.uesp.net/thumb/5/5e/SR-icon-weapon-Bound_Bow.png/48px-SR-icon-weapon-Bound_Bow.png",
+            "Damage": 0,
+            "weight": 0,
+            "value": 18,
+            "category_id": 3
+        },
+        {
+            "id": "e21a73b6-9364-42f8-adfd-2f3232ae48d4",
+            "Name": "Daedric Bow",
+            "url": "https://images.uesp.net/thumb/b/b3/SR-icon-weapon-DaedricBow.png/48px-SR-icon-weapon-DaedricBow.png",
+            "Damage": 18,
+            "weight": 2500,
+            "value": 19,
+            "category_id": 3
+        },
+        {
+            "id": "6fef5b2c-fe80-4be6-889e-8a930d07c4f9",
+            "Name": "Bow of Shadows",
+            "url": "https://images.uesp.net/thumb/4/4e/SR-icon-weapon-Bow_of_Shadows.png/48px-SR-icon-weapon-Bow_of_Shadows.png",
+            "Damage": 18,
+            "weight": 2500,
+            "value": 19,
+            "category_id": 3
+        },
+        {
+            "id": "63e6e9b9-edaa-498a-adda-52aa0f752520",
+            "Name": "Nightingale Bow",
+            "url": "https://images.uesp.net/thumb/1/14/SR-icon-weapon-Nightingale_Bow.png/48px-SR-icon-weapon-Nightingale_Bow.png",
+            "Damage": 18,
+            "weight": 3405,
+            "value": 19,
+            "category_id": 3
+        },
+        {
+            "id": "d1f8bf89-7df7-493a-9fa4-17606f97e177",
+            "Name": "Dragonbone Bow",
+            "url": "https://images.uesp.net/thumb/4/47/SR-icon-weapon-Dragonbone_Bow.png/48px-SR-icon-weapon-Dragonbone_Bow.png",
+            "Damage": 20,
+            "weight": 2725,
+            "value": 20,
+            "category_id": 3
+        },
+        {
+            "id": "a499993f-e0b4-4727-a2d7-65a145b4e789",
+            "Name": "Amber Bow",
+            "url": "https://images.uesp.net/thumb/8/81/SR-icon-weapon-Amber_Bow.png/48px-SR-icon-weapon-Amber_Bow.png",
+            "Damage": 14,
+            "weight": 2925,
+            "value": 20,
+            "category_id": 3
+        },
+        {
+            "id": "8acb0834-e749-4dbf-81bc-e83982091e31",
+            "Name": "Madness Bow",
+            "url": "https://images.uesp.net/thumb/0/0d/SR-icon-weapon-Madness_Bow.png/48px-SR-icon-weapon-Madness_Bow.png",
+            "Damage": 21,
+            "weight": 3050,
+            "value": 21,
+            "category_id": 3
+        },
+        {
+            "id": "4fa594e6-9351-4a14-b608-ceea0eac8c72",
+            "Name": "Bound Bow",
+            "url": "https://images.uesp.net/thumb/5/5e/SR-icon-weapon-Bound_Bow.png/48px-SR-icon-weapon-Bound_Bow.png",
+            "Damage": 0,
+            "weight": 0,
+            "value": 24,
+            "category_id": 3
+        },
+        {
+            "id": "45aaf917-5366-4b14-89d6-85475fe5f786",
+            "Name": "Crossbow",
+            "url": "https://images.uesp.net/thumb/8/89/SR-icon-weapon-Crossbow.png/48px-SR-icon-weapon-Crossbow.png",
+            "Damage": 14,
+            "weight": 120,
+            "value": 19,
+            "category_id": 3
+        },
+        {
+            "id": "0cdfe135-72b4-44a2-8f5c-65e8017ce5a4",
+            "Name": "Enhanced Crossbow",
+            "url": "https://images.uesp.net/thumb/8/89/SR-icon-weapon-Crossbow.png/48px-SR-icon-weapon-Crossbow.png",
+            "Damage": 15,
+            "weight": 200,
+            "value": 19,
+            "category_id": 3
+        },
+        {
+            "id": "de9bf883-8877-48e5-a915-60d5be57be5f",
+            "Name": "Imperial Crossbow",
+            "url": "https://images.uesp.net/thumb/c/c0/SR-icon-weapon-Imperial_Crossbow.png/48px-SR-icon-weapon-Imperial_Crossbow.png",
+            "Damage": 14,
+            "weight": 200,
+            "value": 20,
+            "category_id": 3
+        },
+        {
+            "id": "854c9d1e-ccb2-4a7d-8766-db885cf966c8",
+            "Name": "Enhanced Imperial Crossbow",
+            "url": "https://images.uesp.net/thumb/c/c0/SR-icon-weapon-Imperial_Crossbow.png/48px-SR-icon-weapon-Imperial_Crossbow.png",
+            "Damage": 14,
+            "weight": 400,
+            "value": 20,
+            "category_id": 3
+        },
+        {
+            "id": "8e2b1965-894f-47b9-b71f-baa56092ea72",
+            "Name": "Silver Crossbow",
+            "url": "https://images.uesp.net/thumb/3/30/SR-icon-weapon-Silver_Crossbow.png/48px-SR-icon-weapon-Silver_Crossbow.png",
+            "Damage": 14,
+            "weight": 600,
+            "value": 21,
+            "category_id": 3
+        },
+        {
+            "id": "7ef9c61f-03e7-4a73-b58a-834c61d78985",
+            "Name": "Enhanced Silver Crossbow",
+            "url": "https://images.uesp.net/thumb/3/30/SR-icon-weapon-Silver_Crossbow.png/48px-SR-icon-weapon-Silver_Crossbow.png",
+            "Damage": 14,
+            "weight": 700,
+            "value": 21,
+            "category_id": 3
+        },
+        {
+            "id": "aa9110b5-2c0e-4184-b877-d94932bf36b4",
+            "Name": "Dwarven Crossbow",
+            "url": "https://images.uesp.net/thumb/4/49/SR-icon-weapon-Dwarven_Crossbow.png/48px-SR-icon-weapon-Dwarven_Crossbow.png",
+            "Damage": 20,
+            "weight": 350,
+            "value": 22,
+            "category_id": 3
+        },
+        {
+            "id": "75db847a-623a-4707-9631-dd3fdf7b7f87",
+            "Name": "Enhanced Dwarven Crossbow",
+            "url": "https://images.uesp.net/thumb/4/49/SR-icon-weapon-Dwarven_Crossbow.png/48px-SR-icon-weapon-Dwarven_Crossbow.png",
+            "Damage": 21,
+            "weight": 550,
+            "value": 22,
+            "category_id": 3
+        },
+        {
+            "id": "becf09a2-45e5-4fbd-a920-b91490ccd4f8",
+            "Name": "Orcish Crossbow",
+            "url": "https://images.uesp.net/thumb/6/66/SR-icon-weapon-Orcish_Crossbow.png/48px-SR-icon-weapon-Orcish_Crossbow.png",
+            "Damage": 15,
+            "weight": 500,
+            "value": 22,
+            "category_id": 3
+        },
+        {
+            "id": "ca3d6d47-82f8-4028-8c50-37318141bf11",
+            "Name": "Enhanced Orcish Crossbow",
+            "url": "https://images.uesp.net/thumb/6/66/SR-icon-weapon-Orcish_Crossbow.png/48px-SR-icon-weapon-Orcish_Crossbow.png",
+            "Damage": 15,
+            "weight": 700,
+            "value": 22,
+            "category_id": 3
+        },
+        {
+            "id": "c61c3939-65c7-4d44-9711-77bc7498fbbc",
+            "Name": "Elven Crossbow",
+            "url": "https://images.uesp.net/thumb/e/e5/SR-icon-weapon-Elven_Crossbow.png/48px-SR-icon-weapon-Elven_Crossbow.png",
+            "Damage": 21,
+            "weight": 480,
+            "value": 23,
+            "category_id": 3
+        },
+        {
+            "id": "2769c954-36d3-439b-9bc7-aa922df00e2c",
+            "Name": "Enhanced Elven Crossbow",
+            "url": "https://images.uesp.net/thumb/e/e5/SR-icon-weapon-Elven_Crossbow.png/48px-SR-icon-weapon-Elven_Crossbow.png",
+            "Damage": 22,
+            "weight": 630,
+            "value": 23,
+            "category_id": 3
+        },
+        {
+            "id": "3d1c2611-6bd0-442c-a0ab-5ff309bae66a",
+            "Name": "Nordic Crossbow",
+            "url": "https://images.uesp.net/thumb/4/4a/SR-icon-weapon-Nordic_Crossbow.png/48px-SR-icon-weapon-Nordic_Crossbow.png",
+            "Damage": 15,
+            "weight": 700,
+            "value": 23,
+            "category_id": 3
+        },
+        {
+            "id": "39f08cbb-c68e-4748-81cf-53b1698ff721",
+            "Name": "Enhanced Nordic Crossbow",
+            "url": "https://images.uesp.net/thumb/4/4a/SR-icon-weapon-Nordic_Crossbow.png/48px-SR-icon-weapon-Nordic_Crossbow.png",
+            "Damage": 15,
+            "weight": 900,
+            "value": 23,
+            "category_id": 3
+        },
+        {
+            "id": "53dd6a13-ee26-4712-b2f2-b64b5223e1bc",
+            "Name": "Ebony Crossbow",
+            "url": "https://images.uesp.net/thumb/5/52/SR-icon-weapon-Ebony_Crossbow.png/48px-SR-icon-weapon-Ebony_Crossbow.png",
+            "Damage": 23,
+            "weight": 610,
+            "value": 25,
+            "category_id": 3
+        },
+        {
+            "id": "b7acd450-59bf-44c9-967c-ff5e494f7492",
+            "Name": "Enhanced Ebony Crossbow",
+            "url": "https://images.uesp.net/thumb/5/52/SR-icon-weapon-Ebony_Crossbow.png/48px-SR-icon-weapon-Ebony_Crossbow.png",
+            "Damage": 24,
+            "weight": 870,
+            "value": 25,
+            "category_id": 3
+        },
+        {
+            "id": "7d2197d5-ea00-4d20-abc7-62ea0b3cc152",
+            "Name": "Glass Crossbow",
+            "url": "https://images.uesp.net/thumb/2/20/SR-icon-weapon-Glass_Crossbow.png/48px-SR-icon-weapon-Glass_Crossbow.png",
+            "Damage": 16,
+            "weight": 800,
+            "value": 25,
+            "category_id": 3
+        },
+        {
+            "id": "3eac572c-1973-446e-a6ae-8ee6caa0d211",
+            "Name": "Enhanced Glass Crossbow",
+            "url": "https://images.uesp.net/thumb/2/20/SR-icon-weapon-Glass_Crossbow.png/48px-SR-icon-weapon-Glass_Crossbow.png",
+            "Damage": 16,
+            "weight": 1000,
+            "value": 25,
+            "category_id": 3
+        },
+        {
+            "id": "4b1fd3c3-9ddc-48c9-9a2d-6f16ca5bd460",
+            "Name": "Stalhrim Crossbow",
+            "url": "https://images.uesp.net/thumb/1/1d/SR-icon-weapon-Stalhrim_Crossbow.png/48px-SR-icon-weapon-Stalhrim_Crossbow.png",
+            "Damage": 18,
+            "weight": 1100,
+            "value": 27,
+            "category_id": 3
+        },
+        {
+            "id": "7da2e9bb-f1d6-47bc-ba1a-0746abce9716",
+            "Name": "Enhanced Stalhrim Crossbow",
+            "url": "https://images.uesp.net/thumb/1/1d/SR-icon-weapon-Stalhrim_Crossbow.png/48px-SR-icon-weapon-Stalhrim_Crossbow.png",
+            "Damage": 18,
+            "weight": 1300,
+            "value": 27,
+            "category_id": 3
+        },
+        {
+            "id": "9f79f5a7-be27-4d06-97af-de29c42fc144",
+            "Name": "Daedric Crossbow",
+            "url": "https://images.uesp.net/thumb/6/6d/SR-icon-weapon-Daedric_Crossbow.png/48px-SR-icon-weapon-Daedric_Crossbow.png",
+            "Damage": 20,
+            "weight": 1400,
+            "value": 28,
+            "category_id": 3
+        },
+        {
+            "id": "f1f88a67-aa80-4804-99bf-2ff5295799e6",
+            "Name": "Enhanced Daedric Crossbow",
+            "url": "https://images.uesp.net/thumb/6/6d/SR-icon-weapon-Daedric_Crossbow.png/48px-SR-icon-weapon-Daedric_Crossbow.png",
+            "Damage": 20,
+            "weight": 1700,
+            "value": 28,
+            "category_id": 3
+        },
+        {
+            "id": "0d5c8442-d78f-454b-ae17-b430cc065536",
+            "Name": "Dragonbone Crossbow",
+            "url": "https://images.uesp.net/thumb/9/9a/SR-icon-weapon-Dragonbone_Crossbow.png/48px-SR-icon-weapon-Dragonbone_Crossbow.png",
+            "Damage": 22,
+            "weight": 1500,
+            "value": 30,
+            "category_id": 3
+        },
+        {
+            "id": "c80c5b91-e659-4950-ada5-3a567b0f4aba",
+            "Name": "Enhanced Dragonbone Crossbow",
+            "url": "https://images.uesp.net/thumb/9/9a/SR-icon-weapon-Dragonbone_Crossbow.png/48px-SR-icon-weapon-Dragonbone_Crossbow.png",
+            "Damage": 22,
+            "weight": 2000,
+            "value": 30,
+            "category_id": 3
+        }
+    ],
+    "categories": {
+        "One-handed Weapons": 1,
+        "Two-handed Weapons": 2,
+        "Archery": 3
+    }
+}

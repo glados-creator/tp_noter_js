@@ -5,5 +5,10 @@ export default class Breton extends Personnage_cg {
 
     constructor() {
         super();
+        Speech: 5
+        Illusion: 5
+        Conjuration: 10
+        Restoration: 5
+        Alteration: 5
     }
 }

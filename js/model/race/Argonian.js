@@ -5,5 +5,11 @@ export default class Argonian extends Personnage_cg {
 
     constructor() {
         super();
+
+        Archery: 5
+        Sneak: 5
+        Lockpicking: 10
+        Alchemy: 5
+        Restoration: 5
     }
 }

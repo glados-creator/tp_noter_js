@@ -5,5 +5,9 @@ export default class Dunmer extends Personnage_cg {
 
     constructor() {
         super();
+
+        Archery: 5
+        Alchemy: 5
+        Conjuration: 10
     }
 }
