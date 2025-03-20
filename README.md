@@ -6,6 +6,17 @@
 ### 21A
 
 This is a Single Page Application 
+to calculate personnage stats from skyrim 
+
+back-end
+```bash
+npx json-server ./data/db.json --port 3000
+```
+
+front-end
+```bash
+php -S 127.0.0.1:8080
+```
 
 # TODO List
 
@@ -37,6 +48,6 @@ componants :
 - [X] Footer
 - [ ] Personnage_viewer
 - [ ] User_info
-- [ ] 
 
-
+# wiki
+https://en.uesp.net/wiki/Skyrim:Weapons_(All)

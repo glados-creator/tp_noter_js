@@ -1,0 +1,30 @@
+{
+    "user" : [
+    ],
+    "armor" : {
+        "helmet" : [
+        ],
+        "chestpiece" : [
+        ],
+        "pants" : [
+        ],
+        "boots" : [
+        ],
+        "gloves" : [
+        ],
+        "necklace" : [
+        ],
+        "ring" : [
+        ]
+    }
+    ,
+    "weapon" : [
+        {
+            "Name" : "Sword",
+            "Damage" : 10,
+            "weight" : 5,
+            "value" : 10
+        }
+    ],
+
+}
