@@ -1,30 +1,120 @@
 {
-    "user" : [
-    ],
-    "armor" : {
-        "helmet" : [
-        ],
-        "chestpiece" : [
-        ],
-        "pants" : [
-        ],
-        "boots" : [
-        ],
-        "gloves" : [
-        ],
-        "necklace" : [
-        ],
-        "ring" : [
-        ]
-    }
-    ,
-    "weapon" : [
+    "user": [
         {
-            "Name" : "Sword",
-            "Damage" : 10,
-            "weight" : 5,
-            "value" : 10
+            "username": "admin",
+            "password": "d033e22ae348aeb5660fc2140aec35850c4da997",
+            "presets": [
+                {
+                    "id": 0,
+                    "armor": [0,0,0,0,0,0,0],
+                    "weapon": [0,0,0,0,0,0,0],
+                    "race": "Human",
+                    "wherewolf": false,
+                    "vampire": false
+                }
+            ]
         }
     ],
-
+    "top_10": [
+        {
+            "id": 0,
+            "armor": [0,0,0,0,0,0,0],
+            "weapon": [0,0,0,0,0,0,0],
+            "race": "Human",
+            "wherewolf": false,
+            "vampire": false
+        }
+    ],
+    "default_preset": [
+        {
+            "id": 0,
+            "armor": [0,0,0,0,0,0,0],
+            "weapon": [0,0,0,0,0,0,0],
+            "race": "Human",
+            "wherewolf": false,
+            "vampire": false
+        }
+    ],
+    "armor": {
+        "helmet": [
+            {
+                "id": 0,
+                "Name": "Sword",
+                "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+                "Damage": 10,
+                "weight": 5,
+                "value": 10
+            }
+        ],
+        "chestpiece": [
+            {
+                "id": 0,
+                "Name": "Sword",
+                "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+                "Damage": 10,
+                "weight": 5,
+                "value": 10
+            }
+        ],
+        "pants": [
+            {
+                "id": 0,
+                "Name": "Sword",
+                "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+                "Damage": 10,
+                "weight": 5,
+                "value": 10
+            }
+        ],
+        "boots": [
+            {
+                "id": 0,
+                "Name": "Sword",
+                "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+                "Damage": 10,
+                "weight": 5,
+                "value": 10
+            }
+        ],
+        "gloves": [
+            {
+                "id": 0,
+                "Name": "Sword",
+                "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+                "Damage": 10,
+                "weight": 5,
+                "value": 10
+            }
+        ],
+        "necklace": [
+            {
+                "id": 0,
+                "Name": "Sword",
+                "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+                "Damage": 10,
+                "weight": 5,
+                "value": 10
+            }
+        ],
+        "ring": [
+            {
+                "id": 0,
+                "Name": "Sword",
+                "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+                "Damage": 10,
+                "weight": 5,
+                "value": 10
+            }
+        ]
+    },
+    "weapon": [
+        {
+            "id": 0,
+            "Name": "Sword",
+            "url": "https://images.uesp.net/thumb/9/99/SR-icon-weapon-Hopesfire.png/48px-SR-icon-weapon-Hopesfire.png",
+            "Damage": 10,
+            "weight": 5,
+            "value": 10
+        }
+    ]
 }
