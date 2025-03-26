@@ -1,7 +1,7 @@
 import Home_page from "./js/views/pages/Home.js";
 import User_page from "./js/views/pages/User.js";
 import Preset_page from "./js/views/pages/Preset.js";
-import Comparaison_page from "./js/views/pages/comparaison.js";
+import Comparaison_page from "./js/views/pages/Comparaison.js";
 import Error_Page from "./js/views/pages/ErrorPage.js";
 
 import Utils from "./js/services/Utils.js";
