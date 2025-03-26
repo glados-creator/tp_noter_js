@@ -5,9 +5,9 @@ export default class Redguard extends Personnage_cg {
 
     constructor() {
         super();
-        Heavy Armor: 5
-        One-Handed: 10
-        Archery: 5
-        Restoration: 5
+        this.Heavy_Armor += 5;
+        this.One_Handed  += 10;
+        this.Archery     += 5;
+        this.Restoration += 5;
     }
 }

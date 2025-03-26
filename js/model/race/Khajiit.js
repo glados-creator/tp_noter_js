@@ -5,11 +5,10 @@ export default class Khajiit extends Personnage_cg {
 
     constructor() {
         super();
-
-        One-Handed: 5
-        Light Armor: 10
-        Sneak: 5
-        Lockpicking: 5
-        Alchemy: 5
+        this.One_Handed  += 5;
+        this.Light_Armor += 10;
+        this.Sneak       += 5;
+        this.Lockpicking += 5;
+        this.Alchemy     += 5;
     }
 }

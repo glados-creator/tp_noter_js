@@ -5,10 +5,10 @@ export default class Breton extends Personnage_cg {
 
     constructor() {
         super();
-        Speech: 5
-        Illusion: 5
-        Conjuration: 10
-        Restoration: 5
-        Alteration: 5
+        this.Speech      = + 5;
+        this.Illusion    = + 5;
+        this.Conjuration = + 10;
+        this.Restoration = + 5;
+        this.Alteration  = + 5;
     }
 }

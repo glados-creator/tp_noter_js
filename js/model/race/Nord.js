@@ -5,8 +5,8 @@ export default class Nord extends Personnage_cg {
 
     constructor() {
         super();
-        Smithing: 5
-        Block: 5
-        Two-Handed: 10
+        this.Smithing   += 5;
+        this.Block      += 5;
+        this.Two_Handed += 10;
     }
 }

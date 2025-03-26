@@ -11,17 +11,38 @@ export default class Personnage_cg {
         "Orsimer",
         "Redguard",]
 
+    static attributes = [
+        "Smithing",
+        "Heavy_Armor",
+        "Block",
+        "Two_Handed",
+        "One_Handed",
+        "Archery",
+        "Light_Armor",
+        "Sneak",
+        "Lockpicking",
+        "Pickpocket",
+        "Speech",
+        "Alchemy",
+        "Illusion",
+        "Conjuration",
+        "Destruction",
+        "Restoration",
+        "Alteration",
+        "Enchanting",
+    ]
+
     static #race;
 
     
     constructor() {
         this.Smithing = 15;
-        this.Heavy Armor = 15;
+        this.Heavy_Armor = 15;
         this.Block = 15;
-        this.Two-Handed = 15;
-        this.One-Handed = 15;
+        this.Two_Handed = 15;
+        this.One_Handed = 15;
         this.Archery = 15;
-        this.Light Armor = 15;
+        this.Light_Armor = 15;
         this.Sneak = 15;
         this.Lockpicking = 15;
         this.Pickpocket = 15;

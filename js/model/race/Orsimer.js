@@ -5,10 +5,9 @@ export default class Orsimer extends Personnage_cg {
 
     constructor() {
         super();
-
-        Heavy Armor: 10
-        Smithing: 5
-        Block: 5
-        Enchanting: 5
+        this.Heavy_Armor += 10;
+        this.Smithing    += 5;
+        this.Block       += 5;
+        this.Enchanting  += 5;
     }
 }

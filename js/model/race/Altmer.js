@@ -5,13 +5,12 @@ export default class Altmer extends Personnage_cg {
 
     constructor() {
         super();
-        this.Illusion += 10;
-        this.Conjuration +=5;
-        this.Destruction +=5;
-        this.Restoration +=5;
-        this.Alteration +=5;
-        this.Enchanting +=5;
-        
+        this.Illusion    += 10;
+        this.Conjuration += 5;
+        this.Destruction += 5;
+        this.Restoration += 5;
+        this.Alteration  += 5;
+        this.Enchanting  += 5;
     }
 }
 
@@ -105,3 +104,4 @@ Redguard :
     Tir à l’arc : 20
     Destruction : 20
     Altération : 20
+*/

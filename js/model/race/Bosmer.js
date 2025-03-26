@@ -5,7 +5,7 @@ export default class Bosmer extends Personnage_cg {
 
     constructor() {
         super();
-        Archery: 10
-        Alchemy: 5
+        this.Archery += 10;
+        this.Alchemy += 5;
     }
 }

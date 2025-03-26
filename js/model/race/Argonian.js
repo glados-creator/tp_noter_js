@@ -5,11 +5,10 @@ export default class Argonian extends Personnage_cg {
 
     constructor() {
         super();
-
-        Archery: 5
-        Sneak: 5
-        Lockpicking: 10
-        Alchemy: 5
-        Restoration: 5
+        this.Archery     += 5;
+        this.Sneak       += 5;
+        this.Lockpicking += 10;
+        this.Alchemy     += 5;
+        this.Restoration += 5;
     }
 }
