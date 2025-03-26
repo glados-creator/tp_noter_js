@@ -8,8 +8,10 @@ export default class Page_comp {
           ${await HeaderBar.render()}
           <div class="background-image"></div>
           <div class="main">
-            <img src="img/scroll.png" alt="Background" class="main-image">
-            <div class="gray-div"></div>
+          <section>
+          <img src="img/scroll.png" alt="Background" class="main-image">
+          </section>
+          <section class="gray-div"></section>
             ${await contentCallback()}
           </div>
           ${await Footer.render()}
