@@ -1,56 +1,114 @@
+import os
 import json
-import uuid
 import hashlib
+import uuid
+import requests
 from bs4 import BeautifulSoup
 
-# Load the HTML file
-file_path = "./WikiWeapons.html"
-with open(file_path, "r", encoding="utf-8") as file:
-    html = file.read()
+# Function to hash passwords (if applicable)
 
-# Hash function for SHA1 password
+
 def hash_password(password):
     return hashlib.sha1(password.encode()).hexdigest()
 
-# Parse the HTML
-soup = BeautifulSoup(html, "html.parser")
-content_div = soup.find("div", class_="mw-parser-output")
+# Function to create the directory for cached HTML files
 
-# Categories (One-Handed, Two-Handed, etc.)
-category_lookup = {}  # Maps category names to IDs
-weapons = []
-current_category = None
-category_id_counter = 1
-weapon_count = 0  # Running counter
 
-print("Processing categories and weapons...")
+def ensure_cache_dir():
+    if not os.path.exists("cache"):
+        os.makedirs("cache")
 
-# Iterate through elements in the `mw-parser-output`
-for element in content_div.find_all(["h2", "table"]):
-    if element.name == "h2":
-        # Extract category name from h2 -> span with mw-headline
-        headline = element.find("span", class_="mw-headline")
-        if headline:
-            category_name = headline.text.strip()
-            if category_name not in category_lookup:
-                category_lookup[category_name] = category_id_counter
-                category_id_counter += 1
-            current_category = category_lookup[category_name]
-            print(f"Category Found: {category_name} (ID: {current_category})")
 
-    elif element.name == "table" and current_category is not None:
-        # Extract weapon data from tables
-        rows = element.find_all("tr", class_="citation")
+def get_uuid():
+    return "".join(str(uuid.uuid4()).split("-")[0])
+
+# Function to download and cache a webpage
+
+
+def download_page(url):
+    # Clean the URL and ensure we get a valid filename for the cache
+    cache_filename = f"cache/{url.split('/')[-1].replace(':', '').replace('?', '')}.html"
+
+    # Check if the cached file exists
+    if os.path.exists(cache_filename):
+        print(f"Loading cached page: {cache_filename}")
+        with open(cache_filename, "r", encoding="utf-8") as file:
+            return file.read()
+    else:
+        print(f"Downloading page: {url}")
+        try:
+            response = requests.get(url)
+            # Check if the response was successful
+            response.raise_for_status()  # Will raise an exception for 4xx/5xx responses
+            content = response.text
+
+            # Write to cache file only if the page was downloaded successfully
+            with open(cache_filename, "w", encoding="utf-8") as file:
+                file.write(content)
+
+            return content
+        except requests.exceptions.RequestException as e:
+            # Handle any error that occurs during the request
+            print(f"Error downloading {url}: {e}")
+            return ""
+
+
+# Define categories and their corresponding links
+categories = {
+    "Weapons": {
+        "Swords": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Swords"]},
+        "War_Axes": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["War Axes"]},
+        "Maces": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Maces"]},
+        "Daggers": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Daggers"]},
+        "Greatswords": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Greatswords"]},
+        "Battleaxes": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Battleaxes"]},
+        "Warhammers": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Warhammers"]},
+        "Bows": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Bows"]},
+        "Crossbows": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Crossbows"]},
+        "Shields": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["Shields"]},
+    },
+    "armor": {
+        "helmet": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["helmet"]},
+        "chestpiece": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["chestpiece"]},
+        "pants": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["pants"]},
+        "boots": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["boots"]},
+        "gloves": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["gloves"]},
+        "necklace": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["necklace"]},
+        "ring": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["ring"]},
+    }
+}
+
+# Parsing the table of weapons/armor on each category page
+
+
+def parse_category_page(category_name, category_data):
+    url_source = category_data['url_source']
+    html = download_page(url_source)
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # Progress bar setup
+    # Number of tables to parse (each table = weapon/armor group)
+    total_items = len(soup.find_all('table'))
+    print(
+        f"Parsing category: {category_name} - {total_items} items to process.")
+
+    # Parsing the category tables
+    items = []
+    for idx, table in enumerate(soup.find_all('table'), start=1):
+        print(f"Processing {category_name} - Item {idx}/{total_items}")
+        rows = table.find_all('tr')
+
         for row in rows:
+            # Extract weapon/armor info from each row
             name_tag = row.find("a", title=True)
             if not name_tag:
                 continue  # Skip if no name
-            name = name_tag.text.strip()
 
+            name = name_tag.text.strip()
             img_tag = row.find("img")
             image_url = "https:" + img_tag["src"] if img_tag else ""
+            stats = row.find_all("td")[2:]
 
-            stats = row.find_all("td")[2:]  # Skip first two columns
             if len(stats) < 3:
                 continue  # Skip rows with missing stats
 
@@ -61,34 +119,79 @@ for element in content_div.find_all(["h2", "table"]):
             except ValueError:
                 continue  # Skip invalid stats
 
-            weapons.append({
-                "id": str(uuid.uuid4()),  # Unique ID
+            item = {
+                "id": get_uuid(),  # Unique ID
                 "Name": name,
                 "url": image_url,
                 "Damage": damage,
                 "weight": weight,
                 "value": value,
-                "category_id": current_category  # Link to category
-            })
-            weapon_count += 1  # Increment weapon counter
-            print(f"Processed: {name} (Total: {weapon_count})")
+            }
+            items.append(item)
 
-# JSON structure
-db = {
-    "user": [
-        {"username": "admin", "password": hash_password("admin"), "presets": []},
-        {"username": "visiteur", "password": hash_password("visiteur"), "presets": []}
-    ],
-    "top_10": [],
-    "default_preset": [],
-    "armor": { "helmet": [], "chestpiece": [], "pants": [], "boots": [], "gloves": [], "necklace": [], "ring": [] },
-    "weapon": weapons,  # Parsed weapons
-    "categories": category_lookup  # Category lookup table
-}
+    return items
 
-# Write to db.json
-output_file = "db.json"
-with open(output_file, "w", encoding="utf-8") as f:
-    json.dump(db, f, indent=4, ensure_ascii=False)
+# Main function to process categories and build JSON output
 
-print(f"\n db.json created successfully with {weapon_count} weapons and {len(category_lookup)} categories!")
+
+def process_categories():
+    ensure_cache_dir()
+    total = 0
+    db = {
+        "user": [
+            {"username": "admin",    "password": hash_password("admin"),    "presets": []},
+            {"username": "visiteur", "password": hash_password("visiteur"), "presets": []}
+        ],
+        "top_10"        : [],
+        "default_preset": [],
+        "armor"         : {"helmet": [], "chestpiece": [], "pants": [], "boots": [], "gloves": [], "necklace": [], "ring": []},
+        "weapon"        : {"Swords": [], "War_Axes": [], "Maces": [], "Daggers": [], "Greatswords": [], "Battleaxes": [], "Warhammers": [], "Bows": [], "Crossbows": [], "Shields": []},
+        "categories"    : {
+            "Weapons": {
+                "Swords"     : "one_hand",
+                "War_Axes"   : "one_hand",
+                "Maces"      : "one_hand",
+                "Daggers"    : "one_hand",
+                "Greatswords": "two_hand",
+                "Battleaxes" : "two_hand",
+                "Warhammers" : "two_hand",
+                "Bows"       : "archery",
+                "Crossbows"  : "archery",
+                "Shields"    : "one_hand",
+            }
+        }
+    }
+
+    # Process each category
+    for category_name, category_data in categories.items():
+        print(f"\nProcessing category: {category_name}")
+
+        for item_name, item_data in category_data.items():
+            print(f"Processing item: {item_name}")
+            items = parse_category_page(item_name, item_data)
+
+            # Add parsed items to the relevant section in the db
+            if category_name not in db:
+                db[category_name] = {}
+                print("MISSING : ", category_name)
+            if item_name not in db[category_name]:
+                db[category_name][item_name] = []
+                print("MISSING : ", item_name)
+            db[category_name][item_name] = items
+            total += len(items)
+
+    # Write the final JSON to a file
+    output_file = "db.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(db, f, indent=4, ensure_ascii=False)
+
+    print(f"\nProcessed {total} items in total.")
+    print(f"\n db.json created successfully!")
+
+
+# Run the process
+process_categories()
+
+## TODO : FIX name "CC"
+## TODO : top_10
+## TODO : default_preset
