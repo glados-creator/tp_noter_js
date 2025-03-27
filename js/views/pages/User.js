@@ -1,10 +1,12 @@
-import Page_comp from "../componants/Page";
+import Page_comp from "../componants/Page_comp.js";
 
-export default class User extends Page_comp{
+export default class User extends Page_comp {
     async render() {
-        return `
-            <h1>User</h1>
-            <p>Page de l'utilisateur</p>
-        `;
+        return Page_comp.renderPage(() => `
+      <section class="main-content">
+        <h1>User Profile</h1>
+        <p>Here you can manage your user profile and settings.</p>
+      </section>
+    `);
     }
 }

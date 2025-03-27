@@ -1,10 +1,12 @@
-import Page_comp from "../componants/Page";
+import Page_comp from "../componants/Page_comp.js";
 
-export default class Home extends Page_comp{
+export default class Home extends Page_comp {
     async render() {
-        return `
-            <h1>Home</h1>
-            <p>Page d'accueil</p>
-        `;
+        return Page_comp.renderPage(() => `
+      <section class="main-content">
+        <h1>Welcome to Skyrim Calculator</h1>
+        <p>Your main content goes here...</p>
+      </section>
+    `);
     }
 }
