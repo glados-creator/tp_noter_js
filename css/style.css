@@ -6,12 +6,18 @@ body, html {
   color: #333;
 }
 
-main {
+.main {  
   position: relative;
   padding-top: 5em;
-  padding-bottom: 2em;
-  z-index: 1;
+  /*! padding-bottom: 2em; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
+
 
 /* Header Styles */
 .header-bar {
@@ -19,7 +25,9 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  background-color: transparent;
+  opacity: 0.7;
+  
+  background-image: url('../img/background/old_paper_infobox_blue_bg.png');
   position: fixed;
   width: 100%;
   top: 0;
@@ -62,6 +70,9 @@ main {
 .main {
   position: relative;
   z-index: 1;
+     width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .main-image {
@@ -79,12 +90,13 @@ main {
 .gray-div {
   background-color: gray;
   height: calc(100vh - 2em);
-  margin-top: 2em;
+  /*! margin-top: 2em; */
 }
 
 /* Footer Styles */
 footer {
   background-color: #333;
+  background-image: url('../img/background/old_paper_infobox_blue_bg.png');
   color: white;
   text-align: center;
   padding: 1em 0;
@@ -109,4 +121,64 @@ footer ul li a {
 
 footer ul li a:hover {
   text-decoration: underline;
+}
+
+.gray-div{
+width: 100%;
+  height: 500px;
+  background-image: url('../img/The-Elder-Scrolls-V-Skyrim-PS4-Wallpapers-15-768x432.jpg');
+  
+  background-size: cover; /* Ajuste la taille pour couvrir la div */
+  background-position: center; /* Centre l'image */
+   background-repeat: no-repeat; /* Empêche la répétition */
+}
+
+
+main{
+  background-image: url('../img/image_du_jeu/elder-scrolls-v-skyrim-screenshot-03-en-8oct21.webp');
+}
+
+.main{
+
+}
+
+
+.logo{
+  width: 20%; 
+    height: auto; 
+    max-width: 300px; 
+    min-width: 100px; 
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+    top: 50%; /* Position verticale à 50% du conteneur */
+    left: 50%; /* Position horizontale à 50% du conteneur */
+    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement l'overlay */
+    background: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%; /* Ajuste la largeur de l'overlay (optionnel) */
+    max-width: 600px; /* Limite la largeur maximale */
+}
+
+.cache{
+  background-image: url('../img/background/old_paper_infobox_blue_bg.png');
+  padding: 20px;
+  width: 100%;
+}
+
+.title-image {
+    width: 500px; /* Taille fixe de l'image */
+    height: auto; /* Conserver les proportions */
+    margin-top: 20px; /* Espacement au-dessus de l'image */
+    margin-bottom: 20px; /* Espacement en dessous de l'image */
 }
