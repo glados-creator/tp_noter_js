@@ -22,18 +22,20 @@ php -S 127.0.0.1:8080
 
 miscellaneous:
 - [X] update route
-- [ ] put css
+- [X] importe donners
+- [~] put css
+- [ ] bug model nom CC
 
 model :
 - [ ] personnage_cg
-- [ ] toute les races
+- [X] toute les races
 - [ ] Items
 - [ ] Caracteristiques
 
 
 pages :
-- [ ] home
-- [ ] user
+- [~] home
+- [~] user
 - [ ] preset
 - [ ] comparaison
 
