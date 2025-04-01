@@ -1,2 +1,2 @@
-export default class SelectorComp {
+export default class Selector_Comp {
 }

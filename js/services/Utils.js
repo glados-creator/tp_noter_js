@@ -12,7 +12,7 @@ const Utils = {
         request.verb = r[3];
         return request;
     },
-    AutoFetch: async ({url,callback = (json) =>json}) => {
+    AutoFetch: async (url) => {
         const options = {
             methode: "GET",
             header: {
@@ -22,8 +22,7 @@ const Utils = {
 
         try {
             const rep = await fetch(ENDPOINT+url, options);
-            const json = await rep.json();
-            return callback(json);
+            return await rep.json();
         } catch (error) {
             console.error(error);
             return {};
