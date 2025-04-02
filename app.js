@@ -20,7 +20,7 @@ const router = async () => {
     console.log("router request :",request);
     let   parsedurl = `/${request.resource || ""}${request.id ? "" : ""}${request.verb ? `/${request.verb}` : ""}`;
     console.log("router parsedURL :",parsedurl);
-    let   page      = routes[parsedurl] ? (new routes[parsedurl]()) : (new Error_Page());
+    let   page      = routes[parsedurl] ? (new routes[parsedurl]()) : (new Error_Page()); 
     console.log("PAGE : ",page);
     console.log("TYPEOF PAGE : ",typeof page);
     content.innerHTML = await page.render();

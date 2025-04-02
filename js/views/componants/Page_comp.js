@@ -12,10 +12,11 @@ export default class Page_comp {
           <img src="img/Skyrim-logo.png" alt="Background" class="title-image">
           <div class="main">
           <img src="img/scroll.png" alt="Background" class="main-image">
-          <section class="overlay">
-          <img src="img/skyrim-logo-graphic-xa101sn0p941hozw.png" height="42" width="42" alt="Background" class="logo">
-          ${await contentCallback()}
+
+          <section>
+                ${await contentCallback()}
           </section>
+          
           <div class = "cache"> </div>
           <section class="gray-div"></section>
             
@@ -24,3 +25,4 @@ export default class Page_comp {
         `;
       }
 }
+
