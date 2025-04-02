@@ -1,21 +1,16 @@
-export default class Headerbar {
+export default class HeaderBar {
     static async render() {
         return `
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#/">LAW AND ORDER</a>
-            <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                <a class="nav-link" href="#/articles">Articles</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#/about">About</a>
-                </li>
-            </ul>
-            </div>
+      <header class="header-bar">
+        <div class="header-left">
+          <a href="/" class="header-title">Skyrim Calculator</a>
         </div>
-        </nav>
-        `;
+        <div class="header-right">
+          <a href="/#/preset" class="header-button">Preset</a>
+          <a href="/#/comparaison" class="header-button">Comparaison</a>
+          <a href="/#/user" class="header-button">Compte</a>
+        </div>
+      </header>
+    `;
     }
-} 
+}
