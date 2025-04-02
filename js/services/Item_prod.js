@@ -1,6 +1,6 @@
 import Utils from '../services/Utils.js';
 import Items from '../model/Items.js';
-import ENDPOINT from '../config/endpoint.js';
+import { ENDPOINT } from '../config.js';
 
 export default class Item_prod {
     static cache = new Map();
