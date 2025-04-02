@@ -19,7 +19,6 @@ export default class Page_comp {
           
           <div class = "cache"> </div>
           <section class="gray-div"></section>
-            
           </div>
           ${await Footer.render()}
         `;

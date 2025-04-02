@@ -7,6 +7,7 @@ import Error_Page from "./js/views/pages/ErrorPage.js";
 import Utils from "./js/services/Utils.js";
 
 const routes = {
+    ""           : Home_page,
     "/"           : Home_page,
     "/home"       : Home_page,
     "/user"       : User_page,
