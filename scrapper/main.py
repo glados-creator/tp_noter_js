@@ -67,7 +67,7 @@ categories = {
         "Crossbows": {"url_source": "https://en.uesp.net/wiki/Skyrim:Weapons_(All)", "id": ["Crossbows"]},
         "Shields": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["Shields"]},
     },
-    "armor": {
+    "Armor": {
         "helmet": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["helmet"]},
         "chestpiece": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["chestpiece"]},
         "pants": {"url_source": "https://en.uesp.net/wiki/Skyrim:Armor", "id": ["pants"]},
@@ -139,13 +139,37 @@ def process_categories():
     total = 0
     db = {
         "user": [
-            {"username": "admin",    "password": hash_password("admin"),    "presets": []},
-            {"username": "visiteur", "password": hash_password("visiteur"), "presets": []}
+            {"username": "admin",    "password": hash_password("admin"),    "presets": [
+                {
+                    "id": get_uuid(),
+                    "armor": [0,0,0,0,0,0,0],
+                    "weapon": [0,0,0,0,0,0,0],
+                    "race": "Human",
+                    "wherewolf": False,
+                    "vampire": False
+                }
+                ]},
+            {"username": "visiteur", "password": hash_password("visiteur"), "presets": [
+                {
+                    "id": get_uuid(),
+                    "armor": [0,0,0,0,0,0,0],
+                    "weapon": [0,0,0,0,0,0,0],
+                    "race": "Human",
+                    "wherewolf": False,
+                    "vampire": False
+                }
+            ]}
         ],
-        "top_10"        : [],
-        "default_preset": [],
-        "armor"         : {"helmet": [], "chestpiece": [], "pants": [], "boots": [], "gloves": [], "necklace": [], "ring": []},
-        "weapon"        : {"Swords": [], "War_Axes": [], "Maces": [], "Daggers": [], "Greatswords": [], "Battleaxes": [], "Warhammers": [], "Bows": [], "Crossbows": [], "Shields": []},
+        "top_10"        : [
+            {
+                    "id": get_uuid(),
+                    "armor": [0,0,0,0,0,0,0],
+                    "weapon": [0,0,0,0,0,0,0],
+                    "race": "Human",
+                    "wherewolf": False,
+                    "vampire": False
+                }
+        ],
         "categories"    : {
             "Weapons": {
                 "Swords"     : "one_hand",
@@ -159,6 +183,27 @@ def process_categories():
                 "Crossbows"  : "archery",
                 "Shields"    : "one_hand",
             }
+        },
+        "Weapons" : {
+            "Swords"     : [],
+            "War_Axes"   : [],
+            "Maces"      : [],
+            "Daggers"    : [],
+            "Greatswords": [],
+            "Battleaxes" : [],
+            "Warhammers" : [],
+            "Bows"       : [],
+            "Crossbows"  : [],
+            "Shields"    : [],
+        },
+        "Armor" : {
+            "helmet"   : [],
+            "chestpiece": [],
+            "pants"     : [],
+            "boots"     : [],
+            "gloves"    : [],
+            "necklace"  : [],
+            "ring"      : [],
         }
     }
 

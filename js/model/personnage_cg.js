@@ -33,6 +33,8 @@ export default class Personnage_cg {
     ]
 
     static #race;
+    wherewolf = false;
+    vampire = false;
 
     
     constructor() {
