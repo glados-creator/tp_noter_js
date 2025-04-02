@@ -1,8 +1,8 @@
 import Page_comp from "../componants/Page_comp.js";
 import Personnage_cg from "../../model/personnage_cg.js";
-import Selector_Comp from "../componants/Selector_comp.js";
+import Selector_Comp from "../componants/selector_comp.js";
 import Calculator_comp from "../componants/calculator_comp.js";
-import PersonnageViewComp from "../componants/PersonnageViewComp.js"; // Assuming you have this component
+import PersonnageViewComp from "../componants/personnage_view_comp.js";
 
 export default class Comparaison_page extends Page_comp {
     async render() {
