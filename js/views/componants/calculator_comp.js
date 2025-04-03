@@ -1,13 +1,18 @@
-import Calcula from'../../services/Calculegraph';
+import Calculegraph from'../../services/Calculegraph.js';
+
 
 export default class Calculator_comp {
     static async rendergraph() {
-        return `
+    
+    const canvasHtml =`   
     <section>
         <canvas id="myChart" width="400" height="200"></canvas>
-        ${Calcula.graph1()}
     </section>
     `
+    Calculegraph.graph1();
+
+
+    return canvasHtml;
 
 }
 }
