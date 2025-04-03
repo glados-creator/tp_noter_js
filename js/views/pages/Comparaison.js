@@ -42,6 +42,8 @@ export default class Comparaison_page extends Page_comp {
         }, 500);
 
         return Page_comp.renderPage(async () => `
+
+        <section class="main-content-comparaison">
             <h1>Comparaison</h1>
             <p>Page de comparaison</p>
             <button id="debug-button">Debug: Set Characters</button>
@@ -70,6 +72,15 @@ export default class Comparaison_page extends Page_comp {
 
             <div>${new Calculator_comp(this.perso1, this.perso2).render()}</div>
 
+        <section>
+            <script>
+                document.getElementById('debug-button').addEventListener('click', () => {
+                    Comparaison_page.debugSetCharacters();
+                    location.reload();
+                });
+            </script>
+
+
             <style>
                 .character-views-container {
                     display: flex;
@@ -88,6 +99,7 @@ export default class Comparaison_page extends Page_comp {
                     display: ${this.armorView === "perso1" ? "block" : "none"};
                 }
             </style>
+
         `);
     }
 
@@ -157,8 +169,8 @@ export default class Comparaison_page extends Page_comp {
     static debugSetCharacters() {
         let charData = {
             active: { name: "Debug Character", equipment: {} },
-            perso1: null,
-            perso2: null
+            perso1: this.perso1 ?? null,
+            perso2: null,
         };
         console.log("Reset character data:", charData);
         localStorage.setItem('characters', JSON.stringify(charData));
