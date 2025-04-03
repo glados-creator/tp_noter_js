@@ -11,9 +11,8 @@ export default class Preset_page extends Page_comp {
         ];
 
         const personnageItems = await Promise.all(personnages.map(async personnage => {
-            const personnageView = new PersonnageViewComp(personnage);
             return `<div class="personnage-item" data-id="${personnage.id}">
-                        ${await personnageView.render()}
+                        ${await PersonnageViewComp.render(personnage)}
                     </div>`;
         }));
 

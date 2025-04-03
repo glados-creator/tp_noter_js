@@ -25,7 +25,7 @@ export default class Item_prod {
                 const data = await Utils.AutoFetch(url);
                 console.log("item provider byid",data);
                 // Search for the item by ID
-                const itemData = data.find(item => item.id === id);
+                const itemData = data.filter(item => item.id === id);
 
                 if (itemData) {
                     const item = new Items(itemData);
