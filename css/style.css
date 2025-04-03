@@ -98,6 +98,17 @@ body, html {
   color: #333;
 }
 
+.main-content-comparaison{
+  background-color: gray;
+  justify-content: center;
+  height: calc(100vh - 2em);
+  padding: 20px;
+  background-image: url('../img/background/backgrounf feuille.jpg');
+  color: #333;
+}
+
+
+
 .main-content h1 {
   padding-top: 1em ;
   margin-top: 2em;
@@ -222,6 +233,8 @@ main{
 .calculator-comp {
   margin-top: 20px;
 }
+
+
 
 .calculator-comp table {
   width: 100%;

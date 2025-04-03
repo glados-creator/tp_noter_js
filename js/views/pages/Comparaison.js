@@ -18,6 +18,8 @@ export default class Comparaison_page extends Page_comp {
         this.updateSelectors(this.perso1, this.perso2);
 
         return Page_comp.renderPage(async () => `
+
+        <section class="main-content-comparaison">
             <h1>Comparaison</h1>
             <p>Page de comparaison</p>
             <!-- <button id="debug-button">Debug: Set Characters</button> -->
@@ -42,6 +44,7 @@ export default class Comparaison_page extends Page_comp {
                 </tr>
             </table>
             <div>${new Calculator_comp(this.perso1, this.perso2).render()}</div>
+        <section>
             <script>
                 document.getElementById('debug-button').addEventListener('click', () => {
                     Comparaison_page.debugSetCharacters();
