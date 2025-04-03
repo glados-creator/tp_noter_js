@@ -9,7 +9,8 @@ export default class Personnage_cg {
         "Khajiit",
         "Nord",
         "Orsimer",
-        "Redguard",]
+        "Redguard",
+    ];
 
     static attributes = [
         "Smithing",
@@ -30,13 +31,12 @@ export default class Personnage_cg {
         "Restoration",
         "Alteration",
         "Enchanting",
-    ]
+    ];
 
     static #race;
     wherewolf = false;
     vampire = false;
 
-    
     constructor() {
         this.Smithing = 15;
         this.Heavy_Armor = 15;
@@ -56,5 +56,50 @@ export default class Personnage_cg {
         this.Restoration = 15;
         this.Alteration = 15;
         this.Enchanting = 15;
+        this.equipment = {
+            helmet: null,
+            chestpiece: null,
+            pants: null,
+            boots: null,
+            gloves: null,
+            necklace: null,
+            ring: null,
+            weapons: []
+        };
+    }
+
+    calculateWeight() {
+        let totalWeight = 0;
+        for (const item of Object.values(this.equipment)) {
+            if (Array.isArray(item)) {
+                totalWeight += item.reduce((sum, i) => sum + i.weight, 0);
+            } else if (item) {
+                totalWeight += item.weight;
+            }
+        }
+        return totalWeight;
+    }
+
+    calculateDamage() {
+        let totalDamage = 0;
+        const weaponTypes = ["Swords", "War_Axes", "Maces", "Daggers", "Greatswords", "Battleaxes", "Warhammers", "Bows", "Crossbows"];
+        for (const weapon of this.equipment.weapons) {
+            if (weaponTypes.includes(weapon.type)) {
+                totalDamage += weapon.Damage;
+            }
+        }
+        return totalDamage;
+    }
+
+    calculateGold() {
+        let totalGold = 0;
+        for (const item of Object.values(this.equipment)) {
+            if (Array.isArray(item)) {
+                totalGold += item.reduce((sum, i) => sum + i.value, 0);
+            } else if (item) {
+                totalGold += item.value;
+            }
+        }
+        return totalGold;
     }
 }
