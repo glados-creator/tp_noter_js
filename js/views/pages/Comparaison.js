@@ -20,7 +20,7 @@ export default class Comparaison_page extends Page_comp {
         return Page_comp.renderPage(async () => `
             <h1>Comparaison</h1>
             <p>Page de comparaison</p>
-            <button id="debug-button">Debug: Set Characters</button>
+            <!-- <button id="debug-button">Debug: Set Characters</button> -->
             <div class="equipment-selectors">
                 <div>Helmet: ${this.selectors.helmet.render()}</div>
                 <div>Chestpiece: ${this.selectors.chestpiece.render()}</div>

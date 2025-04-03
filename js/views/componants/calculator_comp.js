@@ -8,13 +8,30 @@ export default class Calculator_comp {
         console.log("calculator1",this.perso1);
         console.log("calculator2",this.perso2);
 
-        const perso1Weight = 0 // this.perso1.calculateWeight();
-        const perso1Damage = 0 // this.perso1.calculateDamage();
-        const perso1Gold = 0 //  this.perso1.calculateGold();
-        const perso2Damage = 0 //  this.perso2.calculateDamage();
-        const perso2Weight = 0 //  this.perso2.calculateWeight();
-        const perso2Gold = 0 //  this.perso2.calculateGold();
-        if (this.perso2 || 1){
+        let perso1Weight = 0;
+        let perso1Damage = 0;
+        let perso1Gold =  0;
+        if (this.perso1){
+            try {
+                perso1Weight = this.perso1.calculateWeight();
+                perso1Damage = this.perso1.calculateDamage();
+                perso1Gold =  this.perso1.calculateGold();
+            } catch (error) {
+                console.warn(error);
+            }
+        }
+        let perso2Damage = 0;
+        let perso2Weight = 0;
+        let perso2Gold = 0;
+        if (this.perso2){
+            try {
+                
+                perso2Damage =  this.perso2.calculateDamage();
+                perso2Weight =  this.perso2.calculateWeight();
+                perso2Gold =  this.perso2.calculateGold();
+            } catch (error) {
+                console.warn(error);
+            }
         }
 
         return `
