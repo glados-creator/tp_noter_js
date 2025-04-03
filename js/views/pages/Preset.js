@@ -19,11 +19,11 @@ export default class Preset_page extends Page_comp {
         const content = `
             <section class="main-content">
                 <h1>Preset</h1>
+                <button id="debug-button">Initialize LocalStorage</button>
                 <p>Page de preset</p>
                 <div class="personnages-list">
                     ${personnageItems.join('')}
                 </div>
-                <button id="debug-button">Initialize LocalStorage</button>
             </section>
         `;
 
@@ -46,6 +46,6 @@ export default class Preset_page extends Page_comp {
             });
         }, 0);
 
-        return content // Page_comp.renderPage(() => content);
+        return Page_comp.renderPage(() => content);
     }
 }

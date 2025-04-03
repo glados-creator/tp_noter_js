@@ -4,52 +4,77 @@ import Items from '../model/Items.js';
 export default class Item_prod {
     static cache = new Map();
     static urlCache = new Map();
+    static dbData = null; // Store the entire db.json data here
 
-    // Récupérer un item par ID en parcourant toutes les catégories
-    static async getById(id, category = null) {
-        if (!id) return null;
-        if (this.cache.has(id)) return this.cache.get(id);
-
-        // Define the categories to search based on the provided category
-        const categoriesToSearch = category
-            ? [[category, Object.keys(Items[category])]]
-            : [
-                ['Weapons', Object.keys(Items.Weapons)],
-                ['Armor', Object.keys(Items.Armor)]
-            ];
-
-        // Iterate through the categories to find the item by ID
-        for (const [mainCategory, subCategories] of categoriesToSearch) {
-            for (const subCategory of subCategories) {
-                const url = `${mainCategory}/${subCategory}/${id}`;
-                const data = await Utils.AutoFetch(url);
-                console.log("item provider byid",data);
-                // Search for the item by ID
-                const itemData = data.filter(item => item.id === id);
-
-                if (itemData) {
-                    const item = new Items(itemData);
-                    this.cache.set(id, item);
-                    return item;
-                }
-            }
+    // Load all categories into cache (Weapons and Armor) by fetching the entire db.json
+    static async loadAllData() {
+        if (this.dbData) {
+            console.log('Data already loaded into cache.');
+            return;
         }
-        console.warn(`Warning: Item with ID "${id}" not found in any category. ${category}`);
+    
+        try {
+            // Fetch Weapons data
+            const weaponsData = await Utils.AutoFetch('Weapons');
+            console.log("HERER",weaponsData);
+            weaponsData.forEach(item => {
+                this.cache.set(item.id, new Items(item));
+            });
+    
+            // Fetch Armor data
+            const armorData = await Utils.AutoFetch('Armor');
+            armorData.forEach(item => {
+                this.cache.set(item.id, new Items(item));
+            });
+    
+            // Fetch other categories if needed (user, top_10, categories)
+            const userData = await Utils.AutoFetch('user');
+            const top10Data = await Utils.AutoFetch('top_10');
+            const categoriesData = await Utils.AutoFetch('categories');
+    
+            // You can store additional information from these endpoints in the dbData if needed
+            this.dbData = {
+                user: userData,
+                top_10: top10Data,
+                categories: categoriesData,
+            };
+    
+            console.log('All data loaded and cached from db.json.');
+        } catch (error) {
+            console.error('Error fetching db.json:', error);
+        }
+    }
+    
+
+    // Récupérer un item par ID en parcourant la cache
+    static async getById(id) {
+        if (!id) return null;
+
+        // Ensure data is loaded into cache
+        await this.loadAllData();
+
+        // Check if item is in the cache
+        if (this.cache.has(id)) {
+            return this.cache.get(id);
+        }
+
+        console.warn(`Warning: Item with ID "${id}" not found in cache.`);
         return null;
     }
 
-    // Recherche d'items avec filtres, pagination et this.cache
+    // Recherche d'items avec filtres, pagination et cache
     static async search({ categories = [], text = '', page = 1, pageSize = 10 }) {
-        const queryParams = new URLSearchParams();
-        let endpoints = [];
+        // Ensure data is loaded into cache
+        await this.loadAllData();
 
-        // Determine the correct endpoints based on categories
+        const queryParams = new URLSearchParams();
+        let allItems = [];
+
+        // Filter items from cache based on categories and search text
         const validCategories = categories.filter(category => {
-            if (Object.values(Items.Weapons).includes(category)) {
-                endpoints.push(`Weapons/${category}`);
+            if (Object.keys(this.dbData.Weapons || {}).includes(category)) {
                 return true;
-            } else if (Object.values(Items.Armor).includes(category)) {
-                endpoints.push(`Armor/${category}`);
+            } else if (Object.keys(this.dbData.Armor || {}).includes(category)) {
                 return true;
             } else {
                 console.warn(`Warning: Invalid category "${category}" ignored.`);
@@ -57,48 +82,33 @@ export default class Item_prod {
             }
         });
 
+        // If no categories are provided, search across all categories
         if (categories.length === 0) {
-            // If no categories are provided, search across all categories
-            endpoints = [
-                ...Object.keys(Items.Weapons).map(subCat => `Weapons/${subCat}`),
-                ...Object.keys(Items.Armor).map(subCat => `Armor/${subCat}`)
-            ];
+            validCategories.push('Weapons', 'Armor');
         }
 
-        if (text) queryParams.append('_like', text);
-        queryParams.append('_page', page);
-        queryParams.append('_limit', pageSize);
+        // Iterate over valid categories to filter items
+        allItems = Array.from(this.cache.values()).filter(item => {
+            const matchCategory = validCategories.some(category => {
+                return (
+                    (category === 'Weapons' && item.type === 'Weapon') ||
+                    (category === 'Armor' && item.type === 'Armor')
+                );
+            });
 
-        let allItems = [];
+            const matchText = text ? item.name.toLowerCase().includes(text.toLowerCase()) : true;
 
-        for (const endpoint of endpoints) {
-            const url = `${endpoint}?${queryParams.toString()}`;
+            return matchCategory && matchText;
+        });
 
-            // Check URL cache
-            if (this.urlCache.has(url)) {
-                allItems = allItems.concat(this.urlCache.get(url).items);
-                continue;
-            }
-
-            const data = await Utils.AutoFetch(url);
-            const items = data.map(item => new Items(item));
-            items.forEach(item => this.cache.set(item.id, item));
-
-            const result = {
-                items,
-                total: data.length,
-                page,
-                pageSize,
-            };
-
-            // Cache the result for the URL
-            this.urlCache.set(url, result);
-            allItems = allItems.concat(items);
-        }
+        // Handle pagination
+        const totalItems = allItems.length;
+        const startIndex = (page - 1) * pageSize;
+        const paginatedItems = allItems.slice(startIndex, startIndex + pageSize);
 
         return {
-            items: allItems,
-            total: allItems.length,
+            items: paginatedItems,
+            total: totalItems,
             page,
             pageSize,
         };
