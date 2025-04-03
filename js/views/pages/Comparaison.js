@@ -10,40 +10,68 @@ export default class Comparaison_page extends Page_comp {
         this.perso1 = null;
         this.perso2 = null;
         this.selectors = {};
+        this.armorView = "perso1"; // Default armor view
+
         document.addEventListener('personnageSelected', event => this.handlePersonnageSelected(event));
     }
 
     async render() {
-        this.initializeCharacters();
-        this.updateSelectors(this.perso1, this.perso2);
+        await this.initializeCharacters();
+        this.updateSelectors();
+
+        setTimeout(() => {
+            console.log("Attaching event listeners...");
+            
+            document.getElementById('debug-button')?.addEventListener('click', () => {
+                Comparaison_page.debugSetCharacters();
+                location.reload();
+            });
+
+            document.getElementById('reset-button')?.addEventListener('click', () => {
+                localStorage.removeItem('characters');
+                location.reload();
+            });
+
+            document.getElementById('switch-armor')?.addEventListener('click', () => {
+                this.toggleArmorView();
+            });
+
+            document.getElementById('perso1-view')?.addEventListener('click', () => this.setActiveCharacter(this.perso1));
+            document.getElementById('perso2-view')?.addEventListener('click', () => this.setActiveCharacter(this.perso2));
+
+        }, 500);
 
         return Page_comp.renderPage(async () => `
 
         <section class="main-content-comparaison">
             <h1>Comparaison</h1>
             <p>Page de comparaison</p>
-            <!-- <button id="debug-button">Debug: Set Characters</button> -->
+            <button id="debug-button">Debug: Set Characters</button>
+            <button id="reset-button">Reset Local Storage</button>
+            <button id="switch-armor">Switch Armor View</button>
+            
             <div class="equipment-selectors">
-                <div>Helmet: ${this.selectors.helmet.render()}</div>
-                <div>Chestpiece: ${this.selectors.chestpiece.render()}</div>
-                <div>Pants: ${this.selectors.pants.render()}</div>
-                <div>Boots: ${this.selectors.boots.render()}</div>
-                <div>Gloves: ${this.selectors.gloves.render()}</div>
-                <div>Necklace: ${this.selectors.necklace.render()}</div>
-                <div>Ring: ${this.selectors.ring.render()}</div>
+                ${Object.keys(this.selectors).map(slot => 
+                    `<div class="equipment-slot">${slot.charAt(0).toUpperCase() + slot.slice(1)}: ${this.selectors[slot].render()}</div>`
+                ).join('')}
             </div>
-            <div class="character-views">
-                <div>${await PersonnageViewComp.render(this.perso1)}</div>
-                <div>${await PersonnageViewComp.render(this.perso2)}</div>
+
+            <div class="character-views-container">
+                <div class="character-view" id="perso1-view">${this.perso1 ? await PersonnageViewComp.render(this.perso1) : "<p>Click to select a character</p>"}</div>
+                <div class="character-view" id="perso2-view">${this.perso2 ? await PersonnageViewComp.render(this.perso2) : "<p>Click to select a character</p>"}</div>
             </div>
+
             <table>
                 <tr>
                     <th>Weapons</th>
-                    <td>${this.selectors.weapons.render()}</td>
-                    <td>${this.selectors.weapons.render()}</td>
+                    <td>${this.selectors.weapons_p1.render()}</td>
+                    <td>${this.selectors.weapons_p2.render()}</td>
                 </tr>
             </table>
+
+
             <div>${new Calculator_comp(this.perso1, this.perso2).render()}</div>
+
         <section>
             <script>
                 document.getElementById('debug-button').addEventListener('click', () => {
@@ -51,76 +79,100 @@ export default class Comparaison_page extends Page_comp {
                     location.reload();
                 });
             </script>
+
+
+            <style>
+                .character-views-container {
+                    display: flex;
+                    justify-content: space-around;
+                    gap: 20px;
+                    margin-top: 20px;
+                }
+                .character-view {
+                    flex: 1;
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+                .equipment-slot {
+                    display: ${this.armorView === "perso1" ? "block" : "none"};
+                }
+            </style>
+
         `);
     }
 
-    initializeCharacters() {
-        let charData = JSON.parse(localStorage.getItem('characters')) || {};
-        console.log("Loaded character data from localStorage:", charData);
-    
-        if (!charData.active) {
-            charData.active = new Personnage_cg();
-            console.log("Set default active character:", charData.active);
-        }
-        if (!charData.perso1) {
-            charData.perso1 = charData.active;
-            console.log("Set perso1 to active character:", charData.perso1);
-        } else if (!charData.perso2) {
-            charData.perso2 = charData.active;
-            console.log("Set perso2 to active character:", charData.perso2);
-        }
-        localStorage.setItem('characters', JSON.stringify(charData));
-        
-        this.perso1 = charData.perso1;
-        this.perso2 = charData.perso2;
-        
-        console.log("Final perso1:", this.perso1);
-        console.log("Final perso2:", this.perso2);
-    }
-    
+    async initializeCharacters() {
+        let charData = JSON.parse(localStorage.getItem('characters')) || { perso1: null, perso2: null, active: null };
 
-    handlePersonnageSelected(event) {
-        const selectedPersonnage = event.detail;
-        console.log("Personnage selected:", selectedPersonnage);
-    
-        let charData = JSON.parse(localStorage.getItem('characters')) || {};
-    
-        if (!charData.perso1) {
-            charData.perso1 = selectedPersonnage;
-        } else {
-            charData.perso2 = selectedPersonnage;
+        if (charData.active) {
+            if (charData.perso1) {
+                charData.perso2 = charData.perso1;
+            }
+            charData.perso1 = charData.active;
+            charData.active = null;
         }
-        console.log("Updated character data:", charData);
-        
+
+        this.perso1 = charData.perso1 ? new Personnage_cg(charData.perso1) : null;
+        this.perso2 = charData.perso2 ? new Personnage_cg(charData.perso2) : null;
+
+        localStorage.setItem('characters', JSON.stringify({ perso1: this.perso1, perso2: this.perso2, active: null }));
+    }
+
+    async handlePersonnageSelected(event) {
+        const selectedPersonnage = event.detail;
+        let charData = JSON.parse(localStorage.getItem('characters')) || {};
+
+        if (charData.perso1) {
+            charData.perso2 = charData.perso1;
+        }
+        charData.perso1 = selectedPersonnage;
+
         localStorage.setItem('characters', JSON.stringify(charData));
-        this.initializeCharacters();
+        await this.initializeCharacters();
         this.render();
     }
-    
 
-    updateSelectors(perso1, perso2) {
-        console.log("Updating selectors for perso1:", perso1);
-        console.log("Updating selectors for perso2:", perso2);
-    
-        const updateSelector = (selector, item) => {
-            console.log(`Setting selector ${selector} with item:`, item);
-            this.selectors[selector] = new Selector_Comp([selector]);
-            this.selectors[selector].selectedItem = item || null;
+    updateSelectors() {
+        const createSelector = (slot, character, prefix) => {
+            const selectorName = `${slot}_${prefix}`;
+            this.selectors[selectorName] = new Selector_Comp([slot]);
+            this.selectors[selectorName].selectedItem = character?.equipment?.[slot] || null;
         };
-    
+
         ['helmet', 'chestpiece', 'pants', 'boots', 'gloves', 'necklace', 'ring', 'weapons'].forEach(slot => {
-            updateSelector(slot, perso1?.equipment?.[slot] || null);
-            updateSelector(slot, perso2?.equipment?.[slot] || null);
+            
+            createSelector(slot, this.perso2, 'p2')
+            createSelector(slot, this.perso1, 'p1');
         });
     }
-    
+
+    setActiveCharacter(character) {
+        if (!character) return;
+        let charData = JSON.parse(localStorage.getItem('characters')) || {};
+
+        if (charData.perso1) {
+            charData.perso2 = charData.perso1;
+        }
+        charData.perso1 = character;
+
+        localStorage.setItem('characters', JSON.stringify(charData));
+        this.render();
+    }
+
+    toggleArmorView() {
+        this.armorView = this.armorView === "perso1" ? "perso2" : "perso1";
+        this.render();
+    }
 
     static debugSetCharacters() {
         let charData = {
-            active: new Personnage_cg(),
-            perso1: null,
-            perso2: null
+            active: { name: "Debug Character", equipment: {} },
+            perso1: this.perso1 ?? null,
+            perso2: null,
         };
+        console.log("Reset character data:", charData);
         localStorage.setItem('characters', JSON.stringify(charData));
     }
 }
