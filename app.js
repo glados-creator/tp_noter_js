@@ -7,12 +7,12 @@ import Error_Page from "./js/views/pages/ErrorPage.js";
 import Utils from "./js/services/Utils.js";
 
 const routes = {
-    ""           : Home_page,
-    "/"           : Home_page,
-    "/home"       : Home_page,
-    "/user"       : User_page,
-    "/preset"     : Preset_page,
-    "/comparaison": Comparaison_page,
+    ""             : Home_page,
+    "/"            : Home_page,
+    "/home"        : Home_page,
+    "/user"        : User_page,
+    "/preset"      : Preset_page,
+    "/comparaison" : Comparaison_page,
 }
 
 const router = async () => {
@@ -21,7 +21,7 @@ const router = async () => {
     console.log("router request :",request);
     let   parsedurl = `/${request.resource || ""}${request.id ? "" : ""}${request.verb ? `/${request.verb}` : ""}`;
     console.log("router parsedURL :",parsedurl);
-    let   page      = routes[parsedurl] ? (new routes[parsedurl]()) : (new Error_Page());
+    let   page      = routes[parsedurl] ? (new routes[parsedurl]()) : (new Error_Page()); 
     console.log("PAGE : ",page);
     console.log("TYPEOF PAGE : ",typeof page);
     content.innerHTML = await page.render();

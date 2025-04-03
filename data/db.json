@@ -39927,7 +39927,7 @@
         "helmet": [
             {
                 "id": "38a45d7b",
-                "Name": "DB",
+                "Name": "Chitin_Armor",
                 "url": "https://images.uesp.net/thumb/1/14/SR-icon-armor-Chitin_Armor.png/48px-SR-icon-armor-Chitin_Armor.png",
                 "Damage": 4,
                 "weight": 240,
@@ -42073,7 +42073,7 @@
         "chestpiece": [
             {
                 "id": "085c1a1b",
-                "Name": "DB",
+                "Name": "Chitin_Armor",
                 "url": "https://images.uesp.net/thumb/1/14/SR-icon-armor-Chitin_Armor.png/48px-SR-icon-armor-Chitin_Armor.png",
                 "Damage": 4,
                 "weight": 240,
@@ -44219,7 +44219,7 @@
         "pants": [
             {
                 "id": "2dd287d0",
-                "Name": "DB",
+                "Name": "Chitin_Armor",
                 "url": "https://images.uesp.net/thumb/1/14/SR-icon-armor-Chitin_Armor.png/48px-SR-icon-armor-Chitin_Armor.png",
                 "Damage": 4,
                 "weight": 240,
@@ -46365,7 +46365,7 @@
         "boots": [
             {
                 "id": "3c4ff3cc",
-                "Name": "DB",
+                "Name": "Chitin_Armor",
                 "url": "https://images.uesp.net/thumb/1/14/SR-icon-armor-Chitin_Armor.png/48px-SR-icon-armor-Chitin_Armor.png",
                 "Damage": 4,
                 "weight": 240,
@@ -48511,7 +48511,7 @@
         "gloves": [
             {
                 "id": "012bc4bd",
-                "Name": "DB",
+                "Name": "Chitin_Armor",
                 "url": "https://images.uesp.net/thumb/1/14/SR-icon-armor-Chitin_Armor.png/48px-SR-icon-armor-Chitin_Armor.png",
                 "Damage": 4,
                 "weight": 240,
@@ -50657,7 +50657,7 @@
         "necklace": [
             {
                 "id": "89dbe2eb",
-                "Name": "DB",
+                "Name": "Chitin_Armor",
                 "url": "https://images.uesp.net/thumb/1/14/SR-icon-armor-Chitin_Armor.png/48px-SR-icon-armor-Chitin_Armor.png",
                 "Damage": 4,
                 "weight": 240,
@@ -52803,7 +52803,7 @@
         "ring": [
             {
                 "id": "053061e3",
-                "Name": "DB",
+                "Name": "Chitin_Armor",
                 "url": "https://images.uesp.net/thumb/1/14/SR-icon-armor-Chitin_Armor.png/48px-SR-icon-armor-Chitin_Armor.png",
                 "Damage": 4,
                 "weight": 240,
