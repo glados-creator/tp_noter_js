@@ -19,7 +19,8 @@ export default class Selector_Comp {
             this.render();
         });
 
-        this.container.addEventListener('click', () => this.popup.render());
+        this.container.addEventListener('click', () => {console.log("click");
+                                        this.popup.render()});
         this.render();
     }
 
