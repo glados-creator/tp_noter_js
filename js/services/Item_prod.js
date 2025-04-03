@@ -14,46 +14,43 @@ export default class Item_prod {
         }
     
         try {
-            // Fetch Weapons data
-            const weaponsData = await Utils.AutoFetch('Weapons');
-            console.log("HERER",weaponsData);
-            weaponsData.forEach(item => {
-                this.cache.set(item.id, new Items(item));
-            });
-    
-            // Fetch Armor data
-            const armorData = await Utils.AutoFetch('Armor');
-            armorData.forEach(item => {
-                this.cache.set(item.id, new Items(item));
-            });
-    
-            // Fetch other categories if needed (user, top_10, categories)
-            const userData = await Utils.AutoFetch('user');
-            const top10Data = await Utils.AutoFetch('top_10');
-            const categoriesData = await Utils.AutoFetch('categories');
-    
-            // You can store additional information from these endpoints in the dbData if needed
+            // Fetch data from the db.json
+            const [weaponsData, armorData, userData, top10Data, categoriesData] = await Promise.all([
+                Utils.AutoFetch('Weapons'),
+                Utils.AutoFetch('Armor'),
+                Utils.AutoFetch('user'),
+                Utils.AutoFetch('top_10'),
+                Utils.AutoFetch('categories')
+            ]);
+
+            // Store the fetched data into the dbData object
             this.dbData = {
+                weapons: weaponsData,
+                armor: armorData,
                 user: userData,
                 top_10: top10Data,
-                categories: categoriesData,
+                categories: categoriesData
             };
-    
+
+            // Cache the items into the cache map for fast lookup
+            this.cache = new Map();
+            this.dbData.weapons.forEach(item => this.cache.set(item.id, item));
+            this.dbData.armor.forEach(item => this.cache.set(item.id, item));
+
             console.log('All data loaded and cached from db.json.');
         } catch (error) {
             console.error('Error fetching db.json:', error);
         }
     }
     
-
-    // Récupérer un item par ID en parcourant la cache
+    // Get an item by ID from cache
     static async getById(id) {
         if (!id) return null;
 
-        // Ensure data is loaded into cache
+        // Load all data if not loaded already
         await this.loadAllData();
 
-        // Check if item is in the cache
+        // Check if the item is already cached
         if (this.cache.has(id)) {
             return this.cache.get(id);
         }
@@ -62,7 +59,7 @@ export default class Item_prod {
         return null;
     }
 
-    // Recherche d'items avec filtres, pagination et cache
+    // Search items with filters (categories, text, pagination, etc.)
     static async search({ categories = [], text = '', page = 1, pageSize = 10 }) {
         // Ensure data is loaded into cache
         await this.loadAllData();
@@ -70,24 +67,21 @@ export default class Item_prod {
         const queryParams = new URLSearchParams();
         let allItems = [];
 
-        // Filter items from cache based on categories and search text
+        // Filter items by categories and search text
         const validCategories = categories.filter(category => {
-            if (Object.keys(this.dbData.Weapons || {}).includes(category)) {
-                return true;
-            } else if (Object.keys(this.dbData.Armor || {}).includes(category)) {
-                return true;
-            } else {
+            const isValidCategory = Object.keys(this.dbData.categories).includes(category);
+            if (!isValidCategory) {
                 console.warn(`Warning: Invalid category "${category}" ignored.`);
-                return false;
             }
+            return isValidCategory;
         });
 
-        // If no categories are provided, search across all categories
+        // If no categories are provided, search across all categories (Weapons and Armor)
         if (categories.length === 0) {
             validCategories.push('Weapons', 'Armor');
         }
 
-        // Iterate over valid categories to filter items
+        // Filter items from cache based on the valid categories and search text
         allItems = Array.from(this.cache.values()).filter(item => {
             const matchCategory = validCategories.some(category => {
                 return (
@@ -101,7 +95,7 @@ export default class Item_prod {
             return matchCategory && matchText;
         });
 
-        // Handle pagination
+        // Handle pagination (slice the results based on page and pageSize)
         const totalItems = allItems.length;
         const startIndex = (page - 1) * pageSize;
         const paginatedItems = allItems.slice(startIndex, startIndex + pageSize);
