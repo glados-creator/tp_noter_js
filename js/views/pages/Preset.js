@@ -39,12 +39,13 @@ export default class Preset_page extends Page_comp {
             });
 
             document.getElementById('debug-button').addEventListener('click', () => {
-                const characters = { active: null, perso1: null, perso2: null };
+                console.log(new Personnage_cg());
+                const characters = { active: null, perso1: new Personnage_cg(), perso2: new Personnage_cg() };
                 localStorage.setItem('characters', JSON.stringify(characters));
                 console.log('LocalStorage initialized:', characters);
             });
         }, 0);
 
-        return Page_comp.renderPage(() => content);
+        return content // Page_comp.renderPage(() => content);
     }
 }
