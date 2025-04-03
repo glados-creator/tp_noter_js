@@ -21,7 +21,7 @@ export default class Selector_Comp {
 
 import Item_prod from '../../services/Item_prod.js';
 
-export class Selector_Pop_up {
+class Selector_Pop_up {
     constructor(category) {
         this.category = category;
         this.container = document.createElement('div');

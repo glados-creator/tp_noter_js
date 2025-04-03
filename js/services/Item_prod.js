@@ -1,6 +1,5 @@
 import Utils from '../services/Utils.js';
 import Items from '../model/Items.js';
-import { ENDPOINT } from '../config.js';
 
 export default class Item_prod {
     static cache = new Map();
@@ -9,7 +8,7 @@ export default class Item_prod {
     // Récupérer un item par ID en parcourant toutes les catégories
     static async getById(id, category = null) {
         if (!id) return null;
-        if (cache.has(id)) return cache.get(id);
+        if (this.cache.has(id)) return this.cache.get(id);
 
         // Define the categories to search based on the provided category
         const categoriesToSearch = category
@@ -22,7 +21,7 @@ export default class Item_prod {
         // Iterate through the categories to find the item by ID
         for (const [mainCategory, subCategories] of categoriesToSearch) {
             for (const subCategory of subCategories) {
-                const url = `${ENDPOINT}/${mainCategory}/${subCategory}`;
+                const url = `${mainCategory}/${subCategory}`;
                 const data = await Utils.AutoFetch(url);
 
                 // Search for the item by ID
@@ -30,7 +29,7 @@ export default class Item_prod {
 
                 if (itemData) {
                     const item = new Items(itemData);
-                    cache.set(id, item);
+                    this.cache.set(id, item);
                     return item;
                 }
             }
@@ -39,7 +38,7 @@ export default class Item_prod {
         return null;
     }
 
-    // Recherche d'items avec filtres, pagination et cache
+    // Recherche d'items avec filtres, pagination et this.cache
     static async search({ categories = [], text = '', page = 1, pageSize = 10 }) {
         const queryParams = new URLSearchParams();
         let endpoint = '';
@@ -69,16 +68,16 @@ export default class Item_prod {
         queryParams.append('_page', page);
         queryParams.append('_limit', pageSize);
 
-        const url = `${ENDPOINT}/${endpoint}?${queryParams.toString()}`;
+        const url = `${endpoint}?${queryParams.toString()}`;
 
-        // Check URL cache
-        if (urlCache.has(url)) {
-            return urlCache.get(url);
+        // Check URL this.cache
+        if (this.urlCache.has(url)) {
+            return this.urlCache.get(url);
         }
 
         const data = await Utils.AutoFetch(url);
         const items = data.map(item => new Items(...item));
-        items.forEach(item => cache.set(item.id, item));
+        items.forEach(item => this.cache.set(item.id, item));
 
         const result = {
             items,
@@ -87,8 +86,8 @@ export default class Item_prod {
             pageSize,
         };
 
-        // Cache the result for the URL
-        urlCache.set(url, result);
+        // this.Cache the result for the URL
+        this.urlCache.set(url, result);
 
         return result;
     }
