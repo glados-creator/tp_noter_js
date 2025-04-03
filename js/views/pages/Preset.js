@@ -4,32 +4,48 @@ import Personnage_cg from "../../model/personnage_cg.js";
 
 export default class Preset_page extends Page_comp {
     async render() {
-        const personnages = new Personnage_cg(); // Supposons que cette méthode retourne une liste de personnages par défaut
-        
-        return Page_comp.renderPage(() => `
+        const personnages = [
+            new Personnage_cg(),
+            new Personnage_cg(),
+            new Personnage_cg()
+        ];
+
+        const personnageItems = await Promise.all(personnages.map(async personnage => {
+            const personnageView = new PersonnageViewComp(personnage);
+            return `<div class="personnage-item" data-id="${personnage.id}">
+                        ${await personnageView.render()}
+                    </div>`;
+        }));
+
+        const content = `
             <section class="main-content">
                 <h1>Preset</h1>
                 <p>Page de preset</p>
                 <div class="personnages-list">
-                    ${personnages.map(personnage => `
-                        <div class="personnage-item" data-id="${personnage.id}">
-                            ${PersonnageViewComp.render(personnage)}
-                        </div>
-                    `).join('')}
+                    ${personnageItems.join('')}
                 </div>
+                <button id="debug-button">Initialize LocalStorage</button>
             </section>
-        `);
-    }
+        `;
 
-    afterRender() {
-        document.querySelectorAll('.personnage-item').forEach(item => {
-            item.addEventListener('click', (event) => {
-                const personnageId = event.currentTarget.dataset.id;
-                const characters = JSON.parse(localStorage.getItem('characters')) || {};
-                characters.active = personnageId;
-                localStorage.setItem('characters', JSON.stringify(characters));
-                window.location.href = '/comparaison';
+        setTimeout(() => {
+            document.querySelectorAll('.personnage-item').forEach(item => {
+                item.addEventListener('click', (event) => {
+                    const personnageId = event.currentTarget.dataset.id;
+                    const characters = JSON.parse(localStorage.getItem('characters')) || {};
+                    characters.active = personnageId;
+                    localStorage.setItem('characters', JSON.stringify(characters));
+                    window.location.href = '/comparaison';
+                });
             });
-        });
+
+            document.getElementById('debug-button').addEventListener('click', () => {
+                const characters = { active: null, perso1: null, perso2: null };
+                localStorage.setItem('characters', JSON.stringify(characters));
+                console.log('LocalStorage initialized:', characters);
+            });
+        }, 0);
+
+        return Page_comp.renderPage(() => content);
     }
 }

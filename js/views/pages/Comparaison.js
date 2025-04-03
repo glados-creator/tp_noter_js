@@ -14,27 +14,13 @@ export default class Comparaison_page extends Page_comp {
     }
 
     async render() {
-        let characters = JSON.parse(localStorage.getItem('characters')) || [];
-        console.log("characters",characters);
-        this.perso1 = characters.find(char => char.name === "perso1") || new Personnage_cg();
-        this.perso2 = characters.find(char => char.name === "perso2") || new Personnage_cg();
-
-        this.selectors = {
-            helmet: new Selector_Comp(["helmet"]),
-            chestpiece: new Selector_Comp(["chestpiece"]),
-            pants: new Selector_Comp(["pants"]),
-            boots: new Selector_Comp(["boots"]),
-            gloves: new Selector_Comp(["gloves"]),
-            necklace: new Selector_Comp(["necklace"]),
-            ring: new Selector_Comp(["ring"]),
-            weapons: new Selector_Comp(["Weapons"])
-        };
-
+        this.initializeCharacters();
         this.updateSelectors(this.perso1, this.perso2);
 
         return Page_comp.renderPage(async () => `
             <h1>Comparaison</h1>
             <p>Page de comparaison</p>
+            <button id="debug-button">Debug: Set Characters</button>
             <div class="equipment-selectors">
                 <div>Helmet: ${this.selectors.helmet.render()}</div>
                 <div>Chestpiece: ${this.selectors.chestpiece.render()}</div>
@@ -56,37 +42,63 @@ export default class Comparaison_page extends Page_comp {
                 </tr>
             </table>
             <div>${new Calculator_comp(this.perso1, this.perso2).render()}</div>
+            <script>
+                document.getElementById('debug-button').addEventListener('click', () => {
+                    Comparaison_page.debugSetCharacters();
+                    location.reload();
+                });
+            </script>
         `);
+    }
+
+    initializeCharacters() {
+        let charData = JSON.parse(localStorage.getItem('characters')) || {};
+        if (!charData.active) {
+            charData.active = new Personnage_cg();
+        }
+        if (!charData.perso1) {
+            charData.perso1 = charData.active;
+        } else if (!charData.perso2) {
+            charData.perso2 = charData.active;
+        }
+        localStorage.setItem('characters', JSON.stringify(charData));
+        
+        this.perso1 = charData.perso1;
+        this.perso2 = charData.perso2;
     }
 
     handlePersonnageSelected(event) {
         const selectedPersonnage = event.detail;
-        if (selectedPersonnage.name === "perso1") {
-            this.perso1 = selectedPersonnage;
-        } else if (selectedPersonnage.name === "perso2") {
-            this.perso2 = selectedPersonnage;
+        let charData = JSON.parse(localStorage.getItem('characters')) || {};
+
+        if (!charData.perso1) {
+            charData.perso1 = selectedPersonnage;
+        } else {
+            charData.perso2 = selectedPersonnage;
         }
-        this.updateSelectors(this.perso1, this.perso2);
+        localStorage.setItem('characters', JSON.stringify(charData));
+        this.initializeCharacters();
         this.render();
     }
 
     updateSelectors(perso1, perso2) {
-        this.selectors.helmet.selectedItem = perso1.equipment.helmet || null;
-        this.selectors.chestpiece.selectedItem = perso1.equipment.chestpiece || null;
-        this.selectors.pants.selectedItem = perso1.equipment.pants || null;
-        this.selectors.boots.selectedItem = perso1.equipment.boots || null;
-        this.selectors.gloves.selectedItem = perso1.equipment.gloves || null;
-        this.selectors.necklace.selectedItem = perso1.equipment.necklace || null;
-        this.selectors.ring.selectedItem = perso1.equipment.ring || null;
-        this.selectors.weapons.selectedItem = perso1.equipment.weapons[0] || null;
+        const updateSelector = (selector, item) => {
+            this.selectors[selector] = new Selector_Comp([selector]);
+            this.selectors[selector].selectedItem = item || null;
+        };
+        
+        ['helmet', 'chestpiece', 'pants', 'boots', 'gloves', 'necklace', 'ring', 'weapons'].forEach(slot => {
+            updateSelector(slot, perso1.equipment[slot] || null);
+            updateSelector(slot, perso2.equipment[slot] || null);
+        });
+    }
 
-        this.selectors.helmet.selectedItem = perso2.equipment.helmet || null;
-        this.selectors.chestpiece.selectedItem = perso2.equipment.chestpiece || null;
-        this.selectors.pants.selectedItem = perso2.equipment.pants || null;
-        this.selectors.boots.selectedItem = perso2.equipment.boots || null;
-        this.selectors.gloves.selectedItem = perso2.equipment.gloves || null;
-        this.selectors.necklace.selectedItem = perso2.equipment.necklace || null;
-        this.selectors.ring.selectedItem = perso2.equipment.ring || null;
-        this.selectors.weapons.selectedItem = perso2.equipment.weapons[0] || null;
+    static debugSetCharacters() {
+        let charData = {
+            active: new Personnage_cg(),
+            perso1: null,
+            perso2: null
+        };
+        localStorage.setItem('characters', JSON.stringify(charData));
     }
 }
