@@ -20,7 +20,7 @@ export default class Selector_Comp {
     render() {
         this.container.innerHTML = '';
         if (this.selectedItem) {
-            console.log(selectedItem);
+            // console.log(selectedItem);
             const img = document.createElement('img');
             img.src = this.selectedItem.url;
             img.style.maxWidth = '100%';
