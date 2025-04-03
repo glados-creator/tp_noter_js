@@ -31,8 +31,8 @@ export default class Comparaison_page extends Page_comp {
                 <div>Ring: ${this.selectors.ring.render()}</div>
             </div>
             <div class="character-views">
-                <div>${await new PersonnageViewComp(this.perso1).render()}</div>
-                <div>${await new PersonnageViewComp(this.perso2).render()}</div>
+                <div>${await PersonnageViewComp.render(this.perso1)}</div>
+                <div>${await PersonnageViewComp.render(this.perso2)}</div>
             </div>
             <table>
                 <tr>
@@ -53,45 +53,64 @@ export default class Comparaison_page extends Page_comp {
 
     initializeCharacters() {
         let charData = JSON.parse(localStorage.getItem('characters')) || {};
+        console.log("Loaded character data from localStorage:", charData);
+    
         if (!charData.active) {
             charData.active = new Personnage_cg();
+            console.log("Set default active character:", charData.active);
         }
         if (!charData.perso1) {
             charData.perso1 = charData.active;
+            console.log("Set perso1 to active character:", charData.perso1);
         } else if (!charData.perso2) {
             charData.perso2 = charData.active;
+            console.log("Set perso2 to active character:", charData.perso2);
         }
         localStorage.setItem('characters', JSON.stringify(charData));
         
         this.perso1 = charData.perso1;
         this.perso2 = charData.perso2;
+        
+        console.log("Final perso1:", this.perso1);
+        console.log("Final perso2:", this.perso2);
     }
+    
 
     handlePersonnageSelected(event) {
         const selectedPersonnage = event.detail;
+        console.log("Personnage selected:", selectedPersonnage);
+    
         let charData = JSON.parse(localStorage.getItem('characters')) || {};
-
+    
         if (!charData.perso1) {
             charData.perso1 = selectedPersonnage;
         } else {
             charData.perso2 = selectedPersonnage;
         }
+        console.log("Updated character data:", charData);
+        
         localStorage.setItem('characters', JSON.stringify(charData));
         this.initializeCharacters();
         this.render();
     }
+    
 
     updateSelectors(perso1, perso2) {
+        console.log("Updating selectors for perso1:", perso1);
+        console.log("Updating selectors for perso2:", perso2);
+    
         const updateSelector = (selector, item) => {
+            console.log(`Setting selector ${selector} with item:`, item);
             this.selectors[selector] = new Selector_Comp([selector]);
             this.selectors[selector].selectedItem = item || null;
         };
-        
+    
         ['helmet', 'chestpiece', 'pants', 'boots', 'gloves', 'necklace', 'ring', 'weapons'].forEach(slot => {
-            updateSelector(slot, perso1.equipment[slot] || null);
-            updateSelector(slot, perso2.equipment[slot] || null);
+            updateSelector(slot, perso1?.equipment?.[slot] || null);
+            updateSelector(slot, perso2?.equipment?.[slot] || null);
         });
     }
+    
 
     static debugSetCharacters() {
         let charData = {

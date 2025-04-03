@@ -64,7 +64,7 @@ export default class Personnage_cg {
             gloves: "012bc4bd",
             necklace: "89dbe2eb",
             rings: ["053061e3"],
-            weapons: ["73591106"]
+            weapons: "73591106",
         };
     }
 

@@ -21,7 +21,7 @@ export default class Item_prod {
         // Iterate through the categories to find the item by ID
         for (const [mainCategory, subCategories] of categoriesToSearch) {
             for (const subCategory of subCategories) {
-                const url = `${mainCategory}/${subCategory}`;
+                const url = `${mainCategory}/${subCategory}/${id}`;
                 const data = await Utils.AutoFetch(url);
                 console.log("item provider byid",data);
                 // Search for the item by ID
