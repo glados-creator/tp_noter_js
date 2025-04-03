@@ -83,11 +83,17 @@ body, html {
   color: white;
 }
 
+.centrer{
+   display: flex; /* Utilise flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+}
 .main-content{
   background-color: gray;
   justify-content: center;
   height: calc(100vh - 2em);
   max-width: 40%;
+  padding: 20px;
   background-image: url('../img/background/backgrounf feuille.jpg');
   color: #333;
 }

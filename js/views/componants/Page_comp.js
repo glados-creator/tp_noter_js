@@ -13,7 +13,7 @@ export default class Page_comp {
           <div class="main">
           <img src="img/scroll.png" alt="Background" class="main-image">
 
-          <section>
+          <section class ="centrer">
                 ${await contentCallback()}
           </section>
           
