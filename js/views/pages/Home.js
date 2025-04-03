@@ -1,5 +1,5 @@
 import Page_comp from "../componants/Page_comp.js";
-import Calculator_comp from "../componants/calculator_comp.js";
+//import Calculator_comp from "../componants/calculator_comp.js";
 
 export default class Home extends Page_comp {
     async render() {
@@ -15,7 +15,7 @@ Bienvenue sur notre Calculateur Skyrim, l'outil ultime pour les joueurs de The E
 
 <h2>Qu'est-ce que le Calculateur Skyrim ?</h2>
 
-
+<p>
 Notre Calculateur Skyrim est un outil puissant conçu pour vous aider à créer, optimiser et gérer votre personnage dans Skyrim. Grâce à une interface intuitive, vous pourrez planifier vos choix de race, compétences, avantages et équipements, afin d'obtenir la combinaison la plus efficace pour votre style de jeu.
 Fonctionnalités principales
 
