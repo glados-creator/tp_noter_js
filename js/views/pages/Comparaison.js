@@ -15,6 +15,7 @@ export default class Comparaison_page extends Page_comp {
 
     async render() {
         let characters = JSON.parse(localStorage.getItem('characters')) || [];
+        console.log("characters",characters);
         this.perso1 = characters.find(char => char.name === "perso1") || new Personnage_cg();
         this.perso2 = characters.find(char => char.name === "perso2") || new Personnage_cg();
 
@@ -31,7 +32,7 @@ export default class Comparaison_page extends Page_comp {
 
         this.updateSelectors(this.perso1, this.perso2);
 
-        return Page_comp.renderPage(() => `
+        return Page_comp.renderPage(async () => `
             <h1>Comparaison</h1>
             <p>Page de comparaison</p>
             <div class="equipment-selectors">
@@ -44,8 +45,8 @@ export default class Comparaison_page extends Page_comp {
                 <div>Ring: ${this.selectors.ring.render()}</div>
             </div>
             <div class="character-views">
-                <div>${new PersonnageViewComp(this.perso1).render()}</div>
-                <div>${new PersonnageViewComp(this.perso2).render()}</div>
+                <div>${await new PersonnageViewComp(this.perso1).render()}</div>
+                <div>${await new PersonnageViewComp(this.perso2).render()}</div>
             </div>
             <table>
                 <tr>
@@ -70,22 +71,22 @@ export default class Comparaison_page extends Page_comp {
     }
 
     updateSelectors(perso1, perso2) {
-        this.selectors.helmet.selectedItem = perso1.helmet || null;
-        this.selectors.chestpiece.selectedItem = perso1.chestpiece || null;
-        this.selectors.pants.selectedItem = perso1.pants || null;
-        this.selectors.boots.selectedItem = perso1.boots || null;
-        this.selectors.gloves.selectedItem = perso1.gloves || null;
-        this.selectors.necklace.selectedItem = perso1.necklace || null;
-        this.selectors.ring.selectedItem = perso1.ring || null;
-        this.selectors.weapons.selectedItem = perso1.weapons || null;
+        this.selectors.helmet.selectedItem = perso1.equipment.helmet || null;
+        this.selectors.chestpiece.selectedItem = perso1.equipment.chestpiece || null;
+        this.selectors.pants.selectedItem = perso1.equipment.pants || null;
+        this.selectors.boots.selectedItem = perso1.equipment.boots || null;
+        this.selectors.gloves.selectedItem = perso1.equipment.gloves || null;
+        this.selectors.necklace.selectedItem = perso1.equipment.necklace || null;
+        this.selectors.ring.selectedItem = perso1.equipment.ring || null;
+        this.selectors.weapons.selectedItem = perso1.equipment.weapons[0] || null;
 
-        this.selectors.helmet.selectedItem = perso2.helmet || null;
-        this.selectors.chestpiece.selectedItem = perso2.chestpiece || null;
-        this.selectors.pants.selectedItem = perso2.pants || null;
-        this.selectors.boots.selectedItem = perso2.boots || null;
-        this.selectors.gloves.selectedItem = perso2.gloves || null;
-        this.selectors.necklace.selectedItem = perso2.necklace || null;
-        this.selectors.ring.selectedItem = perso2.ring || null;
-        this.selectors.weapons.selectedItem = perso2.weapons || null;
+        this.selectors.helmet.selectedItem = perso2.equipment.helmet || null;
+        this.selectors.chestpiece.selectedItem = perso2.equipment.chestpiece || null;
+        this.selectors.pants.selectedItem = perso2.equipment.pants || null;
+        this.selectors.boots.selectedItem = perso2.equipment.boots || null;
+        this.selectors.gloves.selectedItem = perso2.equipment.gloves || null;
+        this.selectors.necklace.selectedItem = perso2.equipment.necklace || null;
+        this.selectors.ring.selectedItem = perso2.equipment.ring || null;
+        this.selectors.weapons.selectedItem = perso2.equipment.weapons[0] || null;
     }
 }

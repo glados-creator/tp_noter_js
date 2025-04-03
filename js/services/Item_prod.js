@@ -65,7 +65,7 @@ export default class Item_prod {
             ];
         }
 
-        if (text) queryParams.append('q', text);
+        if (text) queryParams.append('_like', text);
         queryParams.append('_page', page);
         queryParams.append('_limit', pageSize);
 

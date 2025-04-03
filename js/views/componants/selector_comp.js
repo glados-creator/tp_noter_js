@@ -1,9 +1,10 @@
 import Item_prod from '../../services/Item_prod.js';
 
 export default class Selector_Comp {
-    constructor(categories = [], selectedItem = null) {
+    constructor(categories = [], selectedItem = null, parent) {
         this.categories = categories;
         this.selectedItem = selectedItem;
+        this.parent = parent;
         this.container = document.createElement('div');
         this.container.classList.add('selector-comp');
         this.container.style.width = '50px';
@@ -29,11 +30,13 @@ export default class Selector_Comp {
     }
 
     async showPopup() {
+        console.log('showPopup called'); // Debugging line
         const popup = new Selector_Pop_up(this.categories, item => {
             this.selectedItem = item;
             this.render();
+            this.parent.updateSelectors(); // Notify the parent to update other selectors
         });
-        popup.render();
+        await popup.render();
     }
 }
 
@@ -43,6 +46,14 @@ class Selector_Pop_up {
         this.onSelect = onSelect;
         this.container = document.createElement('div');
         this.container.classList.add('popup-comp');
+        this.container.style.position = 'absolute';
+        this.container.style.top = '50%';
+        this.container.style.left = '50%';
+        this.container.style.transform = 'translate(-50%, -50%)';
+        this.container.style.backgroundColor = 'white';
+        this.container.style.border = '1px solid #ccc';
+        this.container.style.padding = '20px';
+        this.container.style.zIndex = 1000;
     }
 
     async render() {
@@ -53,15 +64,27 @@ class Selector_Pop_up {
         searchInput.addEventListener('input', () => this.searchItems(searchInput.value));
         this.container.appendChild(searchInput);
 
+        this.categoriesContainer = document.createElement('div');
+        this.categoriesContainer.classList.add('categories-container');
+        this.categories.forEach(category => {
+            const categoryBtn = document.createElement('button');
+            categoryBtn.textContent = category;
+            categoryBtn.classList.add('category-btn');
+            categoryBtn.addEventListener('click', () => this.searchItems('', category));
+            this.categoriesContainer.appendChild(categoryBtn);
+        });
+        this.container.appendChild(this.categoriesContainer);
+
         this.itemsContainer = document.createElement('div');
         this.container.appendChild(this.itemsContainer);
 
         document.body.appendChild(this.container);
-        this.searchItems('');
+        await this.searchItems('');
     }
 
-    async searchItems(query) {
-        const results = await Item_prod.search({ categories: this.categories, text: query });
+    async searchItems(query, category = null) {
+        console.log('searchItems called with query:', query, 'and category:', category); // Debugging line
+        const results = await Item_prod.search({ categories: category ? [category] : this.categories, text: query });
         this.itemsContainer.innerHTML = '';
         results.items.forEach(item => {
             const div = document.createElement('div');

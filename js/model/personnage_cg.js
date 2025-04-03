@@ -57,14 +57,14 @@ export default class Personnage_cg {
         this.Alteration = 15;
         this.Enchanting = 15;
         this.equipment = {
-            helmet: null,
-            chestpiece: null,
-            pants: null,
-            boots: null,
-            gloves: null,
-            necklace: null,
-            ring: null,
-            weapons: []
+            helmet: "38a45d7b",
+            chestpiece: "085c1a1b",
+            pants: "2dd287d0",
+            boots: "3c4ff3cc",
+            gloves: "012bc4bd",
+            necklace: "89dbe2eb",
+            rings: ["053061e3"],
+            weapons: ["73591106"]
         };
     }
 
