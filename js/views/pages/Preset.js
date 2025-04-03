@@ -5,10 +5,10 @@ export default class Preset_page extends Page_comp {
         return Page_comp.renderPage(() =>`
 
 
-        <div class="main-contentPreset">
+        <section class="main-content">
                     <h1>Preset</h1>
             <p>Page de preset</p>
-        </div>
+        </section>
 
         `);
     }
