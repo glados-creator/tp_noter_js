@@ -56,7 +56,7 @@ class Selector_Pop_up {
         this.container.style.border = '1px solid #ccc';
         this.container.style.padding = '20px';
         this.container.style.zIndex = '1000';
-        this.container.style.display = 'none';
+        // this.container.style.display = 'none';
 
         this.closeButton = document.createElement('button');
         this.closeButton.textContent = 'Close';

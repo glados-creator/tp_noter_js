@@ -57,7 +57,14 @@ export default class Personnage_cg {
         this.Alteration = 15;
         this.Enchanting = 15;
         this.equipment = {
-            helmet: "38a45d7b",
+            helmet: {
+                "id": "38a45d7b",
+                "Name": "Chitin_Armor",
+                "url": "https://images.uesp.net/thumb/1/14/SR-icon-armor-Chitin_Armor.png/48px-SR-icon-armor-Chitin_Armor.png",
+                "Damage": 4,
+                "weight": 240,
+                "value": 30
+            },
             chestpiece: "085c1a1b",
             pants: "2dd287d0",
             boots: "3c4ff3cc",
